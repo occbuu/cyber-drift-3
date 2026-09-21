@@ -1,0 +1,2 @@
+[mondrian] cicids2017_panelA_s13 hedl pi=0.01: pooled {'fdp': 0.08756233499559989, 'power': 0.7713577185368878, 'alerts_per_1000': 8.5225} mondrian {'fdp': 0.08113962012662446, 'power': 0.6838189708617483, 'alerts_per_1000': 7.5025} lifted []
+[mondrian] cicids2017_panelA_s13 hedl pi=0.001: pooled {'fdp': 0.4027777777777778, 'power': 0.052503052503052504, 'alerts_per_1000': 0.09} mondrian {'fdp': 0.5714285714285714, 'power': 0.003663003663003663, 'alerts_per_1000': 0.00875} lifted []

@@ -1,0 +1,10 @@
+[capture] ori: auroc=0.9451 in 58.9s
+[capture] docpp: auroc=0.7949 in 445.7s
+[capture] ais_nids: auroc=0.8133 in 278.0s
+[capture] usfad: auroc=0.7915 in 32.6s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\toniot_Z2_panelB_s101.npz",
+  "calibration_size": 20734,
+  "test_known": 25679,
+  "test_unknown": 24993
+}

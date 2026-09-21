@@ -1,0 +1,31 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 23.793637599999784,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.5701426060814816,
+      "fpr95": 0.14065934065934066,
+      "known_accuracy": 0.8285714285714286,
+      "known_macro_f1": 0.7977654982740191,
+      "known_weighted_f1": 0.798767537695584,
+      "open_world_macro_f1": 0.7393835950192745,
+      "oscr": 0.7945299145299145,
+      "scorer_density_reference_size": 500.0,
+      "scorer_density_selection_margin": 0.2,
+      "scorer_proxy_density_auroc": 0.857116,
+      "scorer_proxy_evidential_auroc": 0.5474028,
+      "scorer_score_mode": "density",
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.17777777777777778,
+      "tpr_at_5_fpr": 0.5555555555555556,
+      "unknown_auroc": 0.9358241758241758,
+      "unknown_f1": 0.36923076923076925,
+      "unknown_precision": 0.6,
+      "unknown_recall": 0.26666666666666666
+    }
+  },
+  "protocol": "loao",
+  "rq": "rq1",
+  "scenario": "Z1",
+  "seed": 13
+}

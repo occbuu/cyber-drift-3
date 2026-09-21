@@ -1,0 +1,10 @@
+[capture] hedl: auroc=0.9888 in 757.9s
+[capture] closr: auroc=0.8641 in 1299.8s
+[capture] efc: auroc=0.9179 in 709.7s
+[capture] renoir_dml: auroc=0.9330 in 377.0s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\cse2018_Z3t90_panelA_s101.npz",
+  "calibration_size": 26726,
+  "test_known": 33013,
+  "test_unknown": 314
+}

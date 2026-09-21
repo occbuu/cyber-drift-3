@@ -1,0 +1,65 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 46.74664360000315,
+  "methods": {
+    "closr": {
+      "aupr_out": 0.4062534134623758,
+      "far": 0.02197802197802198,
+      "fpr95": 0.5956043956043956,
+      "frr": 0.6444444444444445,
+      "known_accuracy": 0.6307692307692307,
+      "known_macro_f1": 0.5822250030286733,
+      "known_weighted_f1": 0.5813420547728827,
+      "open_world_macro_f1": 0.556259064151812,
+      "oscr": 0.5279120879120879,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.28888888888888886,
+      "tpr_at_5_fpr": 0.35555555555555557,
+      "unknown_auroc": 0.7894505494505494,
+      "unknown_f1": 0.4507042253521127,
+      "unknown_precision": 0.6153846153846154,
+      "unknown_recall": 0.35555555555555557
+    },
+    "efc": {
+      "aupr_out": 0.3644565379074199,
+      "far": 0.004395604395604396,
+      "fpr95": 0.810989010989011,
+      "frr": 0.9333333333333333,
+      "known_accuracy": 0.756043956043956,
+      "known_macro_f1": 0.7273036718893998,
+      "known_weighted_f1": 0.7275580885502289,
+      "open_world_macro_f1": 0.6567114729532406,
+      "oscr": 0.49352869352869355,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.08888888888888889,
+      "tpr_at_5_fpr": 0.5777777777777777,
+      "unknown_auroc": 0.659023199023199,
+      "unknown_f1": 0.12,
+      "unknown_precision": 0.6,
+      "unknown_recall": 0.06666666666666667
+    },
+    "renoir_dml": {
+      "aupr_out": 0.6042332721348495,
+      "far": 0.02197802197802198,
+      "fpr95": 0.5802197802197803,
+      "frr": 0.4666666666666667,
+      "known_accuracy": 0.654945054945055,
+      "known_macro_f1": 0.6219907019196822,
+      "known_weighted_f1": 0.6216781101453052,
+      "open_world_macro_f1": 0.600999684209011,
+      "oscr": 0.5926739926739927,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.4666666666666667,
+      "tpr_at_5_fpr": 0.7111111111111111,
+      "unknown_auroc": 0.8836630036630037,
+      "unknown_f1": 0.6075949367088608,
+      "unknown_precision": 0.7058823529411765,
+      "unknown_recall": 0.5333333333333333
+    }
+  },
+  "protocol": "loao",
+  "rq": "rq1",
+  "scenario": "Z1",
+  "seed": 13
+}
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq1 --protocol loao --dataset cicids2017 --scenario Z1 --methods closr,efc,renoir_dml --seed 13 --epochs 1 --batch-size 64 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq1\baselines\loao\cicids2017\Z1\seed_13.json --max-rows 500

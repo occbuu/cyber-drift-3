@@ -1,0 +1,86 @@
+[temporal] scanning C:\Users\AnThiwn\Desktop\PACT\data\dataraw\NF-ToN-IoT-v3\NF-ToN-IoT-v3.csv
+  [scan] 2,000,000 rows
+  [scan] 4,000,000 rows
+  [scan] 6,000,000 rows
+  [scan] 8,000,000 rows
+  [scan] 10,000,000 rows
+  [scan] 12,000,000 rows
+  [scan] 14,000,000 rows
+  [scan] 16,000,000 rows
+  [scan] 18,000,000 rows
+  [scan] 20,000,000 rows
+  [scan] 22,000,000 rows
+  [scan] 24,000,000 rows
+  [scan] 26,000,000 rows
+  [scan] 27,520,260 rows
+[temporal] 27,520,260 flows; split at 1556236587566 (60.0% early)
+  [sample] 2,000,000 rows scanned; early 9,923 late 0
+  [sample] 4,000,000 rows scanned; early 14,935 late 0
+  [sample] 6,000,000 rows scanned; early 20,996 late 0
+  [sample] 8,000,000 rows scanned; early 35,431 late 0
+  [sample] 10,000,000 rows scanned; early 52,968 late 0
+  [sample] 12,000,000 rows scanned; early 113,304 late 0
+  [sample] 14,000,000 rows scanned; early 116,130 late 0
+  [sample] 16,000,000 rows scanned; early 118,984 late 0
+  [sample] 18,000,000 rows scanned; early 119,686 late 16,569
+  [sample] 20,000,000 rows scanned; early 119,686 late 40,415
+  [sample] 22,000,000 rows scanned; early 119,686 late 44,002
+  [sample] 24,000,000 rows scanned; early 119,686 late 45,606
+  [sample] 26,000,000 rows scanned; early 119,686 late 50,222
+  [sample] 27,520,260 rows scanned; early 119,686 late 59,969
+[temporal] wrote train: 89,764 rows
+[temporal] wrote calibration: 29,922 rows
+[temporal] wrote test: 59,969 rows
+{
+  "dataset": "nf_ton_iot_v3",
+  "scenario": "T1",
+  "reference_scenario": "Z1",
+  "split_at_milliseconds": 1556236587566.0,
+  "early_fraction": 0.6,
+  "known_families": [
+    "benign",
+    "dos",
+    "injection",
+    "scanning"
+  ],
+  "unknown_families": [
+    "ddos"
+  ],
+  "splits": {
+    "train": {
+      "rows": 89764,
+      "families": {
+        "benign": 21687,
+        "dos": 30206,
+        "injection": 8155,
+        "scanning": 29716
+      },
+      "time_range": [
+        1556028590676,
+        1556177649884
+      ]
+    },
+    "calibration": {
+      "rows": 29922,
+      "families": {
+        "benign": 8226,
+        "injection": 21696
+      },
+      "time_range": [
+        1556177649915,
+        1556236585799
+      ]
+    },
+    "test": {
+      "rows": 59969,
+      "families": {
+        "benign": 29925,
+        "ddos": 30044
+      },
+      "time_range": [
+        1556236587848,
+        1556549154176
+      ]
+    }
+  }
+}

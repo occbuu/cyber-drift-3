@@ -1,0 +1,7 @@
+case,prevalence,proposed_aupr_out,best_baseline,baseline_aupr_out,outcome
+prevalence/ciciomt2024/Z1/seed_13,0.5,0.9999999999999999,efc,0.770921387750644,win
+prevalence/ciciomt2024/Z1/seed_13,0.25,0.9999471640434516,efc,0.5396278386614353,win
+prevalence/ciciomt2024/Z1/seed_13,0.1,0.9971181026192977,efc,0.28186581126285626,win
+prevalence/ciciomt2024/Z1/seed_13,0.05,0.9954515697321186,efc,0.15795165264845795,win
+prevalence/ciciomt2024/Z1/seed_13,0.01,0.9829455228722366,efc,0.03493829224729286,win
+prevalence/ciciomt2024/Z1/seed_13,0.001,0.8533180778032036,efc,0.004460319759542592,win

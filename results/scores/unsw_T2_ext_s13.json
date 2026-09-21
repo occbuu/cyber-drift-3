@@ -1,0 +1,73 @@
+{
+  "calibration_size": 11387,
+  "curvature": 0.0,
+  "dataset": "nf_unsw_nb15_v3",
+  "deduplicate_source_ids": true,
+  "device": "cuda",
+  "epochs": 30,
+  "evidential_weight": 1.0,
+  "holdout_groups": true,
+  "holdout_threshold": null,
+  "known_families": [
+    "analysis",
+    "backdoor",
+    "benign",
+    "dos",
+    "fuzzers",
+    "generic",
+    "reconnaissance",
+    "shellcode",
+    "worms"
+  ],
+  "margin_weight": 1.0,
+  "methods": {
+    "hedl": {
+      "diagnostics": {
+        "inference_seconds": 2.1369946000013442,
+        "milliseconds_per_scored_flow": 0.045130928597101314,
+        "scorer_density_reference_size": 42696.0,
+        "scorer_fusion_weight_knn": 0.8737853275177571,
+        "scorer_fusion_weight_md": 1.2333632225372135,
+        "scorer_fusion_weight_rmd": 0.8928514499450295,
+        "scorer_neighbors": 1.0,
+        "scorer_proxy_auroc_knn": 0.768329069018364,
+        "scorer_proxy_auroc_md": 0.8787511587142944,
+        "scorer_proxy_auroc_rmd": 0.7741840481758118,
+        "scorer_proxy_density_auroc": 0.768329069018364,
+        "scorer_proxy_evidential_auroc": 0.8787511587142944,
+        "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+        "scorer_tail_extension": "off"
+      },
+      "distinct_calibration_scores": 10337,
+      "distinct_test_scores": 31939,
+      "open_set": {
+        "aupr_out": 0.3094738924887709,
+        "fpr95": 0.6379942655197707,
+        "known_accuracy": 0.7549843301993732,
+        "known_macro_f1": 0.6685373155101016,
+        "known_weighted_f1": 0.7494358211849105,
+        "oscr": 0.6027464314750164,
+        "tpr_at_0_1_fpr": 0.002847571189279732,
+        "tpr_at_1_fpr": 0.023115577889447236,
+        "tpr_at_5_fpr": 0.11306532663316583,
+        "unknown_auroc": 0.7541082057840938
+      },
+      "seconds": 78.24582130000272,
+      "test_scores_at_maximum": 2,
+      "unknown_auroc": 0.7541082057840938
+    }
+  },
+  "profile": "balanced",
+  "scenario": "T2",
+  "seed": 13,
+  "tail_anchor_exceedances": 250,
+  "tail_confidence": 0.0,
+  "tail_extension": false,
+  "test_known": 29994,
+  "test_unknown": 5970,
+  "tuning_fraction": 0.2,
+  "tuning_size": 2848,
+  "unknown_families": [
+    "exploits"
+  ]
+}

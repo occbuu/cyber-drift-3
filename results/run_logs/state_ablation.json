@@ -1,0 +1,184 @@
+{
+  "jobs": {
+    "ablation_loss/ciciomt2024_noevid_s101": {
+      "finished_at": "2026-09-17T13:03:14.031139+00:00",
+      "name": "ciciomt2024_noevid_s101",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 387.8,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/ciciomt2024_noevid_s13": {
+      "finished_at": "2026-09-17T11:46:49.249250+00:00",
+      "name": "ciciomt2024_noevid_s13",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 968.9,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/ciciomt2024_noevid_s137": {
+      "finished_at": "2026-09-17T13:09:12.948651+00:00",
+      "name": "ciciomt2024_noevid_s137",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 358.9,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/ciciomt2024_noevid_s37": {
+      "finished_at": "2026-09-17T12:03:05.909721+00:00",
+      "name": "ciciomt2024_noevid_s37",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 976.6,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/ciciomt2024_noevid_s73": {
+      "finished_at": "2026-09-17T12:19:57.394375+00:00",
+      "name": "ciciomt2024_noevid_s73",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 1011.5,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/toniot_noevid_s101": {
+      "finished_at": "2026-09-17T13:12:41.695042+00:00",
+      "name": "toniot_noevid_s101",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 208.7,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/toniot_noevid_s13": {
+      "finished_at": "2026-09-17T12:28:39.387508+00:00",
+      "name": "toniot_noevid_s13",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 522.0,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/toniot_noevid_s137": {
+      "finished_at": "2026-09-17T13:16:14.257206+00:00",
+      "name": "toniot_noevid_s137",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 212.6,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/toniot_noevid_s37": {
+      "finished_at": "2026-09-17T12:39:05.959457+00:00",
+      "name": "toniot_noevid_s37",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 626.6,
+      "stage": "ablation_loss"
+    },
+    "ablation_loss/toniot_noevid_s73": {
+      "finished_at": "2026-09-17T12:48:52.962548+00:00",
+      "name": "toniot_noevid_s73",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 587.0,
+      "stage": "ablation_loss"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "ciciomt2024_noevid_s13",
+          "returncode": 0,
+          "seconds": 968.9,
+          "stage": "ablation_loss"
+        },
+        {
+          "name": "ciciomt2024_noevid_s37",
+          "returncode": 0,
+          "seconds": 976.6,
+          "stage": "ablation_loss"
+        },
+        {
+          "name": "ciciomt2024_noevid_s73",
+          "returncode": 0,
+          "seconds": 1011.5,
+          "stage": "ablation_loss"
+        },
+        {
+          "name": "toniot_noevid_s13",
+          "returncode": 0,
+          "seconds": 522.0,
+          "stage": "ablation_loss"
+        },
+        {
+          "name": "toniot_noevid_s37",
+          "returncode": 0,
+          "seconds": 626.6,
+          "stage": "ablation_loss"
+        },
+        {
+          "name": "toniot_noevid_s73",
+          "returncode": 0,
+          "seconds": 587.0,
+          "stage": "ablation_loss"
+        }
+      ],
+      "datasets": [
+        "ciciomt2024",
+        "cicids2017",
+        "nf_ton_iot_v3",
+        "nf_cse_cic_ids2018_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-17T11:30:39.368000+00:00"
+    },
+    {
+      "completed": [
+        {
+          "name": "ciciomt2024_noevid_s101",
+          "returncode": 0,
+          "seconds": 387.8,
+          "stage": "ablation_loss"
+        },
+        {
+          "name": "ciciomt2024_noevid_s137",
+          "returncode": 0,
+          "seconds": 358.9,
+          "stage": "ablation_loss"
+        },
+        {
+          "name": "toniot_noevid_s101",
+          "returncode": 0,
+          "seconds": 208.7,
+          "stage": "ablation_loss"
+        },
+        {
+          "name": "toniot_noevid_s137",
+          "returncode": 0,
+          "seconds": 212.6,
+          "stage": "ablation_loss"
+        }
+      ],
+      "datasets": [
+        "ciciomt2024",
+        "cicids2017",
+        "nf_ton_iot_v3",
+        "nf_cse_cic_ids2018_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-17T12:56:45.554833+00:00"
+    }
+  ]
+}

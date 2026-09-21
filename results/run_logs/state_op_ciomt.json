@@ -1,0 +1,162 @@
+{
+  "jobs": {
+    "operator/ciciomt2024_panelA_s101_q0.1": {
+      "finished_at": "2026-09-16T17:37:04.259356+00:00",
+      "name": "ciciomt2024_panelA_s101_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 46.7,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s101_q0.2": {
+      "finished_at": "2026-09-16T17:37:49.095879+00:00",
+      "name": "ciciomt2024_panelA_s101_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 44.8,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s137_q0.1": {
+      "finished_at": "2026-09-16T17:39:03.315076+00:00",
+      "name": "ciciomt2024_panelA_s137_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 74.2,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s137_q0.2": {
+      "finished_at": "2026-09-16T17:40:29.777687+00:00",
+      "name": "ciciomt2024_panelA_s137_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 86.4,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s13_q0.1": {
+      "finished_at": "2026-09-16T17:41:45.467767+00:00",
+      "name": "ciciomt2024_panelA_s13_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 75.6,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s13_q0.2": {
+      "finished_at": "2026-09-16T17:42:54.191110+00:00",
+      "name": "ciciomt2024_panelA_s13_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 68.7,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s37_q0.1": {
+      "finished_at": "2026-09-16T17:43:41.030620+00:00",
+      "name": "ciciomt2024_panelA_s37_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 46.8,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s37_q0.2": {
+      "finished_at": "2026-09-16T17:44:46.960488+00:00",
+      "name": "ciciomt2024_panelA_s37_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 65.9,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s73_q0.1": {
+      "finished_at": "2026-09-16T17:45:51.457960+00:00",
+      "name": "ciciomt2024_panelA_s73_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 64.5,
+      "stage": "operator"
+    },
+    "operator/ciciomt2024_panelA_s73_q0.2": {
+      "finished_at": "2026-09-16T17:47:01.243582+00:00",
+      "name": "ciciomt2024_panelA_s73_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 69.7,
+      "stage": "operator"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "ciciomt2024_panelA_s101_q0.1",
+          "returncode": 0,
+          "seconds": 46.7,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s101_q0.2",
+          "returncode": 0,
+          "seconds": 44.8,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s137_q0.1",
+          "returncode": 0,
+          "seconds": 74.2,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s137_q0.2",
+          "returncode": 0,
+          "seconds": 86.4,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s13_q0.1",
+          "returncode": 0,
+          "seconds": 75.6,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s13_q0.2",
+          "returncode": 0,
+          "seconds": 68.7,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s37_q0.1",
+          "returncode": 0,
+          "seconds": 46.8,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s37_q0.2",
+          "returncode": 0,
+          "seconds": 65.9,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s73_q0.1",
+          "returncode": 0,
+          "seconds": 64.5,
+          "stage": "operator"
+        },
+        {
+          "name": "ciciomt2024_panelA_s73_q0.2",
+          "returncode": 0,
+          "seconds": 69.7,
+          "stage": "operator"
+        }
+      ],
+      "datasets": [
+        "ciciomt2024"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T17:36:17.466493+00:00"
+    }
+  ]
+}

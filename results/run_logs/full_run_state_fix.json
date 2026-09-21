@@ -1,0 +1,346 @@
+{
+  "jobs": {
+    "latency/latency_cicids2017": {
+      "finished_at": "2026-09-16T02:09:01.195938+00:00",
+      "name": "latency_cicids2017",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 302.8,
+      "stage": "latency"
+    },
+    "latency/latency_cse2018": {
+      "finished_at": "2026-09-16T02:21:51.689062+00:00",
+      "name": "latency_cse2018",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 770.4,
+      "stage": "latency"
+    },
+    "rotation/cse2018_Z3_panelA_s13": {
+      "finished_at": "2026-09-15T04:46:17.111547+00:00",
+      "name": "cse2018_Z3_panelA_s13",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 3160.4,
+      "stage": "rotation"
+    },
+    "rotation/cse2018_Z3_panelA_s37": {
+      "finished_at": "2026-09-15T05:52:39.705621+00:00",
+      "name": "cse2018_Z3_panelA_s37",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 3342.5,
+      "stage": "rotation"
+    },
+    "rotation/cse2018_Z3_panelA_s73": {
+      "finished_at": "2026-09-15T07:09:38.784183+00:00",
+      "name": "cse2018_Z3_panelA_s73",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 3904.5,
+      "stage": "rotation"
+    },
+    "rotation/cse2018_Z3_panelB_s13": {
+      "finished_at": "2026-09-15T04:56:57.174496+00:00",
+      "name": "cse2018_Z3_panelB_s13",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 640.0,
+      "stage": "rotation"
+    },
+    "rotation/cse2018_Z3_panelB_s37": {
+      "finished_at": "2026-09-15T06:04:34.266493+00:00",
+      "name": "cse2018_Z3_panelB_s37",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 714.5,
+      "stage": "rotation"
+    },
+    "rotation/cse2018_Z3_panelB_s73": {
+      "finished_at": "2026-09-15T07:29:17.595830+00:00",
+      "name": "cse2018_Z3_panelB_s73",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 1178.8,
+      "stage": "rotation"
+    },
+    "sensitivity/cse2018_Z3t70_panelA_s101": {
+      "finished_at": "2026-09-15T14:11:42.270855+00:00",
+      "name": "cse2018_Z3t70_panelA_s101",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 5960.2,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t70_panelA_s137": {
+      "finished_at": "2026-09-15T16:27:59.552561+00:00",
+      "name": "cse2018_Z3t70_panelA_s137",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 3235.2,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t70_panelA_s73": {
+      "finished_at": "2026-09-15T11:22:27.059493+00:00",
+      "name": "cse2018_Z3t70_panelA_s73",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 3271.7,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t70_panelB_s101": {
+      "finished_at": "2026-09-15T14:30:49.346147+00:00",
+      "name": "cse2018_Z3t70_panelB_s101",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 1147.0,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t70_panelB_s137": {
+      "finished_at": "2026-09-15T16:39:30.444225+00:00",
+      "name": "cse2018_Z3t70_panelB_s137",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 690.9,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t70_panelB_s73": {
+      "finished_at": "2026-09-15T11:33:17.517035+00:00",
+      "name": "cse2018_Z3t70_panelB_s73",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 650.4,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t90_panelA_s101": {
+      "finished_at": "2026-09-15T15:23:31.171098+00:00",
+      "name": "cse2018_Z3t90_panelA_s101",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 3161.8,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t90_panelA_s137": {
+      "finished_at": "2026-09-15T17:32:28.094941+00:00",
+      "name": "cse2018_Z3t90_panelA_s137",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 3177.6,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t90_panelA_s73": {
+      "finished_at": "2026-09-15T12:20:14.594133+00:00",
+      "name": "cse2018_Z3t90_panelA_s73",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 2817.1,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t90_panelB_s101": {
+      "finished_at": "2026-09-15T15:34:04.358487+00:00",
+      "name": "cse2018_Z3t90_panelB_s101",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 633.2,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t90_panelB_s137": {
+      "finished_at": "2026-09-15T17:44:39.383395+00:00",
+      "name": "cse2018_Z3t90_panelB_s137",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 731.3,
+      "stage": "sensitivity"
+    },
+    "sensitivity/cse2018_Z3t90_panelB_s73": {
+      "finished_at": "2026-09-15T12:32:22.029488+00:00",
+      "name": "cse2018_Z3t90_panelB_s73",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 727.4,
+      "stage": "sensitivity"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "cse2018_Z3_panelA_s13",
+          "returncode": 0,
+          "seconds": 3160.4,
+          "stage": "rotation"
+        },
+        {
+          "name": "cse2018_Z3_panelB_s13",
+          "returncode": 0,
+          "seconds": 640.0,
+          "stage": "rotation"
+        },
+        {
+          "name": "cse2018_Z3_panelA_s37",
+          "returncode": 0,
+          "seconds": 3342.5,
+          "stage": "rotation"
+        },
+        {
+          "name": "cse2018_Z3_panelB_s37",
+          "returncode": 0,
+          "seconds": 714.5,
+          "stage": "rotation"
+        },
+        {
+          "name": "cse2018_Z3_panelA_s73",
+          "returncode": 0,
+          "seconds": 3904.5,
+          "stage": "rotation"
+        },
+        {
+          "name": "cse2018_Z3_panelB_s73",
+          "returncode": 0,
+          "seconds": 1178.8,
+          "stage": "rotation"
+        }
+      ],
+      "datasets": [
+        "nf_cse_cic_ids2018_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73
+      ],
+      "started_at": "2026-09-15T03:53:36.601430+00:00"
+    },
+    {
+      "completed": [],
+      "datasets": [
+        "nf_cse_cic_ids2018_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73
+      ],
+      "started_at": "2026-09-15T10:27:20.719942+00:00"
+    },
+    {
+      "completed": [
+        {
+          "name": "cse2018_Z3t70_panelA_s73",
+          "returncode": 0,
+          "seconds": 3271.7,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t70_panelB_s73",
+          "returncode": 0,
+          "seconds": 650.4,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t90_panelA_s73",
+          "returncode": 0,
+          "seconds": 2817.1,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t90_panelB_s73",
+          "returncode": 0,
+          "seconds": 727.4,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t70_panelA_s101",
+          "returncode": 0,
+          "seconds": 5960.2,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t70_panelB_s101",
+          "returncode": 0,
+          "seconds": 1147.0,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t90_panelA_s101",
+          "returncode": 0,
+          "seconds": 3161.8,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t90_panelB_s101",
+          "returncode": 0,
+          "seconds": 633.2,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t70_panelA_s137",
+          "returncode": 0,
+          "seconds": 3235.2,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t70_panelB_s137",
+          "returncode": 0,
+          "seconds": 690.9,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t90_panelA_s137",
+          "returncode": 0,
+          "seconds": 3177.6,
+          "stage": "sensitivity"
+        },
+        {
+          "name": "cse2018_Z3t90_panelB_s137",
+          "returncode": 0,
+          "seconds": 731.3,
+          "stage": "sensitivity"
+        }
+      ],
+      "datasets": [
+        "nf_cse_cic_ids2018_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-15T10:27:55.205193+00:00"
+    },
+    {
+      "completed": [
+        {
+          "name": "latency_cicids2017",
+          "returncode": 0,
+          "seconds": 302.8,
+          "stage": "latency"
+        },
+        {
+          "name": "latency_cse2018",
+          "returncode": 0,
+          "seconds": 770.4,
+          "stage": "latency"
+        }
+      ],
+      "datasets": [
+        "ciciomt2024",
+        "cicids2017",
+        "nf_ton_iot_v3",
+        "nf_cse_cic_ids2018_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T02:03:57.836065+00:00"
+    }
+  ]
+}

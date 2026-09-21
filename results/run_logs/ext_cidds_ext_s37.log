@@ -1,0 +1,7 @@
+[capture] hedl: auroc=0.9808 in 74.6s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\cidds_ext_s37.npz",
+  "calibration_size": 6150,
+  "test_known": 7721,
+  "test_unknown": 24416
+}

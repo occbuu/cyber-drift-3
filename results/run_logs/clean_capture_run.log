@@ -1,0 +1,12 @@
+unsw_to_ton capture=400 contamination=0% seed=13 380s hedl auroc=0.5047
+unsw_to_ton capture=400 contamination=0% seed=37 485s hedl auroc=0.5906
+unsw_to_ton capture=400 contamination=0% seed=73 518s hedl auroc=0.4904
+unsw_to_ton capture=2000 contamination=0% seed=13 542s hedl auroc=0.4308
+unsw_to_ton capture=2000 contamination=0% seed=37 319s hedl auroc=0.3466
+unsw_to_ton capture=2000 contamination=0% seed=73 128s hedl auroc=0.5317
+loeo_unsw capture=400 contamination=0% seed=13 272s hedl auroc=0.5915
+loeo_unsw capture=400 contamination=0% seed=37 260s hedl auroc=0.5937
+loeo_unsw capture=400 contamination=0% seed=73 261s hedl auroc=0.5745
+loeo_unsw capture=2000 contamination=0% seed=13 258s hedl auroc=0.5376
+loeo_unsw capture=2000 contamination=0% seed=37 261s hedl auroc=0.5640
+loeo_unsw capture=2000 contamination=0% seed=73 268s hedl auroc=0.5615

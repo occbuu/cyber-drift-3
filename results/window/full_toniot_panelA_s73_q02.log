@@ -1,0 +1,16 @@
+[window] n=4000 draw=0 done
+[window] n=4000 draw=1 done
+[window] n=4000 draw=2 done
+[window] n=4000 draw=3 done
+[window] n=4000 draw=4 done
+[window] n=12000 draw=0 done
+[window] n=12000 draw=1 done
+[window] n=12000 draw=2 done
+[window] n=12000 draw=3 done
+[window] n=12000 draw=4 done
+[window] n=21095 draw=0 done
+[window] n=21095 draw=1 done
+[window] n=21095 draw=2 done
+[window] n=21095 draw=3 done
+[window] n=21095 draw=4 done
+wrote results\window\full_toniot_panelA_s73_q02.json in 310.4s (750 rows)

@@ -1,0 +1,140 @@
+{
+  "calibration_size": 19749,
+  "curvature": 0.0,
+  "dataset": "nf_ton_iot_v3",
+  "deduplicate_source_ids": true,
+  "device": "cuda",
+  "epochs": 30,
+  "holdout_groups": true,
+  "holdout_threshold": null,
+  "known_families": [
+    "backdoor",
+    "benign",
+    "dos",
+    "injection",
+    "mitm",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ],
+  "methods": {
+    "closr": {
+      "diagnostics": {
+        "inference_seconds": 2.0480122000008123,
+        "milliseconds_per_scored_flow": 0.028759773068778874
+      },
+      "distinct_calibration_scores": 19105,
+      "distinct_test_scores": 47695,
+      "open_set": {
+        "aupr_out": 0.21349920632856575,
+        "fpr95": 0.3621387410372586,
+        "known_accuracy": 0.8143887740289447,
+        "known_macro_f1": 0.8006698114867928,
+        "known_weighted_f1": 0.7858077515618757,
+        "oscr": 0.6713716544031304,
+        "tpr_at_0_1_fpr": 0.006170780520346898,
+        "tpr_at_1_fpr": 0.04036024016010674,
+        "tpr_at_5_fpr": 0.09322881921280854,
+        "unknown_auroc": 0.7495383511587235
+      },
+      "seconds": 474.46350259999963,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.7495383511587235
+    },
+    "efc": {
+      "diagnostics": {
+        "inference_seconds": 573.6878840000008,
+        "milliseconds_per_scored_flow": 8.05616946820015
+      },
+      "distinct_calibration_scores": 2229,
+      "distinct_test_scores": 2803,
+      "open_set": {
+        "aupr_out": 0.7049962930804088,
+        "fpr95": 0.5475080279769499,
+        "known_accuracy": 0.6966744380416136,
+        "known_macro_f1": 0.6802611089619907,
+        "known_weighted_f1": 0.6750338750292516,
+        "oscr": 0.6559989647785542,
+        "tpr_at_0_1_fpr": 0.0001667778519012675,
+        "tpr_at_1_fpr": 0.007505003335557038,
+        "tpr_at_5_fpr": 0.8375583722481654,
+        "unknown_auroc": 0.9250794463571033
+      },
+      "seconds": 660.7678715000002,
+      "test_scores_at_maximum": 2,
+      "unknown_auroc": 0.9250794463571033
+    },
+    "hedl": {
+      "diagnostics": {
+        "inference_seconds": 3.4122693999997864,
+        "milliseconds_per_scored_flow": 0.04791772900253874,
+        "scorer_density_reference_size": 65536.0,
+        "scorer_fusion_weight_knn": 0.9226522551832895,
+        "scorer_fusion_weight_md": 1.103644973478284,
+        "scorer_fusion_weight_rmd": 0.9737027713384263,
+        "scorer_neighbors": 1.0,
+        "scorer_proxy_auroc_knn": 0.8892287462949753,
+        "scorer_proxy_auroc_md": 0.9655820727348328,
+        "scorer_proxy_auroc_rmd": 0.9107648432254791,
+        "scorer_proxy_density_auroc": 0.8892287462949753,
+        "scorer_proxy_evidential_auroc": 0.9655820727348328,
+        "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+        "scorer_tail_extension": "off"
+      },
+      "distinct_calibration_scores": 19328,
+      "distinct_test_scores": 48477,
+      "open_set": {
+        "aupr_out": 0.2921705456793206,
+        "fpr95": 0.4465754629833282,
+        "known_accuracy": 0.8480402938459508,
+        "known_macro_f1": 0.8392302887829853,
+        "known_weighted_f1": 0.8218396904067033,
+        "oscr": 0.7011988219128886,
+        "tpr_at_0_1_fpr": 0.000333555703802535,
+        "tpr_at_1_fpr": 0.05720480320213476,
+        "tpr_at_5_fpr": 0.1652768512341561,
+        "unknown_auroc": 0.8146565536131993
+      },
+      "seconds": 324.1200675,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.8146565536131993
+    },
+    "renoir_dml": {
+      "diagnostics": {
+        "inference_seconds": 1.5753535000003467,
+        "milliseconds_per_scored_flow": 0.02212233362823646
+      },
+      "distinct_calibration_scores": 16948,
+      "distinct_test_scores": 38901,
+      "open_set": {
+        "aupr_out": 0.21446024642627057,
+        "fpr95": 0.6920995909030924,
+        "known_accuracy": 0.7839704394492588,
+        "known_macro_f1": 0.7686175516228769,
+        "known_weighted_f1": 0.7513618064166888,
+        "oscr": 0.5628877330117614,
+        "tpr_at_0_1_fpr": 0.0,
+        "tpr_at_1_fpr": 0.0008338892595063375,
+        "tpr_at_5_fpr": 0.06504336224149433,
+        "unknown_auroc": 0.7173177329293005
+      },
+      "seconds": 187.2051389999997,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.7173177329293005
+    }
+  },
+  "profile": "balanced",
+  "scenario": "T2",
+  "seed": 13,
+  "tail_anchor_exceedances": 250,
+  "tail_confidence": 0.0,
+  "tail_extension": false,
+  "test_known": 45466,
+  "test_unknown": 5996,
+  "tuning_fraction": 0.2,
+  "tuning_size": 4937,
+  "unknown_families": [
+    "ddos"
+  ]
+}

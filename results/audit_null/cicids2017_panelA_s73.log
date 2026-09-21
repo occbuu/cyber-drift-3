@@ -1,0 +1,19 @@
+[audit_null] cicids2017_panelA_s73: 8 rows
+{
+  "dkw::calibration": {
+    "captures": 2,
+    "mean_fire_rate": 0.035
+  },
+  "dkw::test": {
+    "captures": 2,
+    "mean_fire_rate": 0.065
+  },
+  "permutation::calibration": {
+    "captures": 2,
+    "mean_fire_rate": 0.04
+  },
+  "permutation::test": {
+    "captures": 2,
+    "mean_fire_rate": 0.08
+  }
+}

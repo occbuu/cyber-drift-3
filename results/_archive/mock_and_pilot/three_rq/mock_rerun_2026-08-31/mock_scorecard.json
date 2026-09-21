@@ -1,0 +1,26 @@
+{
+  "rq1": {
+    "wins": 2,
+    "ties": 0,
+    "losses": 8,
+    "comparisons": 10
+  },
+  "rq2": {
+    "wins": 3,
+    "ties": 0,
+    "losses": 22,
+    "comparisons": 25
+  },
+  "rq3": {
+    "wins": 0,
+    "ties": 6,
+    "losses": 4,
+    "comparisons": 10
+  },
+  "rq3_prevalence": {
+    "wins": 0,
+    "ties": 18,
+    "losses": 6,
+    "comparisons": 24
+  }
+}

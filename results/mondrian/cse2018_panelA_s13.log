@@ -1,0 +1,2 @@
+[mondrian] cse2018_panelA_s13 hedl pi=0.01: pooled {'fdp': 0.0868952559887271, 'power': 0.9682480388494583, 'alerts_per_1000': 10.645} mondrian {'fdp': 0.06382978723404255, 'power': 0.09313908604158884, 'alerts_per_1000': 0.99875} lifted []
+[mondrian] cse2018_panelA_s13 hedl pi=0.001: pooled {'fdp': 0.584070796460177, 'power': 0.058385093167701865, 'alerts_per_1000': 0.14125} mondrian {'fdp': 0.0, 'power': 0.0, 'alerts_per_1000': 0.0} lifted []

@@ -1,0 +1,106 @@
+{
+  "protocol": "audit_null",
+  "config": {
+    "tags": "cse2018_panelA_s101",
+    "methods": "hedl,closr",
+    "repeats": 100,
+    "audit_size": 2000,
+    "audit_alpha": 0.05,
+    "audit_permutations": 200,
+    "seed": 13,
+    "output": "results\\audit_null\\cse2018_panelA_s101.json"
+  },
+  "summary": {
+    "dkw::calibration": {
+      "captures": 2,
+      "mean_fire_rate": 0.045
+    },
+    "dkw::test": {
+      "captures": 2,
+      "mean_fire_rate": 0.03
+    },
+    "permutation::calibration": {
+      "captures": 2,
+      "mean_fire_rate": 0.055
+    },
+    "permutation::test": {
+      "captures": 2,
+      "mean_fire_rate": 0.035
+    }
+  },
+  "rows": [
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 101,
+      "method": "hedl",
+      "threshold": "dkw",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.04
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 101,
+      "method": "hedl",
+      "threshold": "dkw",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 0.02
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 101,
+      "method": "hedl",
+      "threshold": "permutation",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.05
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 101,
+      "method": "hedl",
+      "threshold": "permutation",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 0.02
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 101,
+      "method": "closr",
+      "threshold": "dkw",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.05
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 101,
+      "method": "closr",
+      "threshold": "dkw",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 0.04
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 101,
+      "method": "closr",
+      "threshold": "permutation",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.06
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 101,
+      "method": "closr",
+      "threshold": "permutation",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 0.05
+    }
+  ],
+  "elapsed_seconds": 84.66617469999983
+}

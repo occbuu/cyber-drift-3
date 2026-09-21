@@ -1,0 +1,41 @@
+{
+  "dataset": "cidds_001",
+  "elapsed_seconds": 27.666890799999237,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.9323826725132913,
+      "fpr95": 0.7954545454545454,
+      "known_accuracy": 0.8556634897360704,
+      "known_macro_f1": 0.8603754514267754,
+      "known_weighted_f1": 0.8544388516857371,
+      "open_world_macro_f1": 0.42005172695947246,
+      "oscr": 0.7362947507308778,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 3.0826140567200985e-05,
+      "tpr_at_5_fpr": 0.47980887792848337,
+      "unknown_auroc": 0.8715501093717796,
+      "unknown_f1": 6.155740227762388e-05,
+      "unknown_precision": 0.02,
+      "unknown_recall": 3.0826140567200985e-05
+    },
+    "msp": {
+      "aupr_out": 0.5895798278297565,
+      "fpr95": 0.9903775659824047,
+      "known_accuracy": 0.8556634897360704,
+      "known_macro_f1": 0.8603754514267754,
+      "known_weighted_f1": 0.8544388516857371,
+      "open_world_macro_f1": 0.4199081748794271,
+      "oscr": 0.17895350055233938,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.0,
+      "unknown_auroc": 0.18853693153568418,
+      "unknown_f1": 0.0,
+      "unknown_precision": 0.0,
+      "unknown_recall": 0.0
+    }
+  },
+  "rq": "rq3",
+  "scenario": "Z1",
+  "seed": 13
+}

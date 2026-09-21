@@ -1,0 +1,21 @@
+[capture] hedl: auroc=0.9998 in 829.8s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\nf_cse_cic_ids2018_v3_Z1_s13_tail.npz",
+  "calibration_size": 23932,
+  "test_known": 29460,
+  "test_unknown": 24994
+}
+[capture] hedl: auroc=0.9276 in 570.6s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\nf_ton_iot_v3_Z1_s13_tail.npz",
+  "calibration_size": 23733,
+  "test_known": 26202,
+  "test_unknown": 21287
+}
+[capture] hedl: auroc=0.9998 in 237.4s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\insdn_Z1_s13_tail.npz",
+  "calibration_size": 9290,
+  "test_known": 11477,
+  "test_unknown": 614
+}

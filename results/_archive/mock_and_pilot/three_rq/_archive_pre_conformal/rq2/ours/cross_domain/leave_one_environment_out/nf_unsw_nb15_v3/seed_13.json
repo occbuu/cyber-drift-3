@@ -1,0 +1,45 @@
+{
+  "dataset": "nf_ton_iot_v3",
+  "elapsed_seconds": 22.78922639999655,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.22889290803953474,
+      "far": 0.0975,
+      "fpr95": 0.99,
+      "frr": 0.88,
+      "known_accuracy": 0.0,
+      "known_macro_f1": 0.0,
+      "known_weighted_f1": 0.0,
+      "open_world_macro_f1": 0.013245033112582781,
+      "oscr": 0.0,
+      "scorer_density_reference_size": 500.0,
+      "scorer_density_selection_margin": 0.1,
+      "scorer_proxy_density_auroc": 0.5592995833333334,
+      "scorer_proxy_evidential_auroc": 0.49877416666666663,
+      "scorer_score_mode": "fused",
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.07,
+      "unknown_auroc": 0.557875,
+      "unknown_f1": 0.15894039735099338,
+      "unknown_precision": 0.23529411764705882,
+      "unknown_recall": 0.12
+    }
+  },
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos",
+    "reconnaissance"
+  ],
+  "source_datasets": [
+    "nf_ton_iot_v3",
+    "nf_bot_iot_v3",
+    "nf_cse_cic_ids2018_v3"
+  ],
+  "target_dataset": "nf_unsw_nb15_v3"
+}

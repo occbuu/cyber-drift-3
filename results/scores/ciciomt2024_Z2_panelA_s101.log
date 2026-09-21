@@ -1,0 +1,10 @@
+[capture] hedl: auroc=0.4140 in 864.3s
+[capture] closr: auroc=0.6771 in 2192.8s
+[capture] efc: auroc=0.3155 in 1672.7s
+[capture] renoir_dml: auroc=0.5966 in 533.6s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\ciciomt2024_Z2_panelA_s101.npz",
+  "calibration_size": 42154,
+  "test_known": 54962,
+  "test_unknown": 5040
+}

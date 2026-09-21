@@ -1,0 +1,61 @@
+[shift_gate] cse2018_panelA_s37 hedl: 180 rows
+[shift_gate] cse2018_panelA_s37 closr: 360 rows
+{
+  "q": 0.1,
+  "conditions": 360,
+  "guarantee_broken_conditions": 90,
+  "detection_rate_where_broken": 1.0,
+  "fire_rate_where_intact": 0.9619047619047619,
+  "false_refusal_on_exchangeable": 0.06666666666666667,
+  "gate_passes": true,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 60,
+      "gate_fire_rate": 0.06666666666666667,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.042055900140502644,
+      "ungated_false_alarms_per_1000": 0.41541666666666666,
+      "gated_false_alarms_per_1000": 0.16499999999999998
+    },
+    "0.1": {
+      "conditions": 60,
+      "gate_fire_rate": 0.8833333333333333,
+      "guarantee_broken_rate": 0.16666666666666666,
+      "ungated_fdp": 0.043330312465896685,
+      "ungated_false_alarms_per_1000": 0.43666666666666665,
+      "gated_false_alarms_per_1000": 0.5937500000000001
+    },
+    "0.25": {
+      "conditions": 60,
+      "gate_fire_rate": 0.9833333333333333,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.04671707148137635,
+      "ungated_false_alarms_per_1000": 0.4783333333333334,
+      "gated_false_alarms_per_1000": 0.6637500000000001
+    },
+    "0.5": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.060155888119357494,
+      "ungated_false_alarms_per_1000": 0.65625,
+      "gated_false_alarms_per_1000": 0.7408333333333332
+    },
+    "0.75": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.06599584936649146,
+      "ungated_false_alarms_per_1000": 0.7279166666666667,
+      "gated_false_alarms_per_1000": 0.7566666666666669
+    },
+    "1.0": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.07953572932638474,
+      "ungated_false_alarms_per_1000": 0.9949999999999999,
+      "gated_false_alarms_per_1000": 0.75
+    }
+  }
+}

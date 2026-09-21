@@ -1,0 +1,10 @@
+[capture] ori: auroc=0.7602 in 72.9s
+[capture] docpp: auroc=0.7254 in 572.2s
+[capture] ais_nids: auroc=0.9425 in 437.1s
+[capture] usfad: auroc=0.9436 in 43.5s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\cse2018_Z3t70_panelB_s101.npz",
+  "calibration_size": 26867,
+  "test_known": 33201,
+  "test_unknown": 126
+}

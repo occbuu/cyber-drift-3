@@ -1,0 +1,7 @@
+[capture] hedl: auroc=0.9317 in 205.5s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\toniot_noevid_s137.npz",
+  "calibration_size": 21095,
+  "test_known": 26202,
+  "test_unknown": 21287
+}

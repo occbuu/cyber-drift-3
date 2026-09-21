@@ -1,0 +1,75 @@
+{
+  "calibration_size": 21095,
+  "curvature": 0.0,
+  "dataset": "nf_ton_iot_v3",
+  "deduplicate_source_ids": true,
+  "device": "cuda",
+  "epochs": 30,
+  "known_families": [
+    "benign",
+    "backdoor",
+    "dos",
+    "injection",
+    "mitm",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ],
+  "methods": {
+    "hedl": {
+      "diagnostics": {
+        "inference_seconds": 2.831725299998652,
+        "milliseconds_per_scored_flow": 0.04128842441383781,
+        "scorer_density_reference_size": 65536.0,
+        "scorer_fusion_weight_knn": 0.8913638920468953,
+        "scorer_fusion_weight_md": 1.1123395448963715,
+        "scorer_fusion_weight_rmd": 0.9962965630567332,
+        "scorer_neighbors": 1.0,
+        "scorer_proxy_auroc_knn": 0.8739267438650131,
+        "scorer_proxy_auroc_md": 0.9666259288787842,
+        "scorer_proxy_auroc_rmd": 0.9179459512233734,
+        "scorer_proxy_density_auroc": 0.8739267438650131,
+        "scorer_proxy_evidential_auroc": 0.9666259288787842,
+        "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+        "scorer_tail_anchor_pvalue_knn": 0.047573919636087945,
+        "scorer_tail_anchor_pvalue_md": 0.047573919636087945,
+        "scorer_tail_anchor_pvalue_rmd": 0.047573919636087945,
+        "scorer_tail_extension": "on",
+        "scorer_tail_shape_knn": 0.17365777966930854,
+        "scorer_tail_shape_md": -0.006205933803025786,
+        "scorer_tail_shape_rmd": -0.04119331360133857
+      },
+      "distinct_calibration_scores": 21088,
+      "distinct_test_scores": 47400,
+      "open_set": {
+        "aupr_out": 0.9374182400528972,
+        "fpr95": 0.13063888252805128,
+        "known_accuracy": 0.924433249370277,
+        "known_macro_f1": 0.9253313216812791,
+        "known_weighted_f1": 0.9241764405308479,
+        "oscr": 0.8935487308785234,
+        "tpr_at_0_1_fpr": 0.05186263916944614,
+        "tpr_at_1_fpr": 0.37107154601399917,
+        "tpr_at_5_fpr": 0.7097759195753277,
+        "unknown_auroc": 0.961040958306706
+      },
+      "seconds": 564.1847070000076,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.961040958306706
+    }
+  },
+  "profile": "balanced",
+  "scenario": "Z1",
+  "seed": 137,
+  "tail_anchor_exceedances": 250,
+  "tail_confidence": 0.9,
+  "tail_extension": true,
+  "test_known": 26202,
+  "test_unknown": 21287,
+  "tuning_fraction": 0.2,
+  "tuning_size": 5275,
+  "unknown_families": [
+    "ddos"
+  ]
+}

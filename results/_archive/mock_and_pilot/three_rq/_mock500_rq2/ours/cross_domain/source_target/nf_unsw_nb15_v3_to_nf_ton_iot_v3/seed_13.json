@@ -1,0 +1,45 @@
+{
+  "dataset": "nf_unsw_nb15_v3",
+  "elapsed_seconds": 7.698104200000671,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.23246503405515417,
+      "far": 0.04,
+      "fpr95": 0.9626666666666667,
+      "frr": 0.96,
+      "known_accuracy": 0.010666666666666666,
+      "known_macro_f1": 0.007462686567164179,
+      "known_weighted_f1": 0.01990049751243781,
+      "open_world_macro_f1": 0.013751115309924946,
+      "oscr": 0.004992,
+      "scorer_density_reference_size": 500.0,
+      "scorer_fusion_weight_knn": 1.22553417150938,
+      "scorer_fusion_weight_md": 0.632265253362542,
+      "scorer_fusion_weight_rmd": 1.1422005751280782,
+      "scorer_neighbors": 1.0,
+      "scorer_proxy_auroc_knn": 0.647904,
+      "scorer_proxy_auroc_md": 0.5763051428571428,
+      "scorer_proxy_auroc_rmd": 0.6378468571428572,
+      "scorer_proxy_density_auroc": 0.647904,
+      "scorer_proxy_evidential_auroc": 0.5763051428571428,
+      "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+      "tpr_at_0_1_fpr": 0.016,
+      "tpr_at_1_fpr": 0.016,
+      "tpr_at_5_fpr": 0.04,
+      "unknown_auroc": 0.4512213333333333,
+      "unknown_f1": 0.06896551724137931,
+      "unknown_precision": 0.25,
+      "unknown_recall": 0.04
+    }
+  },
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos"
+  ],
+  "target_dataset": "nf_ton_iot_v3"
+}

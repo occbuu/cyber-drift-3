@@ -1,0 +1,60 @@
+[shift_gate] ciciomt2024_panelA_s73 hedl: 180 rows
+{
+  "q": 0.1,
+  "conditions": 180,
+  "guarantee_broken_conditions": 180,
+  "detection_rate_where_broken": 1.0,
+  "fire_rate_where_intact": NaN,
+  "false_refusal_on_exchangeable": NaN,
+  "gate_passes": false,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.881947470490085,
+      "ungated_false_alarms_per_1000": 54.58083333333334,
+      "gated_false_alarms_per_1000": 2.4666666666666672
+    },
+    "0.1": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.9049602869496279,
+      "ungated_false_alarms_per_1000": 79.42416666666666,
+      "gated_false_alarms_per_1000": 2.475833333333333
+    },
+    "0.25": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.936621595021136,
+      "ungated_false_alarms_per_1000": 111.64166666666667,
+      "gated_false_alarms_per_1000": 2.475833333333333
+    },
+    "0.5": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.9824343609314986,
+      "ungated_false_alarms_per_1000": 176.26333333333335,
+      "gated_false_alarms_per_1000": 2.4825
+    },
+    "0.75": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.97863908632513,
+      "ungated_false_alarms_per_1000": 241.8816666666667,
+      "gated_false_alarms_per_1000": 2.4808333333333334
+    },
+    "1.0": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.8795061071129159,
+      "ungated_false_alarms_per_1000": 304.785,
+      "gated_false_alarms_per_1000": 2.4741666666666666
+    }
+  }
+}

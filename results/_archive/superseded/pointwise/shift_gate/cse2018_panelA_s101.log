@@ -1,0 +1,61 @@
+[shift_gate] cse2018_panelA_s101 hedl: 180 rows
+[shift_gate] cse2018_panelA_s101 closr: 360 rows
+{
+  "q": 0.1,
+  "conditions": 360,
+  "guarantee_broken_conditions": 60,
+  "detection_rate_where_broken": 1.0,
+  "fire_rate_where_intact": 0.9583333333333334,
+  "false_refusal_on_exchangeable": 0.08333333333333333,
+  "gate_passes": true,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 60,
+      "gate_fire_rate": 0.08333333333333333,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.03164787027185558,
+      "ungated_false_alarms_per_1000": 0.32791666666666663,
+      "gated_false_alarms_per_1000": 0.375
+    },
+    "0.1": {
+      "conditions": 60,
+      "gate_fire_rate": 0.8333333333333334,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.03546098890279615,
+      "ungated_false_alarms_per_1000": 0.37166666666666665,
+      "gated_false_alarms_per_1000": 1.3579166666666667
+    },
+    "0.25": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.036152171603565736,
+      "ungated_false_alarms_per_1000": 0.38041666666666674,
+      "gated_false_alarms_per_1000": 1.2316666666666667
+    },
+    "0.5": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.16666666666666666,
+      "ungated_fdp": 0.04731676551170289,
+      "ungated_false_alarms_per_1000": 0.5158333333333334,
+      "gated_false_alarms_per_1000": 1.1579166666666667
+    },
+    "0.75": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.05363284078751858,
+      "ungated_false_alarms_per_1000": 0.5804166666666666,
+      "gated_false_alarms_per_1000": 1.0558333333333332
+    },
+    "1.0": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.5,
+      "ungated_fdp": 0.14762216614603157,
+      "ungated_false_alarms_per_1000": 2.609583333333333,
+      "gated_false_alarms_per_1000": 0.8670833333333333
+    }
+  }
+}

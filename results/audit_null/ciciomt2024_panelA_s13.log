@@ -1,0 +1,19 @@
+[audit_null] ciciomt2024_panelA_s13: 8 rows
+{
+  "dkw::calibration": {
+    "captures": 2,
+    "mean_fire_rate": 0.03
+  },
+  "dkw::test": {
+    "captures": 2,
+    "mean_fire_rate": 1.0
+  },
+  "permutation::calibration": {
+    "captures": 2,
+    "mean_fire_rate": 0.045
+  },
+  "permutation::test": {
+    "captures": 2,
+    "mean_fire_rate": 1.0
+  }
+}

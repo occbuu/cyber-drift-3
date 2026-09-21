@@ -1,0 +1,6 @@
+[window] n=10000 draw=0 done
+[window] n=10000 draw=1 done
+[window] n=10000 draw=2 done
+[window] n=10000 draw=3 done
+[window] n=10000 draw=4 done
+wrote results\window_draws_temporal_ext\full_unsw_ext_s73_q01_L1.json in 11.3s (25 rows)

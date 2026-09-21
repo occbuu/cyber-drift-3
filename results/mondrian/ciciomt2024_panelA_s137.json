@@ -1,0 +1,119 @@
+{
+  "protocol": "mondrian_predicted_class",
+  "tag": "ciciomt2024_panelA_s137",
+  "results": [
+    {
+      "tag": "ciciomt2024_panelA_s137",
+      "dataset": "ciciomt2024",
+      "scenario": "Z1",
+      "seed": 137,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 18,
+      "pooled": {
+        "fdp": 0.9855900916994165,
+        "power": 0.015087281795511222,
+        "alerts_per_1000": 10.49625
+      },
+      "mondrian": {
+        "fdp": 0.9828285613012485,
+        "power": 0.0543640897755611,
+        "alerts_per_1000": 31.73875
+      },
+      "pooled_audit_rejected": true,
+      "groups_with_in_group_audit_rejected": 3,
+      "groups_evaluated": 3,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/3",
+      "groups": [
+        {
+          "group": 11,
+          "group_family": "tcp_ip_ddos_icmp",
+          "calibration_size": 1708,
+          "known_flow_share": 0.042327660801845975,
+          "attack_share": 0.005518763796909493,
+          "attack_concentration": 0.13038196990722462,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 7668.772137294489,
+          "pooled_in_group_power": 0.6363636363636364,
+          "mondrian_in_group_power": 1.0,
+          "pooled_in_group_false_per_1000": 2.795926776149273,
+          "mondrian_in_group_false_per_1000": 5.356407086938607,
+          "in_group_audit_rejected": true
+        },
+        {
+          "group": 13,
+          "group_family": "tcp_ip_ddos_tcp",
+          "calibration_size": 2345,
+          "known_flow_share": 0.02386789731756562,
+          "attack_share": 0.00728476821192053,
+          "attack_concentration": 0.30521198055261,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 3275.4113590476436,
+          "pooled_in_group_power": 0.5416666666666666,
+          "mondrian_in_group_power": 1.0,
+          "pooled_in_group_false_per_1000": 5.067920585161964,
+          "mondrian_in_group_false_per_1000": 8.568443051201672,
+          "in_group_audit_rejected": true
+        },
+        {
+          "group": 17,
+          "group_family": "tcp_ip_dos_udp",
+          "calibration_size": 3217,
+          "known_flow_share": 0.08802639169310643,
+          "attack_share": 0.98719646799117,
+          "attack_concentration": 11.214778306861803,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 88.16805777499377,
+          "pooled_in_group_power": 0.007578628268283441,
+          "mondrian_in_group_power": 0.042061386888973096,
+          "pooled_in_group_false_per_1000": 2.224565373932723,
+          "mondrian_in_group_false_per_1000": 6.519391009155437,
+          "in_group_audit_rejected": true
+        }
+      ]
+    },
+    {
+      "tag": "ciciomt2024_panelA_s137",
+      "dataset": "ciciomt2024",
+      "scenario": "Z1",
+      "seed": 137,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 18,
+      "pooled": {
+        "fdp": 0.9985676772499403,
+        "power": 0.014652014652014652,
+        "alerts_per_1000": 10.4725
+      },
+      "mondrian": {
+        "fdp": 0.9987573158021326,
+        "power": 0.03785103785103785,
+        "alerts_per_1000": 31.1825
+      },
+      "pooled_audit_rejected": true,
+      "groups_with_in_group_audit_rejected": 1,
+      "groups_evaluated": 1,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/1",
+      "groups": [
+        {
+          "group": 17,
+          "group_family": "tcp_ip_dos_udp",
+          "calibration_size": 3217,
+          "known_flow_share": 0.08802639169310643,
+          "attack_share": 0.98719646799117,
+          "attack_concentration": 11.214778306861803,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 890.6805777499377,
+          "pooled_in_group_power": 0.006218905472636816,
+          "mondrian_in_group_power": 0.01990049751243781,
+          "pooled_in_group_false_per_1000": 2.440871980473024,
+          "mondrian_in_group_false_per_1000": 7.098167943214657,
+          "in_group_audit_rejected": true
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 4.925457499999993
+}

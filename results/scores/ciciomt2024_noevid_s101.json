@@ -1,0 +1,82 @@
+{
+  "calibration_size": 41873,
+  "curvature": 0.0,
+  "dataset": "ciciomt2024",
+  "deduplicate_source_ids": true,
+  "device": "cuda",
+  "epochs": 30,
+  "evidential_weight": 0.0,
+  "holdout_groups": true,
+  "holdout_threshold": null,
+  "known_families": [
+    "benign",
+    "arp_spoofing",
+    "mqtt_ddos_connect_flood",
+    "mqtt_ddos_publish_flood",
+    "mqtt_dos_connect_flood",
+    "mqtt_dos_publish_flood",
+    "mqtt_malformed_data",
+    "recon_os_scan",
+    "recon_ping_sweep",
+    "recon_port_scan",
+    "recon_vulscan",
+    "tcp_ip_ddos_icmp",
+    "tcp_ip_ddos_syn",
+    "tcp_ip_ddos_tcp",
+    "tcp_ip_dos_icmp",
+    "tcp_ip_dos_syn",
+    "tcp_ip_dos_tcp",
+    "tcp_ip_dos_udp"
+  ],
+  "margin_weight": 1.0,
+  "methods": {
+    "hedl": {
+      "diagnostics": {
+        "inference_seconds": 3.1225377000009757,
+        "milliseconds_per_scored_flow": 0.030650676809825528,
+        "scorer_density_reference_size": 65536.0,
+        "scorer_fusion_weight_knn": 1.0174456017672673,
+        "scorer_fusion_weight_md": 0.9922654245095949,
+        "scorer_fusion_weight_rmd": 0.9902889737231375,
+        "scorer_neighbors": 1.0,
+        "scorer_proxy_auroc_knn": 0.9628159018123851,
+        "scorer_proxy_auroc_md": 0.9513619366814108,
+        "scorer_proxy_auroc_rmd": 0.9504628882688635,
+        "scorer_proxy_density_auroc": 0.9628159018123851,
+        "scorer_proxy_evidential_auroc": 0.9513619366814108,
+        "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+        "scorer_tail_extension": "off"
+      },
+      "distinct_calibration_scores": 41148,
+      "distinct_test_scores": 57548,
+      "open_set": {
+        "aupr_out": 0.22044186508612312,
+        "fpr95": 0.162424286126334,
+        "known_accuracy": 0.8629578886645515,
+        "known_macro_f1": 0.8491062310194009,
+        "known_weighted_f1": 0.8449633958274129,
+        "oscr": 0.8244724701712965,
+        "tpr_at_0_1_fpr": 0.0,
+        "tpr_at_1_fpr": 0.020309050772626933,
+        "tpr_at_5_fpr": 0.0282560706401766,
+        "unknown_auroc": 0.8730240095673429
+      },
+      "seconds": 374.6687492000001,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.8730240095673429
+    }
+  },
+  "profile": "balanced",
+  "scenario": "Z1",
+  "seed": 101,
+  "tail_anchor_exceedances": 250,
+  "tail_confidence": 0.0,
+  "tail_extension": false,
+  "test_known": 55472,
+  "test_unknown": 4530,
+  "tuning_fraction": 0.2,
+  "tuning_size": 10469,
+  "unknown_families": [
+    "tcp_ip_ddos_udp"
+  ]
+}

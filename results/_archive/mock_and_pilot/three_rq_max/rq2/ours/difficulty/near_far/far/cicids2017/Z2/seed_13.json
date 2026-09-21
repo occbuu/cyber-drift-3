@@ -1,0 +1,45 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 74.19122499999958,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.9429107420183274,
+      "far": 0.009088060169225948,
+      "fpr95": 0.004951425885302413,
+      "frr": 0.005438813349814586,
+      "known_accuracy": 0.9890943277969289,
+      "known_macro_f1": 0.8939989025847325,
+      "known_weighted_f1": 0.9874569920536322,
+      "open_world_macro_f1": 0.9002048852427914,
+      "oscr": 0.9859727315584351,
+      "scorer_density_reference_size": 20000.0,
+      "scorer_fusion_weight_knn": 0.9721053759852935,
+      "scorer_fusion_weight_md": 1.0377037347988471,
+      "scorer_fusion_weight_rmd": 0.9901908892158593,
+      "scorer_neighbors": 1.0,
+      "scorer_proxy_auroc_knn": 0.9095750093460083,
+      "scorer_proxy_auroc_md": 0.9372134208679199,
+      "scorer_proxy_auroc_rmd": 0.917194938659668,
+      "scorer_proxy_density_auroc": 0.9095750093460083,
+      "scorer_proxy_evidential_auroc": 0.9372134208679199,
+      "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+      "tpr_at_0_1_fpr": 0.007416563658838072,
+      "tpr_at_1_fpr": 0.9950556242274413,
+      "tpr_at_5_fpr": 1.0,
+      "unknown_auroc": 0.9959502370503568,
+      "unknown_f1": 0.9796663825642274,
+      "unknown_precision": 0.9652111324376199,
+      "unknown_recall": 0.9945611866501854
+    }
+  },
+  "profile": "max",
+  "protocol": "difficulty",
+  "rq": "rq2",
+  "scenario": "Z2",
+  "scorer_components": [
+    "md",
+    "rmd",
+    "knn"
+  ],
+  "seed": 13
+}

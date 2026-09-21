@@ -1,0 +1,92 @@
+{
+  "jobs": {
+    "mondrian_covariate/cicids2017_panelA_s101_port_class": {
+      "finished_at": "2026-09-17T18:22:27.403527+00:00",
+      "name": "cicids2017_panelA_s101_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 14.2,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/cicids2017_panelA_s137_port_class": {
+      "finished_at": "2026-09-17T18:22:40.785929+00:00",
+      "name": "cicids2017_panelA_s137_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 13.4,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/cicids2017_panelA_s13_port_class": {
+      "finished_at": "2026-09-17T18:22:55.044053+00:00",
+      "name": "cicids2017_panelA_s13_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 14.2,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/cicids2017_panelA_s37_port_class": {
+      "finished_at": "2026-09-17T18:23:07.802087+00:00",
+      "name": "cicids2017_panelA_s37_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 12.7,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/cicids2017_panelA_s73_port_class": {
+      "finished_at": "2026-09-17T18:23:23.519605+00:00",
+      "name": "cicids2017_panelA_s73_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 15.7,
+      "stage": "mondrian_covariate"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "cicids2017_panelA_s101_port_class",
+          "returncode": 0,
+          "seconds": 14.2,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "cicids2017_panelA_s137_port_class",
+          "returncode": 0,
+          "seconds": 13.4,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "cicids2017_panelA_s13_port_class",
+          "returncode": 0,
+          "seconds": 14.2,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "cicids2017_panelA_s37_port_class",
+          "returncode": 0,
+          "seconds": 12.7,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "cicids2017_panelA_s73_port_class",
+          "returncode": 0,
+          "seconds": 15.7,
+          "stage": "mondrian_covariate"
+        }
+      ],
+      "datasets": [
+        "cicids2017"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-17T18:22:12.965807+00:00"
+    }
+  ]
+}

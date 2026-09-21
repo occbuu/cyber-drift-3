@@ -1,0 +1,34 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 4.561912099999972,
+  "methods": {
+    "closed_backbone": {
+      "delta_f1": 0.0,
+      "known_accuracy": 0.16043956043956045,
+      "known_macro_f1": 0.0992210293370017,
+      "known_weighted_f1": 0.1007403407681167
+    },
+    "hedl": {
+      "aupr_out": 0.10436691459851466,
+      "delta_f1": 0.25998245822847454,
+      "fpr95": 0.9582417582417583,
+      "known_accuracy": 0.4087912087912088,
+      "known_macro_f1": 0.35920348756547626,
+      "known_weighted_f1": 0.3578717628990834,
+      "open_world_macro_f1": 0.3120607324459194,
+      "oscr": 0.21172161172161172,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.0,
+      "unknown_auroc": 0.5576068376068376,
+      "unknown_f1": 0.0,
+      "unknown_precision": 0.0,
+      "unknown_recall": 0.0
+    }
+  },
+  "protocol": "loao",
+  "rq": "rq1",
+  "scenario": "Z1",
+  "seed": 13
+}
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq1 --protocol loao --dataset cicids2017 --scenario Z1 --methods hedl,closed_backbone --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq1\ours\loao\cicids2017\Z1\seed_13.json --max-rows 500

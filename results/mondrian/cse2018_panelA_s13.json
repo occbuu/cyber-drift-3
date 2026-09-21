@@ -1,0 +1,119 @@
+{
+  "protocol": "mondrian_predicted_class",
+  "tag": "cse2018_panelA_s13",
+  "results": [
+    {
+      "tag": "cse2018_panelA_s13",
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "scenario": "Z1",
+      "seed": 13,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 12,
+      "pooled": {
+        "fdp": 0.0868952559887271,
+        "power": 0.9682480388494583,
+        "alerts_per_1000": 10.645
+      },
+      "mondrian": {
+        "fdp": 0.06382978723404255,
+        "power": 0.09313908604158884,
+        "alerts_per_1000": 0.99875
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 2,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "2/2",
+      "groups": [
+        {
+          "group": 0,
+          "group_family": "benign",
+          "calibration_size": 1973,
+          "known_flow_share": 0.08421588594704685,
+          "attack_share": 0.8890933824117788,
+          "attack_concentration": 10.557311989460299,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 93.72108061202812,
+          "pooled_in_group_power": 0.9642957154858584,
+          "mondrian_in_group_power": 0.08288994679361524,
+          "pooled_in_group_false_per_1000": 3.691883266167203,
+          "mondrian_in_group_false_per_1000": 0.09466367349146675,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 5,
+          "group_family": "ddos_attacks_loic_http",
+          "calibration_size": 3014,
+          "known_flow_share": 0.12264086897488119,
+          "attack_share": 0.10902616627990717,
+          "attack_concentration": 0.8889872290634003,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 1123.8755519846534,
+          "pooled_in_group_power": 1.0,
+          "mondrian_in_group_power": 0.1764032073310424,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.020365976599492887,
+          "in_group_audit_rejected": false
+        }
+      ]
+    },
+    {
+      "tag": "cse2018_panelA_s13",
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "scenario": "Z1",
+      "seed": 13,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 12,
+      "pooled": {
+        "fdp": 0.584070796460177,
+        "power": 0.058385093167701865,
+        "alerts_per_1000": 0.14125
+      },
+      "mondrian": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 2,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/2",
+      "groups": [
+        {
+          "group": 0,
+          "group_family": "benign",
+          "calibration_size": 1973,
+          "known_flow_share": 0.08421588594704685,
+          "attack_share": 0.8890933824117788,
+          "attack_concentration": 10.557311989460299,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 946.2108061202813,
+          "pooled_in_group_power": 0.0350140056022409,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.8509639367352329,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 5,
+          "group_family": "ddos_attacks_loic_http",
+          "calibration_size": 3014,
+          "known_flow_share": 0.12264086897488119,
+          "attack_share": 0.10902616627990717,
+          "attack_concentration": 0.8889872290634003,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 11247.755519846532,
+          "pooled_in_group_power": 0.24444444444444444,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 1.8280500000000757
+}

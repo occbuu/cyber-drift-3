@@ -1,0 +1,7 @@
+[latency] floored: {'256': {'ms_per_flow_median': 0.06316916468348376, 'flows_per_second_median': 15830.508524382318}, '1024': {'ms_per_flow_median': 0.0380767563065224, 'flows_per_second_median': 26262.741288934423}, '4096': {'ms_per_flow_median': 0.032589416944313054, 'flows_per_second_median': 30684.80794574335}} spearman=0.999992
+[latency] tail_lifted: {'256': {'ms_per_flow_median': 0.07314997620180838, 'flows_per_second_median': 13670.544433824143}, '1024': {'ms_per_flow_median': 0.041658933841029464, 'flows_per_second_median': 24004.454934348563}, '4096': {'ms_per_flow_median': 0.032734074250359166, 'flows_per_second_median': 30549.206687555175}} spearman=0.999992
+{
+  "256": 1.1580013218210912,
+  "1024": 1.0940778018397919,
+  "4096": 1.0044387816539735
+}

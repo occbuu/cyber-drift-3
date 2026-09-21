@@ -1,0 +1,50 @@
+[
+  {
+    "track": "rq1_ours",
+    "exit_code": 0,
+    "elapsed_seconds": 14.7,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\mock_logs_2026-08-31\\rq1_ours.log"
+  },
+  {
+    "track": "rq1_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 22.78,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\mock_logs_2026-08-31\\rq1_baselines.log"
+  },
+  {
+    "track": "rq2_difficulty_ours",
+    "exit_code": 0,
+    "elapsed_seconds": 30.22,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\mock_logs_2026-08-31\\rq2_difficulty_ours.log"
+  },
+  {
+    "track": "rq2_difficulty_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 65.46,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\mock_logs_2026-08-31\\rq2_difficulty_baselines.log"
+  },
+  {
+    "track": "rq2_cross_domain_ours",
+    "exit_code": 0,
+    "elapsed_seconds": 22.69,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\mock_logs_2026-08-31\\rq2_cross_domain_ours.log"
+  },
+  {
+    "track": "rq2_cross_domain_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 34.63,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\mock_logs_2026-08-31\\rq2_cross_domain_baselines.log"
+  },
+  {
+    "track": "rq3_ours",
+    "exit_code": 0,
+    "elapsed_seconds": 11.18,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\mock_logs_2026-08-31\\rq3_ours.log"
+  },
+  {
+    "track": "rq3_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 18.22,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\mock_logs_2026-08-31\\rq3_baselines.log"
+  }
+]

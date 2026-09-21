@@ -1,0 +1,162 @@
+{
+  "jobs": {
+    "operator/cicids2017_panelA_s101_q0.1": {
+      "finished_at": "2026-09-16T17:37:04.440780+00:00",
+      "name": "cicids2017_panelA_s101_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 46.8,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s101_q0.2": {
+      "finished_at": "2026-09-16T17:37:49.197413+00:00",
+      "name": "cicids2017_panelA_s101_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 44.7,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s137_q0.1": {
+      "finished_at": "2026-09-16T17:39:01.901595+00:00",
+      "name": "cicids2017_panelA_s137_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 72.7,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s137_q0.2": {
+      "finished_at": "2026-09-16T17:40:23.951441+00:00",
+      "name": "cicids2017_panelA_s137_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 82.0,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s13_q0.1": {
+      "finished_at": "2026-09-16T17:41:44.509391+00:00",
+      "name": "cicids2017_panelA_s13_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 80.5,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s13_q0.2": {
+      "finished_at": "2026-09-16T17:42:53.202742+00:00",
+      "name": "cicids2017_panelA_s13_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 68.7,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s37_q0.1": {
+      "finished_at": "2026-09-16T17:43:40.344241+00:00",
+      "name": "cicids2017_panelA_s37_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 47.1,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s37_q0.2": {
+      "finished_at": "2026-09-16T17:44:45.791174+00:00",
+      "name": "cicids2017_panelA_s37_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 65.4,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s73_q0.1": {
+      "finished_at": "2026-09-16T17:45:50.316988+00:00",
+      "name": "cicids2017_panelA_s73_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 64.5,
+      "stage": "operator"
+    },
+    "operator/cicids2017_panelA_s73_q0.2": {
+      "finished_at": "2026-09-16T17:46:59.501429+00:00",
+      "name": "cicids2017_panelA_s73_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 69.1,
+      "stage": "operator"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "cicids2017_panelA_s101_q0.1",
+          "returncode": 0,
+          "seconds": 46.8,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s101_q0.2",
+          "returncode": 0,
+          "seconds": 44.7,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s137_q0.1",
+          "returncode": 0,
+          "seconds": 72.7,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s137_q0.2",
+          "returncode": 0,
+          "seconds": 82.0,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s13_q0.1",
+          "returncode": 0,
+          "seconds": 80.5,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s13_q0.2",
+          "returncode": 0,
+          "seconds": 68.7,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s37_q0.1",
+          "returncode": 0,
+          "seconds": 47.1,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s37_q0.2",
+          "returncode": 0,
+          "seconds": 65.4,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s73_q0.1",
+          "returncode": 0,
+          "seconds": 64.5,
+          "stage": "operator"
+        },
+        {
+          "name": "cicids2017_panelA_s73_q0.2",
+          "returncode": 0,
+          "seconds": 69.1,
+          "stage": "operator"
+        }
+      ],
+      "datasets": [
+        "cicids2017"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T17:36:17.429295+00:00"
+    }
+  ]
+}

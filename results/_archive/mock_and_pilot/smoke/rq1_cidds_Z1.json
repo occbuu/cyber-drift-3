@@ -1,0 +1,24 @@
+{
+  "dataset": "cidds_001",
+  "elapsed_seconds": 21.811261900002137,
+  "methods": {
+    "closed_backbone": {
+      "known_accuracy": 0.7942607404964129,
+      "known_macro_f1": 0.7462988197608494,
+      "known_weighted_f1": 0.785905737073845
+    },
+    "energy": {
+      "known_accuracy": 0.7942607404964129,
+      "known_macro_f1": 0.7462988197608494,
+      "known_weighted_f1": 0.785905737073845
+    },
+    "msp": {
+      "known_accuracy": 0.7942607404964129,
+      "known_macro_f1": 0.7462988197608494,
+      "known_weighted_f1": 0.785905737073845
+    }
+  },
+  "rq": "rq1",
+  "scenario": "Z1",
+  "seed": 13
+}

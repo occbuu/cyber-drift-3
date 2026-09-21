@@ -1,0 +1,90 @@
+{
+  "protocol": "mondrian_protocol",
+  "tag": "cse2018_panelA_s137",
+  "grouping": "protocol",
+  "results": [
+    {
+      "tag": "cse2018_panelA_s137",
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "scenario": "Z1",
+      "seed": 137,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 2,
+      "pooled": {
+        "fdp": 0.10092155540570914,
+        "power": 0.9961399576640518,
+        "alerts_per_1000": 11.1225
+      },
+      "mondrian": {
+        "fdp": 0.10813823857302118,
+        "power": 0.9961399576640518,
+        "alerts_per_1000": 11.2125
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 1,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/1",
+      "groups": [
+        {
+          "group": 2,
+          "group_family": "tcp",
+          "calibration_size": 20739,
+          "known_flow_share": 0.8673794976238968,
+          "attack_share": 1.0,
+          "attack_concentration": 1.1528978984855007,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 866.3794976238968,
+          "pooled_in_group_power": 0.9961399576640518,
+          "mondrian_in_group_power": 0.9961399576640518,
+          "pooled_in_group_false_per_1000": 1.221609099476967,
+          "mondrian_in_group_false_per_1000": 1.2057814197428722,
+          "in_group_audit_rejected": false
+        }
+      ]
+    },
+    {
+      "tag": "cse2018_panelA_s137",
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "scenario": "Z1",
+      "seed": 137,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 2,
+      "pooled": {
+        "fdp": 0.19648093841642228,
+        "power": 0.3403726708074534,
+        "alerts_per_1000": 0.42625
+      },
+      "mondrian": {
+        "fdp": 0.17846153846153845,
+        "power": 0.3316770186335404,
+        "alerts_per_1000": 0.40625
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 1,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/1",
+      "groups": [
+        {
+          "group": 2,
+          "group_family": "tcp",
+          "calibration_size": 20739,
+          "known_flow_share": 0.8673794976238968,
+          "attack_share": 1.0,
+          "attack_concentration": 1.1528978984855007,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 8672.794976238967,
+          "pooled_in_group_power": 0.3403726708074534,
+          "mondrian_in_group_power": 0.3316770186335404,
+          "pooled_in_group_false_per_1000": 0.08933511619328662,
+          "mondrian_in_group_false_per_1000": 0.08068978236812985,
+          "in_group_audit_rejected": false
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 8.3052301000007
+}

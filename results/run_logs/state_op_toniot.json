@@ -1,0 +1,162 @@
+{
+  "jobs": {
+    "operator/toniot_panelA_s101_q0.1": {
+      "finished_at": "2026-09-16T17:37:04.603466+00:00",
+      "name": "toniot_panelA_s101_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 46.9,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s101_q0.2": {
+      "finished_at": "2026-09-16T17:37:49.084879+00:00",
+      "name": "toniot_panelA_s101_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 44.5,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s137_q0.1": {
+      "finished_at": "2026-09-16T17:39:01.836695+00:00",
+      "name": "toniot_panelA_s137_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 72.7,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s137_q0.2": {
+      "finished_at": "2026-09-16T17:40:23.950463+00:00",
+      "name": "toniot_panelA_s137_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 82.1,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s13_q0.1": {
+      "finished_at": "2026-09-16T17:41:44.700990+00:00",
+      "name": "toniot_panelA_s13_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 80.7,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s13_q0.2": {
+      "finished_at": "2026-09-16T17:42:53.461325+00:00",
+      "name": "toniot_panelA_s13_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 68.7,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s37_q0.1": {
+      "finished_at": "2026-09-16T17:43:39.598547+00:00",
+      "name": "toniot_panelA_s37_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 46.1,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s37_q0.2": {
+      "finished_at": "2026-09-16T17:44:45.834010+00:00",
+      "name": "toniot_panelA_s37_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 66.2,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s73_q0.1": {
+      "finished_at": "2026-09-16T17:45:50.307475+00:00",
+      "name": "toniot_panelA_s73_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 64.4,
+      "stage": "operator"
+    },
+    "operator/toniot_panelA_s73_q0.2": {
+      "finished_at": "2026-09-16T17:46:59.381469+00:00",
+      "name": "toniot_panelA_s73_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 69.0,
+      "stage": "operator"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "toniot_panelA_s101_q0.1",
+          "returncode": 0,
+          "seconds": 46.9,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s101_q0.2",
+          "returncode": 0,
+          "seconds": 44.5,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s137_q0.1",
+          "returncode": 0,
+          "seconds": 72.7,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s137_q0.2",
+          "returncode": 0,
+          "seconds": 82.1,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s13_q0.1",
+          "returncode": 0,
+          "seconds": 80.7,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s13_q0.2",
+          "returncode": 0,
+          "seconds": 68.7,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s37_q0.1",
+          "returncode": 0,
+          "seconds": 46.1,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s37_q0.2",
+          "returncode": 0,
+          "seconds": 66.2,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s73_q0.1",
+          "returncode": 0,
+          "seconds": 64.4,
+          "stage": "operator"
+        },
+        {
+          "name": "toniot_panelA_s73_q0.2",
+          "returncode": 0,
+          "seconds": 69.0,
+          "stage": "operator"
+        }
+      ],
+      "datasets": [
+        "nf_ton_iot_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T17:36:17.468492+00:00"
+    }
+  ]
+}

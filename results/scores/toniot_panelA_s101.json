@@ -1,0 +1,138 @@
+{
+  "calibration_size": 21095,
+  "curvature": 0.0,
+  "dataset": "nf_ton_iot_v3",
+  "deduplicate_source_ids": true,
+  "device": "cuda",
+  "epochs": 30,
+  "known_families": [
+    "benign",
+    "backdoor",
+    "dos",
+    "injection",
+    "mitm",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ],
+  "methods": {
+    "closr": {
+      "diagnostics": {
+        "inference_seconds": 1.729708800005028,
+        "milliseconds_per_scored_flow": 0.025220296279088825
+      },
+      "distinct_calibration_scores": 20825,
+      "distinct_test_scores": 46947,
+      "open_set": {
+        "aupr_out": 0.6989924011009615,
+        "fpr95": 0.32833371498358904,
+        "known_accuracy": 0.9024120296160598,
+        "known_macro_f1": 0.8966313714094561,
+        "known_weighted_f1": 0.9021159191125744,
+        "oscr": 0.7730064446810064,
+        "tpr_at_0_1_fpr": 0.01620707474045192,
+        "tpr_at_1_fpr": 0.041527692958143465,
+        "tpr_at_5_fpr": 0.10649692300465073,
+        "unknown_auroc": 0.8274715685440399
+      },
+      "seconds": 803.1994080000004,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.8274715685440399
+    },
+    "efc": {
+      "diagnostics": {
+        "inference_seconds": 543.249161899992,
+        "milliseconds_per_scored_flow": 7.920931440277499
+      },
+      "distinct_calibration_scores": 2178,
+      "distinct_test_scores": 2898,
+      "open_set": {
+        "aupr_out": 0.6609828172284267,
+        "fpr95": 0.9054652316617052,
+        "known_accuracy": 0.6684604228684833,
+        "known_macro_f1": 0.6108854028266477,
+        "known_weighted_f1": 0.6243023762115395,
+        "oscr": 0.4067345078637433,
+        "tpr_at_0_1_fpr": 0.20693380936721942,
+        "tpr_at_1_fpr": 0.21233616761403673,
+        "tpr_at_5_fpr": 0.3203363555221497,
+        "unknown_auroc": 0.5878016739807363
+      },
+      "seconds": 632.6654978000006,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.5878016739807363
+    },
+    "hedl": {
+      "diagnostics": {
+        "inference_seconds": 3.241510100007872,
+        "milliseconds_per_scored_flow": 0.04726335734293526,
+        "scorer_density_reference_size": 65536.0,
+        "scorer_fusion_weight_knn": 0.8852973662541503,
+        "scorer_fusion_weight_md": 1.1134228136183224,
+        "scorer_fusion_weight_rmd": 1.0012798201275273,
+        "scorer_neighbors": 1.0,
+        "scorer_proxy_auroc_knn": 0.8747764378786087,
+        "scorer_proxy_auroc_md": 0.971349686384201,
+        "scorer_proxy_auroc_rmd": 0.9238757491111755,
+        "scorer_proxy_density_auroc": 0.8747764378786087,
+        "scorer_proxy_evidential_auroc": 0.971349686384201,
+        "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+        "scorer_tail_extension": "off"
+      },
+      "distinct_calibration_scores": 20983,
+      "distinct_test_scores": 43065,
+      "open_set": {
+        "aupr_out": 0.9165437708892642,
+        "fpr95": 0.15811770093885963,
+        "known_accuracy": 0.9251965498816884,
+        "known_macro_f1": 0.9262095513839598,
+        "known_weighted_f1": 0.9249426311210123,
+        "oscr": 0.8887785535913928,
+        "tpr_at_0_1_fpr": 0.022079203269601166,
+        "tpr_at_1_fpr": 0.20463193498379292,
+        "tpr_at_5_fpr": 0.6608258561563396,
+        "unknown_auroc": 0.9541846196205552
+      },
+      "seconds": 514.6004785999976,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.9541846196205552
+    },
+    "renoir_dml": {
+      "diagnostics": {
+        "inference_seconds": 1.5121212999947602,
+        "milliseconds_per_scored_flow": 0.022047726874996502
+      },
+      "distinct_calibration_scores": 17115,
+      "distinct_test_scores": 32339,
+      "open_set": {
+        "aupr_out": 0.7034576380432688,
+        "fpr95": 0.5763682161667049,
+        "known_accuracy": 0.8697046027020838,
+        "known_macro_f1": 0.8633165996939505,
+        "known_weighted_f1": 0.8645143981599037,
+        "oscr": 0.7154380848845747,
+        "tpr_at_0_1_fpr": 0.0,
+        "tpr_at_1_fpr": 0.0011744257058298492,
+        "tpr_at_5_fpr": 0.10837600413397848,
+        "unknown_auroc": 0.8085691657423745
+      },
+      "seconds": 323.92754990000685,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.8085691657423745
+    }
+  },
+  "profile": "balanced",
+  "scenario": "Z1",
+  "seed": 101,
+  "tail_anchor_exceedances": 250,
+  "tail_confidence": 0.0,
+  "tail_extension": false,
+  "test_known": 26202,
+  "test_unknown": 21287,
+  "tuning_fraction": 0.2,
+  "tuning_size": 5275,
+  "unknown_families": [
+    "ddos"
+  ]
+}

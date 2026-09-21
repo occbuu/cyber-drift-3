@@ -1,0 +1,1802 @@
+[
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.09055074588276689,
+    "draws_over_q": 0.0,
+    "power": 0.9719037736222523
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.05071323646708438,
+    "draws_over_q": 0.0,
+    "power": 0.672734029304583
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.04150275185770542,
+    "draws_over_q": 0.0,
+    "power": 0.1754966934529764
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.6233804251304252,
+    "draws_over_q": 1.0,
+    "power": 0.060664042055820246
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.18646555789281627,
+    "draws_over_q": 0.0,
+    "power": 0.9997748390108386
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.14318599332167764,
+    "draws_over_q": 0.0,
+    "power": 0.9956229223088711
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.040315789473684215,
+    "draws_over_q": 0.0,
+    "power": 0.24004516277300875
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.30986052411675136,
+    "draws_over_q": 1.0,
+    "power": 0.3799073679124256
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.1779642857142857,
+    "draws_over_q": 0.2,
+    "power": 0.02173855872660723
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.18111904761904762,
+    "draws_over_q": 0.4,
+    "power": 0.019034613383542284
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.11385028813725875,
+    "draws_over_q": 1.0,
+    "power": 0.9356992172638575
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0700410956103179,
+    "draws_over_q": 0.0,
+    "power": 0.8741275369199885
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.009725967540574282,
+    "draws_over_q": 0.0,
+    "power": 0.242424204990852
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.144511835146587,
+    "draws_over_q": 1.0,
+    "power": 0.35633729219815546
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.00375,
+    "draws_over_q": 0.0,
+    "power": 0.008175269735925913
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.004,
+    "draws_over_q": 0.0,
+    "power": 0.006784895404375111
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.20152528387440977,
+    "draws_over_q": 0.8,
+    "power": 0.9793053272608893
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.15931147523792638,
+    "draws_over_q": 0.0,
+    "power": 0.9644506711435799
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0102,
+    "draws_over_q": 0.0,
+    "power": 0.2493470456076244
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.33867572985054223,
+    "draws_over_q": 1.0,
+    "power": 0.7035039487591387
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.2090617968445906,
+    "draws_over_q": 0.2,
+    "power": 0.22264370722463714
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.17873570580905013,
+    "draws_over_q": 0.2,
+    "power": 0.20714997643956062
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.08271268577329546,
+    "draws_over_q": 0.0,
+    "power": 0.9988945008812127
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.04565963874162946,
+    "draws_over_q": 0.0,
+    "power": 0.9891161846548375
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.02223684210526316,
+    "draws_over_q": 0.0,
+    "power": 0.24342916040067536
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.22194069331189628,
+    "draws_over_q": 1.0,
+    "power": 0.341481371427958
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.01111111111111111,
+    "draws_over_q": 0.0,
+    "power": 0.00564291231364402
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.012,
+    "draws_over_q": 0.0,
+    "power": 0.003297500382866236
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.17113109231650026,
+    "draws_over_q": 0.0,
+    "power": 1.0
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.13128782227749597,
+    "draws_over_q": 0.0,
+    "power": 0.999794899952706
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0223,
+    "draws_over_q": 0.0,
+    "power": 0.24391476944926427
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.2761670390914829,
+    "draws_over_q": 1.0,
+    "power": 0.854707234795408
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.2216629155341185,
+    "draws_over_q": 0.8,
+    "power": 0.3417844017309883
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.19245769456813147,
+    "draws_over_q": 0.4,
+    "power": 0.3254044181852178
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.07901417507877521,
+    "draws_over_q": 0.0,
+    "power": 0.9815190342474913
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.05491877144175472,
+    "draws_over_q": 0.0,
+    "power": 0.9398697224451149
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.013310526315789476,
+    "draws_over_q": 0.0,
+    "power": 0.2454684876703097
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.16974694190409526,
+    "draws_over_q": 1.0,
+    "power": 0.43463391382872585
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.004777777777777778,
+    "draws_over_q": 0.0,
+    "power": 0.010410207097896685
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.004,
+    "draws_over_q": 0.0,
+    "power": 0.009123371349104412
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.17038956419145027,
+    "draws_over_q": 0.0,
+    "power": 0.9991934734819464
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.12236702318409369,
+    "draws_over_q": 0.0,
+    "power": 0.9953533917571056
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0137,
+    "draws_over_q": 0.0,
+    "power": 0.247863351067251
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.26368303528626447,
+    "draws_over_q": 1.0,
+    "power": 0.7613582059869997
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.19038767390984934,
+    "draws_over_q": 0.2,
+    "power": 0.19897591950098076
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.16260529083321518,
+    "draws_over_q": 0.2,
+    "power": 0.18732736246216192
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.10243433012471037,
+    "draws_over_q": 0.8,
+    "power": 0.9965625995253404
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.06328786657097943,
+    "draws_over_q": 0.0,
+    "power": 0.9661805752271244
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.010521637426900585,
+    "draws_over_q": 0.0,
+    "power": 0.24826718952245783
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.17989420841435622,
+    "draws_over_q": 1.0,
+    "power": 0.33562193308771404
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.002916666666666667,
+    "draws_over_q": 0.0,
+    "power": 0.007214336928780554
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0067976702621138875
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.20252447456854608,
+    "draws_over_q": 0.6,
+    "power": 0.9998228337075602
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.15335370106692944,
+    "draws_over_q": 0.0,
+    "power": 0.999261909861632
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0109,
+    "draws_over_q": 0.0,
+    "power": 0.25061965584258483
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.3154413033042247,
+    "draws_over_q": 1.0,
+    "power": 0.8022330410351886
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.21865130936479726,
+    "draws_over_q": 0.6,
+    "power": 0.23789999191300676
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.2010851567641871,
+    "draws_over_q": 0.4,
+    "power": 0.22168421460306914
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.08739096036041596,
+    "draws_over_q": 0.0,
+    "power": 0.7606724399116139
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.08496843724874828,
+    "draws_over_q": 0.0,
+    "power": 0.22853187902134744
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0883368686868687,
+    "draws_over_q": 0.2,
+    "power": 0.06037131515802652
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.1351825396825397,
+    "draws_over_q": 0.8,
+    "power": 0.025430641148483906
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.1357468406283906,
+    "draws_over_q": 0.0,
+    "power": 0.8906063468943388
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.092663768859408,
+    "draws_over_q": 0.0,
+    "power": 0.7887569758203506
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.07683453732370142,
+    "draws_over_q": 0.0,
+    "power": 0.2228442236538216
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.4774437998813199,
+    "draws_over_q": 1.0,
+    "power": 0.33149108474489486
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.031047619047619046,
+    "draws_over_q": 0.0,
+    "power": 0.005504788403815864
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.03200000000000001,
+    "draws_over_q": 0.0,
+    "power": 0.004276433425460887
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.13192780789739716,
+    "draws_over_q": 1.0,
+    "power": 0.14653717893411827
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0025,
+    "draws_over_q": 0.0,
+    "power": 0.00028776978417266187
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.004,
+    "draws_over_q": 0.0,
+    "power": 7.194244604316547e-05
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.19,
+    "draws_over_q": 0.8,
+    "power": 0.004663195449989256
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.16930588613623382,
+    "draws_over_q": 0.0,
+    "power": 0.5482352076981419
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.13762180287382636,
+    "draws_over_q": 0.0,
+    "power": 0.15864599273097021
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.1298982064618181,
+    "draws_over_q": 0.0,
+    "power": 0.05659318156948211
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.6208716863202157,
+    "draws_over_q": 1.0,
+    "power": 0.06620169819284744
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.1385225189139372,
+    "draws_over_q": 1.0,
+    "power": 0.24794763210096704
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.026984486102133158,
+    "draws_over_q": 0.0,
+    "power": 0.005842124705912805
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.023000000000000003,
+    "draws_over_q": 0.0,
+    "power": 0.002375928986575701
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.1073888888888889,
+    "draws_over_q": 0.6,
+    "power": 0.008965971382383517
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.20001705497269842,
+    "draws_over_q": 0.4,
+    "power": 0.8167474201651729
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.14920999024389064,
+    "draws_over_q": 0.0,
+    "power": 0.3446851289991981
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.13344540182040182,
+    "draws_over_q": 0.0,
+    "power": 0.11805146885175796
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.5929283552176244,
+    "draws_over_q": 1.0,
+    "power": 0.1295474035545135
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.02,
+    "draws_over_q": 0.0,
+    "power": 0.0015354057523505533
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.018,
+    "draws_over_q": 0.0,
+    "power": 0.0015354057523505533
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.10539784605008032,
+    "draws_over_q": 0.6,
+    "power": 0.6958727233128065
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.09583690880820503,
+    "draws_over_q": 0.4,
+    "power": 0.07005866109404454
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.1186,
+    "draws_over_q": 0.6,
+    "power": 0.02076960773125399
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.38629068154068147,
+    "draws_over_q": 1.0,
+    "power": 0.045261193139293325
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.16992854569045365,
+    "draws_over_q": 0.0,
+    "power": 0.9082682739392137
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.12439403790822237,
+    "draws_over_q": 0.0,
+    "power": 0.7710361687832351
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.11962290161678706,
+    "draws_over_q": 0.0,
+    "power": 0.2010647741533956
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.5489415101240118,
+    "draws_over_q": 1.0,
+    "power": 0.2888082054777673
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.08563744588744589,
+    "draws_over_q": 0.0,
+    "power": 0.010235583993766704
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.08600000000000001,
+    "draws_over_q": 0.0,
+    "power": 0.00915912341520743
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.04369084316894467,
+    "draws_over_q": 0.0,
+    "power": 0.01806210608366129
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.13122990541051302,
+    "draws_over_q": 0.0,
+    "power": 0.4833400806815291
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.09734618089682867,
+    "draws_over_q": 0.0,
+    "power": 0.057809260315456225
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.14463333333333334,
+    "draws_over_q": 0.0,
+    "power": 0.01560158777629132
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.052000000000000005,
+    "draws_over_q": 0.0,
+    "power": 0.0021235117923934657
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.05,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.07,
+    "draws_over_q": 0.2,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.7739640343704811,
+    "draws_over_q": 1.0,
+    "power": 0.002817696192481169
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.8244047619047619,
+    "draws_over_q": 1.0,
+    "power": 0.0008276311502117953
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.5184444444444444,
+    "draws_over_q": 1.0,
+    "power": 0.0030080448225092787
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.7121666666666667,
+    "draws_over_q": 1.0,
+    "power": 0.0033608880410681365
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.43487301587301586,
+    "draws_over_q": 1.0,
+    "power": 0.004934929211923513
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.1,
+    "draws_over_q": 0.0,
+    "power": 0.00019905294504876284
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.1,
+    "draws_over_q": 0.0,
+    "power": 0.00019905294504876284
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.6929444444444445,
+    "draws_over_q": 1.0,
+    "power": 0.005120119553296362
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.08,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.08,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.16528571428571429,
+    "draws_over_q": 0.8,
+    "power": 0.0031768780072079852
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.15916666666666668,
+    "draws_over_q": 0.6,
+    "power": 0.0046267033733022305
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.5574822399822399,
+    "draws_over_q": 1.0,
+    "power": 0.005913187293260607
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.026666666666666672,
+    "draws_over_q": 0.0,
+    "power": 0.0002007340279573614
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.026666666666666672,
+    "draws_over_q": 0.0,
+    "power": 0.0002007340279573614
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.89708658008658,
+    "draws_over_q": 1.0,
+    "power": 0.006197005818604676
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.026666666666666665,
+    "draws_over_q": 0.0,
+    "power": 0.00024390243902439024
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.026666666666666665,
+    "draws_over_q": 0.0,
+    "power": 0.00024390243902439024
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 7.747327038665622e-05
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.145,
+    "draws_over_q": 0.0,
+    "power": 0.00023614885314665861
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.12249999999999998,
+    "draws_over_q": 0.2,
+    "power": 0.0004976851851851852
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.8554999999999999,
+    "draws_over_q": 1.0,
+    "power": 0.00027735595258540256
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.8700000000000001,
+    "draws_over_q": 1.0,
+    "power": 0.0004290876242095754
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.1,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "marginal",
+    "mean_fdr": 0.8031657509157508,
+    "draws_over_q": 1.0,
+    "power": 0.0015274949334224256
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "uncapped",
+    "mean_fdr": 0.05500000000000001,
+    "draws_over_q": 0.0,
+    "power": 2.4937655860349125e-05
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.01,
+    "arm": "capped",
+    "mean_fdr": 0.05500000000000001,
+    "draws_over_q": 0.0,
+    "power": 2.4937655860349125e-05
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "marginal",
+    "mean_fdr": 0.8875,
+    "draws_over_q": 1.0,
+    "power": 0.0007415876242095755
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "uncapped",
+    "mean_fdr": 0.07,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "q": 0.2,
+    "prevalence": 0.001,
+    "arm": "capped",
+    "mean_fdr": 0.07,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  }
+]

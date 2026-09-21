@@ -1,0 +1,162 @@
+{
+  "jobs": {
+    "operator/cse2018_panelA_s101_q0.1": {
+      "finished_at": "2026-09-16T17:37:04.428683+00:00",
+      "name": "cse2018_panelA_s101_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 46.9,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s101_q0.2": {
+      "finished_at": "2026-09-16T17:37:49.225413+00:00",
+      "name": "cse2018_panelA_s101_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 44.8,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s137_q0.1": {
+      "finished_at": "2026-09-16T17:39:01.636628+00:00",
+      "name": "cse2018_panelA_s137_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 72.4,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s137_q0.2": {
+      "finished_at": "2026-09-16T17:40:24.524859+00:00",
+      "name": "cse2018_panelA_s137_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 82.8,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s13_q0.1": {
+      "finished_at": "2026-09-16T17:41:44.508282+00:00",
+      "name": "cse2018_panelA_s13_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 79.9,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s13_q0.2": {
+      "finished_at": "2026-09-16T17:42:53.052565+00:00",
+      "name": "cse2018_panelA_s13_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 68.5,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s37_q0.1": {
+      "finished_at": "2026-09-16T17:43:40.205701+00:00",
+      "name": "cse2018_panelA_s37_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 47.1,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s37_q0.2": {
+      "finished_at": "2026-09-16T17:44:45.284849+00:00",
+      "name": "cse2018_panelA_s37_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 65.0,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s73_q0.1": {
+      "finished_at": "2026-09-16T17:45:49.137357+00:00",
+      "name": "cse2018_panelA_s73_q0.1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 63.8,
+      "stage": "operator"
+    },
+    "operator/cse2018_panelA_s73_q0.2": {
+      "finished_at": "2026-09-16T17:47:00.664888+00:00",
+      "name": "cse2018_panelA_s73_q0.2",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 71.5,
+      "stage": "operator"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "cse2018_panelA_s101_q0.1",
+          "returncode": 0,
+          "seconds": 46.9,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s101_q0.2",
+          "returncode": 0,
+          "seconds": 44.8,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s137_q0.1",
+          "returncode": 0,
+          "seconds": 72.4,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s137_q0.2",
+          "returncode": 0,
+          "seconds": 82.8,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s13_q0.1",
+          "returncode": 0,
+          "seconds": 79.9,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s13_q0.2",
+          "returncode": 0,
+          "seconds": 68.5,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s37_q0.1",
+          "returncode": 0,
+          "seconds": 47.1,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s37_q0.2",
+          "returncode": 0,
+          "seconds": 65.0,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s73_q0.1",
+          "returncode": 0,
+          "seconds": 63.8,
+          "stage": "operator"
+        },
+        {
+          "name": "cse2018_panelA_s73_q0.2",
+          "returncode": 0,
+          "seconds": 71.5,
+          "stage": "operator"
+        }
+      ],
+      "datasets": [
+        "nf_cse_cic_ids2018_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T17:36:17.399940+00:00"
+    }
+  ]
+}

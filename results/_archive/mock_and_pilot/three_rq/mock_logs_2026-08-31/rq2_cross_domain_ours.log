@@ -1,0 +1,72 @@
+{
+  "dataset": "nf_unsw_nb15_v3",
+  "elapsed_seconds": 4.096678600000814,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.19741318976768402,
+      "fpr95": 0.9653333333333334,
+      "known_accuracy": 0.2986666666666667,
+      "known_macro_f1": 0.12248524143132733,
+      "known_weighted_f1": 0.24497048286265466,
+      "open_world_macro_f1": 0.06440479351871757,
+      "oscr": 0.06430933333333333,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.0,
+      "unknown_auroc": 0.37931733333333334,
+      "unknown_f1": 0.07179487179487179,
+      "unknown_precision": 0.1,
+      "unknown_recall": 0.056
+    }
+  },
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos"
+  ],
+  "target_dataset": "nf_ton_iot_v3"
+}
+{
+  "dataset": "nf_ton_iot_v3",
+  "elapsed_seconds": 5.890079099999639,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.19547818261168387,
+      "fpr95": 0.9675,
+      "known_accuracy": 0.135,
+      "known_macro_f1": 0.046397383710816545,
+      "known_weighted_f1": 0.1507914970601538,
+      "open_world_macro_f1": 0.07454666854751493,
+      "oscr": 0.1059,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.01,
+      "unknown_auroc": 0.48406250000000006,
+      "unknown_f1": 0.2973621103117506,
+      "unknown_precision": 0.19558359621451105,
+      "unknown_recall": 0.62
+    }
+  },
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos",
+    "reconnaissance"
+  ],
+  "source_datasets": [
+    "nf_ton_iot_v3",
+    "nf_bot_iot_v3",
+    "nf_cse_cic_ids2018_v3"
+  ],
+  "target_dataset": "nf_unsw_nb15_v3"
+}
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq2 --protocol cross_domain --dataset nf_unsw_nb15_v3 --scenario Z1 --methods hedl --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq2\ours\cross_domain\source_target\nf_unsw_nb15_v3_to_nf_ton_iot_v3\seed_13.json --target-dataset nf_ton_iot_v3 --max-rows 500
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq2 --protocol cross_domain --dataset nf_ton_iot_v3 --scenario Z1 --methods hedl --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq2\ours\cross_domain\leave_one_environment_out\nf_unsw_nb15_v3\seed_13.json --target-dataset nf_unsw_nb15_v3 --source-datasets nf_ton_iot_v3,nf_bot_iot_v3,nf_cse_cic_ids2018_v3 --max-rows 500

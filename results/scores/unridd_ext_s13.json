@@ -1,0 +1,69 @@
+{
+  "calibration_size": 3368,
+  "curvature": 0.0,
+  "dataset": "unr_idd",
+  "deduplicate_source_ids": true,
+  "device": "cuda",
+  "epochs": 30,
+  "evidential_weight": 1.0,
+  "holdout_groups": true,
+  "holdout_threshold": null,
+  "known_families": [
+    "benign",
+    "blackhole",
+    "diversion",
+    "overflow",
+    "tcp_syn"
+  ],
+  "margin_weight": 1.0,
+  "methods": {
+    "hedl": {
+      "diagnostics": {
+        "inference_seconds": 0.49683340000046883,
+        "milliseconds_per_scored_flow": 0.02911417521245056,
+        "scorer_density_reference_size": 19502.0,
+        "scorer_fusion_weight_knn": 1.044937777144901,
+        "scorer_fusion_weight_md": 1.0319911276125804,
+        "scorer_fusion_weight_rmd": 0.9230710952425184,
+        "scorer_neighbors": 1.0,
+        "scorer_proxy_auroc_knn": 0.9900564484013908,
+        "scorer_proxy_auroc_md": 0.9839847097512274,
+        "scorer_proxy_auroc_rmd": 0.9329032335231597,
+        "scorer_proxy_density_auroc": 0.9900564484013908,
+        "scorer_proxy_evidential_auroc": 0.9839847097512274,
+        "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+        "scorer_tail_extension": "off"
+      },
+      "distinct_calibration_scores": 3368,
+      "distinct_test_scores": 10060,
+      "open_set": {
+        "aupr_out": 0.9491378589188602,
+        "fpr95": 0.5824202000952835,
+        "known_accuracy": 0.974511672224869,
+        "known_macro_f1": 0.9556214188075133,
+        "known_weighted_f1": 0.9741547682822173,
+        "oscr": 0.8646752690950493,
+        "tpr_at_0_1_fpr": 0.3807769238867249,
+        "tpr_at_1_fpr": 0.529950521107485,
+        "tpr_at_5_fpr": 0.6268028213496157,
+        "unknown_auroc": 0.8819414480629615
+      },
+      "seconds": 37.3097547999987,
+      "test_scores_at_maximum": 830,
+      "unknown_auroc": 0.8819414480629615
+    }
+  },
+  "profile": "balanced",
+  "scenario": "Z1",
+  "seed": 13,
+  "tail_anchor_exceedances": 250,
+  "tail_confidence": 0.0,
+  "tail_extension": false,
+  "test_known": 4198,
+  "test_unknown": 9499,
+  "tuning_fraction": 0.2,
+  "tuning_size": 843,
+  "unknown_families": [
+    "portscan"
+  ]
+}

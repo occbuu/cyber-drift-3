@@ -1,0 +1,41 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 223.74382310000146,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.9890740276029083,
+      "closed_reference_macro_f1": 0.8683569746523907,
+      "delta_f1": 0.005642735389687292,
+      "far": 0.009518213866039953,
+      "fpr95": 0.047708578143360755,
+      "frr": 0.35852,
+      "known_accuracy": 0.9777908343125734,
+      "known_macro_f1": 0.873999710042078,
+      "known_weighted_f1": 0.9761080355808772,
+      "open_world_macro_f1": 0.8068222751632742,
+      "oscr": 0.9678889518213867,
+      "scorer_density_reference_size": 65536.0,
+      "scorer_fusion_weight_knn": 1.001215619969325,
+      "scorer_fusion_weight_md": 1.0389924801681982,
+      "scorer_fusion_weight_rmd": 0.9597918998624766,
+      "scorer_neighbors": 1.0,
+      "scorer_proxy_auroc_knn": 0.8673514604568481,
+      "scorer_proxy_auroc_md": 0.8812119960784912,
+      "scorer_proxy_auroc_rmd": 0.8521528720855713,
+      "scorer_proxy_density_auroc": 0.8673514604568481,
+      "scorer_proxy_evidential_auroc": 0.8812119960784912,
+      "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+      "tpr_at_0_1_fpr": 0.15308,
+      "tpr_at_1_fpr": 0.64344,
+      "tpr_at_5_fpr": 0.9634,
+      "unknown_auroc": 0.9888322655699178,
+      "unknown_f1": 0.7785140416029516,
+      "unknown_precision": 0.9899993826779431,
+      "unknown_recall": 0.64148
+    }
+  },
+  "protocol": "loao",
+  "rq": "rq1",
+  "scenario": "Z1",
+  "seed": 13
+}

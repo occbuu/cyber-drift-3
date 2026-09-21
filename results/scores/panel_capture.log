@@ -1,0 +1,22 @@
+=== batch A ===
+[capture] hedl: auroc=0.9998 in 718.3s
+[capture] closr: auroc=0.9363 in 1497.8s
+[capture] efc: auroc=0.9837 in 1184.3s
+[capture] renoir_dml: auroc=0.9290 in 513.5s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\cse2018_panelA.npz",
+  "calibration_size": 23932,
+  "test_known": 29460,
+  "test_unknown": 24994
+}
+=== batch B ===
+[capture] ori: auroc=0.9818 in 46.5s
+[capture] docpp: auroc=0.7506 in 436.3s
+[capture] ais_nids: auroc=0.9573 in 125.2s
+[capture] usfad: auroc=0.9497 in 8.5s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\cse2018_panelB.npz",
+  "calibration_size": 23932,
+  "test_known": 29460,
+  "test_unknown": 24994
+}

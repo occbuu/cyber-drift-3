@@ -1,0 +1,19 @@
+[audit_null] toniot_panelA_s13: 8 rows
+{
+  "dkw::calibration": {
+    "captures": 2,
+    "mean_fire_rate": 0.045000000000000005
+  },
+  "dkw::test": {
+    "captures": 2,
+    "mean_fire_rate": 0.055
+  },
+  "permutation::calibration": {
+    "captures": 2,
+    "mean_fire_rate": 0.045
+  },
+  "permutation::test": {
+    "captures": 2,
+    "mean_fire_rate": 0.075
+  }
+}

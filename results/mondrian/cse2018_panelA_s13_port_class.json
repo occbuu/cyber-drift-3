@@ -1,0 +1,90 @@
+{
+  "protocol": "mondrian_port_class",
+  "tag": "cse2018_panelA_s13",
+  "grouping": "port_class",
+  "results": [
+    {
+      "tag": "cse2018_panelA_s13",
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "scenario": "Z1",
+      "seed": 13,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 3,
+      "pooled": {
+        "fdp": 0.0868952559887271,
+        "power": 0.9682480388494583,
+        "alerts_per_1000": 10.645
+      },
+      "mondrian": {
+        "fdp": 0.0906064209274673,
+        "power": 0.9523097995268335,
+        "alerts_per_1000": 10.5125
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 1,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/1",
+      "groups": [
+        {
+          "group": 0,
+          "group_family": "port<1024",
+          "calibration_size": 19488,
+          "known_flow_share": 0.8146978954514597,
+          "attack_share": 1.0,
+          "attack_concentration": 1.2274488562976542,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 813.6978954514597,
+          "pooled_in_group_power": 0.9682480388494583,
+          "mondrian_in_group_power": 0.9523097995268335,
+          "pooled_in_group_false_per_1000": 0.8849638818374177,
+          "mondrian_in_group_false_per_1000": 0.8206585478630725,
+          "in_group_audit_rejected": false
+        }
+      ]
+    },
+    {
+      "tag": "cse2018_panelA_s13",
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "scenario": "Z1",
+      "seed": 13,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 3,
+      "pooled": {
+        "fdp": 0.584070796460177,
+        "power": 0.058385093167701865,
+        "alerts_per_1000": 0.14125
+      },
+      "mondrian": {
+        "fdp": 0.2765957446808511,
+        "power": 0.0422360248447205,
+        "alerts_per_1000": 0.05875
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 1,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/1",
+      "groups": [
+        {
+          "group": 0,
+          "group_family": "port<1024",
+          "calibration_size": 19488,
+          "known_flow_share": 0.8146978954514597,
+          "attack_share": 1.0,
+          "attack_concentration": 1.2274488562976542,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 8145.978954514597,
+          "pooled_in_group_power": 0.058385093167701865,
+          "mondrian_in_group_power": 0.0422360248447205,
+          "pooled_in_group_false_per_1000": 0.061368235494466884,
+          "mondrian_in_group_false_per_1000": 0.018410470648340067,
+          "in_group_audit_rejected": false
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.739804099999674
+}

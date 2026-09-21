@@ -1,0 +1,253 @@
+{
+  "elapsed_seconds": 1.087052500000027,
+  "prevalences": [
+    0.25,
+    0.1,
+    0.05,
+    0.02,
+    0.01,
+    0.005,
+    0.002,
+    0.001
+  ],
+  "protocol": "detector_usability_frontier",
+  "q": 0.1,
+  "repeats": 300,
+  "scores": {
+    "insdn_Z1_s13_tail": {
+      "curve": [
+        {
+          "attacks_per_window": 500.0,
+          "clairvoyant_power": 0.9999866666666666,
+          "clairvoyant_power_p10": 1.0,
+          "prevalence": 0.25,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 200.0,
+          "clairvoyant_power": 0.9970833333333333,
+          "clairvoyant_power_p10": 0.99,
+          "prevalence": 0.1,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 100.0,
+          "clairvoyant_power": 0.9969666666666668,
+          "clairvoyant_power_p10": 0.99,
+          "prevalence": 0.05,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 40.0,
+          "clairvoyant_power": 0.9959166666666666,
+          "clairvoyant_power_p10": 0.975,
+          "prevalence": 0.02,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 20.0,
+          "clairvoyant_power": 0.9958333333333333,
+          "clairvoyant_power_p10": 1.0,
+          "prevalence": 0.01,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 10.0,
+          "clairvoyant_power": 0.9953333333333334,
+          "clairvoyant_power_p10": 1.0,
+          "prevalence": 0.005,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 4.0,
+          "clairvoyant_power": 0.7866666666666666,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.002,
+          "windows_with_any_find": 0.79
+        },
+        {
+          "attacks_per_window": 2.0,
+          "clairvoyant_power": 0.8216666666666667,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.001,
+          "windows_with_any_find": 0.83
+        }
+      ],
+      "dataset": "insdn",
+      "distinct_test_scores": 12090,
+      "far_tail": {
+        "resolvable_far_0.0001": 0.0,
+        "resolvable_far_0.001": 1.0,
+        "resolvable_far_0.01": 1.0,
+        "resolvable_far_1e-05": 0.0,
+        "tpr_at_far_0.0001": 0.9820846905537459,
+        "tpr_at_far_0.001": 0.995114006514658,
+        "tpr_at_far_0.01": 0.996742671009772,
+        "tpr_at_far_1e-05": 0.021172638436482084
+      },
+      "known_test_flows": 11477,
+      "prevalence_floor": 0.001,
+      "score_tail_extension": true,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.9998360976307523,
+      "useful_power_threshold": 0.1
+    },
+    "nf_cse_cic_ids2018_v3_Z1_s13_tail": {
+      "curve": [
+        {
+          "attacks_per_window": 500.0,
+          "clairvoyant_power": 1.0,
+          "clairvoyant_power_p10": 1.0,
+          "prevalence": 0.25,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 200.0,
+          "clairvoyant_power": 1.0,
+          "clairvoyant_power_p10": 1.0,
+          "prevalence": 0.1,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 100.0,
+          "clairvoyant_power": 1.0,
+          "clairvoyant_power_p10": 1.0,
+          "prevalence": 0.05,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 40.0,
+          "clairvoyant_power": 0.9945,
+          "clairvoyant_power_p10": 1.0,
+          "prevalence": 0.02,
+          "windows_with_any_find": 1.0
+        },
+        {
+          "attacks_per_window": 20.0,
+          "clairvoyant_power": 0.9586666666666668,
+          "clairvoyant_power_p10": 0.9,
+          "prevalence": 0.01,
+          "windows_with_any_find": 0.9866666666666667
+        },
+        {
+          "attacks_per_window": 10.0,
+          "clairvoyant_power": 0.8533333333333334,
+          "clairvoyant_power_p10": 0.3,
+          "prevalence": 0.005,
+          "windows_with_any_find": 0.94
+        },
+        {
+          "attacks_per_window": 4.0,
+          "clairvoyant_power": 0.6708333333333333,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.002,
+          "windows_with_any_find": 0.8166666666666667
+        },
+        {
+          "attacks_per_window": 2.0,
+          "clairvoyant_power": 0.6816666666666666,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.001,
+          "windows_with_any_find": 0.7933333333333333
+        }
+      ],
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "distinct_test_scores": 54420,
+      "far_tail": {
+        "resolvable_far_0.0001": 0.0,
+        "resolvable_far_0.001": 1.0,
+        "resolvable_far_0.01": 1.0,
+        "resolvable_far_1e-05": 0.0,
+        "tpr_at_far_0.0001": 0.26326318316395936,
+        "tpr_at_far_0.001": 0.9959190205649355,
+        "tpr_at_far_0.01": 1.0,
+        "tpr_at_far_1e-05": 0.0
+      },
+      "known_test_flows": 29460,
+      "prevalence_floor": 0.001,
+      "score_tail_extension": true,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.9997623149854675,
+      "useful_power_threshold": 0.1
+    },
+    "nf_ton_iot_v3_Z1_s13_tail": {
+      "curve": [
+        {
+          "attacks_per_window": 500.0,
+          "clairvoyant_power": 0.06942666666666668,
+          "clairvoyant_power_p10": 0.002,
+          "prevalence": 0.25,
+          "windows_with_any_find": 0.94
+        },
+        {
+          "attacks_per_window": 200.0,
+          "clairvoyant_power": 0.018983333333333335,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.1,
+          "windows_with_any_find": 0.6233333333333333
+        },
+        {
+          "attacks_per_window": 100.0,
+          "clairvoyant_power": 0.010966666666666666,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.05,
+          "windows_with_any_find": 0.43666666666666665
+        },
+        {
+          "attacks_per_window": 40.0,
+          "clairvoyant_power": 0.010166666666666666,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.02,
+          "windows_with_any_find": 0.27666666666666667
+        },
+        {
+          "attacks_per_window": 20.0,
+          "clairvoyant_power": 0.008333333333333333,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.01,
+          "windows_with_any_find": 0.13666666666666666
+        },
+        {
+          "attacks_per_window": 10.0,
+          "clairvoyant_power": 0.010333333333333333,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.005,
+          "windows_with_any_find": 0.09
+        },
+        {
+          "attacks_per_window": 4.0,
+          "clairvoyant_power": 0.0075,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.002,
+          "windows_with_any_find": 0.03
+        },
+        {
+          "attacks_per_window": 2.0,
+          "clairvoyant_power": 0.01,
+          "clairvoyant_power_p10": 0.0,
+          "prevalence": 0.001,
+          "windows_with_any_find": 0.02
+        }
+      ],
+      "dataset": "nf_ton_iot_v3",
+      "distinct_test_scores": 47294,
+      "far_tail": {
+        "resolvable_far_0.0001": 0.0,
+        "resolvable_far_0.001": 1.0,
+        "resolvable_far_0.01": 1.0,
+        "resolvable_far_1e-05": 0.0,
+        "tpr_at_far_0.0001": 0.0019260581575609526,
+        "tpr_at_far_0.001": 0.019824305914407855,
+        "tpr_at_far_0.01": 0.14708507539813032,
+        "tpr_at_far_1e-05": 0.00023488514116596984
+      },
+      "known_test_flows": 26202,
+      "prevalence_floor": null,
+      "score_tail_extension": true,
+      "test_scores_at_maximum": 1,
+      "unknown_auroc": 0.9276473390421557,
+      "useful_power_threshold": 0.1
+    }
+  },
+  "window_size": 2000
+}

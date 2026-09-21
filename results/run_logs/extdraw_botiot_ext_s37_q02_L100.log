@@ -1,0 +1,6 @@
+[window] n=9100 draw=0 done
+[window] n=9100 draw=1 done
+[window] n=9100 draw=2 done
+[window] n=9100 draw=3 done
+[window] n=9100 draw=4 done
+wrote results\window_draws_ext\full_botiot_ext_s37_q02_L100.json in 13.1s (10 rows)

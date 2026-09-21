@@ -1,0 +1,10 @@
+[capture] hedl: auroc=0.9946 in 520.8s
+[capture] closr: auroc=0.8697 in 798.2s
+[capture] efc: auroc=0.9409 in 529.4s
+[capture] renoir_dml: auroc=0.8723 in 326.4s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\toniot_Z3_panelA_s37.npz",
+  "calibration_size": 23259,
+  "test_known": 28924,
+  "test_unknown": 3530
+}

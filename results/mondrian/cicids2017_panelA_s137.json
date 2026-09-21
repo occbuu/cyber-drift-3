@@ -1,0 +1,209 @@
+{
+  "protocol": "mondrian_predicted_class",
+  "tag": "cicids2017_panelA_s137",
+  "results": [
+    {
+      "tag": "cicids2017_panelA_s137",
+      "dataset": "cicids2017",
+      "scenario": "Z1",
+      "seed": 137,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 10,
+      "pooled": {
+        "fdp": 0.12568306010928962,
+        "power": 0.019838809671419714,
+        "alerts_per_1000": 0.22875
+      },
+      "mondrian": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 6,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "3/6",
+      "groups": [
+        {
+          "group": 0,
+          "group_family": "benign",
+          "calibration_size": 2924,
+          "known_flow_share": 0.23175696836830567,
+          "attack_share": 0.3700668197953644,
+          "attack_concentration": 1.5967883183872953,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 625.257086480923,
+          "pooled_in_group_power": 0.02527435982707017,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.08041601887095909,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 2,
+          "group_family": "ddos",
+          "calibration_size": 3024,
+          "known_flow_share": 0.2328217976824303,
+          "attack_share": 0.011693464188765922,
+          "attack_concentration": 0.05022495447232928,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 19909.421233949262,
+          "pooled_in_group_power": 0.03488372093023256,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 3,
+          "group_family": "dos_goldeneye",
+          "calibration_size": 1256,
+          "known_flow_share": 0.09702474162229878,
+          "attack_share": 0.4504593860931301,
+          "attack_concentration": 4.642726984491169,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 214.39065366980597,
+          "pooled_in_group_power": 0.009325287986834888,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.04979893679269948,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 4,
+          "group_family": "dos_slowhttptest",
+          "calibration_size": 633,
+          "known_flow_share": 0.04954588161603508,
+          "attack_share": 0.13087283357694718,
+          "attack_concentration": 2.641447266821696,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 377.58033834733465,
+          "pooled_in_group_power": 0.03898635477582846,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 7,
+          "group_family": "portscan",
+          "calibration_size": 2613,
+          "known_flow_share": 0.20901973066082055,
+          "attack_share": 0.03252244727500522,
+          "attack_concentration": 0.1555951066063705,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 6425.937336338167,
+          "pooled_in_group_power": 0.028225806451612902,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.024177219015382754,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 9,
+          "group_family": "web_attack_brute_force",
+          "calibration_size": 238,
+          "known_flow_share": 0.019855934857500784,
+          "attack_share": 0.001774900814366256,
+          "attack_concentration": 0.08938893218093777,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 11186.067297949561,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        }
+      ]
+    },
+    {
+      "tag": "cicids2017_panelA_s137",
+      "dataset": "cicids2017",
+      "scenario": "Z1",
+      "seed": 137,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 10,
+      "pooled": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "mondrian": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 4,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "4/4",
+      "groups": [
+        {
+          "group": 0,
+          "group_family": "benign",
+          "calibration_size": 2924,
+          "known_flow_share": 0.23175696836830567,
+          "attack_share": 0.3700668197953644,
+          "attack_concentration": 1.5967883183872953,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 6261.57086480923,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 3,
+          "group_family": "dos_goldeneye",
+          "calibration_size": 1256,
+          "known_flow_share": 0.09702474162229878,
+          "attack_share": 0.4504593860931301,
+          "attack_concentration": 4.642726984491169,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 2152.9065366980594,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 4,
+          "group_family": "dos_slowhttptest",
+          "calibration_size": 633,
+          "known_flow_share": 0.04954588161603508,
+          "attack_share": 0.13087283357694718,
+          "attack_concentration": 2.641447266821696,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 3784.803383473346,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 7,
+          "group_family": "portscan",
+          "calibration_size": 2613,
+          "known_flow_share": 0.20901973066082055,
+          "attack_share": 0.03252244727500522,
+          "attack_concentration": 0.1555951066063705,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 64268.37336338168,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 1.3737860999999612
+}

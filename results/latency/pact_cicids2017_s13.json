@@ -1,0 +1,88 @@
+{
+  "dataset": "cicids2017",
+  "scenario": "Z1",
+  "seed": 13,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "test_flows": 42020,
+  "training_seconds": 170.18660969999996,
+  "variants": {
+    "floored": {
+      "timings": {
+        "256": {
+          "ms_per_flow_median": 0.06316916468348376,
+          "flows_per_second_median": 15830.508524382318
+        },
+        "1024": {
+          "ms_per_flow_median": 0.0380767563065224,
+          "flows_per_second_median": 26262.741288934423
+        },
+        "4096": {
+          "ms_per_flow_median": 0.032589416944313054,
+          "flows_per_second_median": 30684.80794574335
+        }
+      },
+      "device_vs_reference_spearman": 0.9999921503158862,
+      "device_vs_reference_max_relative_error": 0.3943145766270725,
+      "device_vs_reference_p99_relative_error": 0.06253085690127776,
+      "diagnostics": {
+        "score_mode": "conformal_fisher_md_rmd_knn",
+        "density_reference_size": 65536.0,
+        "neighbors": 1.0,
+        "proxy_auroc_md": 0.9769224643707275,
+        "fusion_weight_md": 1.0108151859472096,
+        "proxy_auroc_rmd": 0.9732867240905761,
+        "fusion_weight_rmd": 1.0031094019636726,
+        "proxy_auroc_knn": 0.965249752998352,
+        "fusion_weight_knn": 0.9860754120891174,
+        "tail_extension": "off",
+        "proxy_evidential_auroc": 0.9769224643707275,
+        "proxy_density_auroc": 0.965249752998352
+      }
+    },
+    "tail_lifted": {
+      "timings": {
+        "256": {
+          "ms_per_flow_median": 0.07314997620180838,
+          "flows_per_second_median": 13670.544433824143
+        },
+        "1024": {
+          "ms_per_flow_median": 0.041658933841029464,
+          "flows_per_second_median": 24004.454934348563
+        },
+        "4096": {
+          "ms_per_flow_median": 0.032734074250359166,
+          "flows_per_second_median": 30549.206687555175
+        }
+      },
+      "device_vs_reference_spearman": 0.9999922007500622,
+      "device_vs_reference_max_relative_error": 0.3943145700492761,
+      "device_vs_reference_p99_relative_error": 0.06253081408347821,
+      "diagnostics": {
+        "score_mode": "conformal_fisher_md_rmd_knn",
+        "density_reference_size": 65536.0,
+        "neighbors": 1.0,
+        "proxy_auroc_md": 0.9769224643707275,
+        "fusion_weight_md": 1.0108151859472096,
+        "proxy_auroc_rmd": 0.9732867240905761,
+        "fusion_weight_rmd": 1.0031094019636726,
+        "proxy_auroc_knn": 0.965249752998352,
+        "fusion_weight_knn": 0.9860754120891174,
+        "tail_extension": "on",
+        "tail_shape_md": -0.0023639387031609126,
+        "tail_anchor_pvalue_md": 0.07476913911230265,
+        "tail_shape_rmd": 0.06657407246547466,
+        "tail_anchor_pvalue_rmd": 0.07476913911230265,
+        "tail_shape_knn": 0.11011075805544446,
+        "tail_anchor_pvalue_knn": 0.07476913911230265,
+        "proxy_evidential_auroc": 0.9769224643707275,
+        "proxy_density_auroc": 0.965249752998352
+      }
+    }
+  },
+  "tail_lift_overhead": {
+    "256": 1.1580013218210912,
+    "1024": 1.0940778018397919,
+    "4096": 1.0044387816539735
+  }
+}

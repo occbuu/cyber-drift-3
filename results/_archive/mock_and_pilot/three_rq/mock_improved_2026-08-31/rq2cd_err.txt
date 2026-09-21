@@ -1,0 +1,8 @@
+usage: run.py [-h] --rq {rq1,rq2,rq3}
+              [--protocol {loao,difficulty,cross_domain,prevalence}] --dataset
+              DATASET [--scenario SCENARIO] [--target-dataset TARGET_DATASET]
+              [--source-datasets SOURCE_DATASETS] [--methods METHODS]
+              [--additional-unknown ADDITIONAL_UNKNOWN] [--seed SEED]
+              [--epochs EPOCHS] [--batch-size BATCH_SIZE]
+              [--max-rows MAX_ROWS] [--output OUTPUT]
+run.py: error: --target-dataset is required for rq2 cross_domain

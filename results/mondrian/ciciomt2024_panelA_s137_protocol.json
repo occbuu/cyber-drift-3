@@ -1,0 +1,105 @@
+{
+  "protocol": "mondrian_protocol",
+  "tag": "ciciomt2024_panelA_s137",
+  "grouping": "protocol",
+  "results": [
+    {
+      "tag": "ciciomt2024_panelA_s137",
+      "dataset": "ciciomt2024",
+      "scenario": "Z1",
+      "seed": 137,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 15,
+      "pooled": {
+        "fdp": 0.9855900916994165,
+        "power": 0.015087281795511222,
+        "alerts_per_1000": 10.49625
+      },
+      "mondrian": {
+        "fdp": 0.7920779084418311,
+        "power": 0.9876558603491272,
+        "alerts_per_1000": 47.62
+      },
+      "pooled_audit_rejected": true,
+      "groups_with_in_group_audit_rejected": 2,
+      "groups_evaluated": 2,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/2",
+      "groups": [
+        {
+          "group": 16,
+          "group_family": "proto16",
+          "calibration_size": 296,
+          "known_flow_share": 0.004290452841072974,
+          "attack_share": 0.004856512141280353,
+          "attack_concentration": 1.1319346281558982,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 882.4432440936623,
+          "pooled_in_group_power": 0.4444444444444444,
+          "mondrian_in_group_power": 0.6296296296296297,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": true
+        },
+        {
+          "group": 17,
+          "group_family": "udp",
+          "calibration_size": 4042,
+          "known_flow_share": 0.11155177386789732,
+          "attack_share": 0.9929359823399558,
+          "attack_concentration": 8.901122303225925,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 111.34538364196862,
+          "pooled_in_group_power": 0.010820332159033719,
+          "mondrian_in_group_power": 0.991570206341218,
+          "pooled_in_group_false_per_1000": 1.701262461228851,
+          "mondrian_in_group_false_per_1000": 44.59589829770018,
+          "in_group_audit_rejected": true
+        }
+      ]
+    },
+    {
+      "tag": "ciciomt2024_panelA_s137",
+      "dataset": "ciciomt2024",
+      "scenario": "Z1",
+      "seed": 137,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 15,
+      "pooled": {
+        "fdp": 0.9985676772499403,
+        "power": 0.014652014652014652,
+        "alerts_per_1000": 10.4725
+      },
+      "mondrian": {
+        "fdp": 0.9689125745463774,
+        "power": 0.5982905982905983,
+        "alerts_per_1000": 19.7025
+      },
+      "pooled_audit_rejected": true,
+      "groups_with_in_group_audit_rejected": 1,
+      "groups_evaluated": 1,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/1",
+      "groups": [
+        {
+          "group": 17,
+          "group_family": "udp",
+          "calibration_size": 4042,
+          "known_flow_share": 0.11155177386789732,
+          "attack_share": 0.9929359823399558,
+          "attack_concentration": 8.901122303225925,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 1122.4538364196862,
+          "pooled_in_group_power": 0.009852216748768473,
+          "mondrian_in_group_power": 0.6022167487684729,
+          "pooled_in_group_false_per_1000": 1.821210438645197,
+          "mondrian_in_group_false_per_1000": 21.166018878400887,
+          "in_group_audit_rejected": true
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 13.621301699999094
+}

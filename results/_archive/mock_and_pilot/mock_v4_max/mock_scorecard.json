@@ -1,0 +1,22 @@
+{
+  "by_rq": {
+    "rq1": {
+      "win": 10
+    },
+    "rq2": {
+      "loss": 9,
+      "win": 16
+    },
+    "rq3": {
+      "loss": 3,
+      "win": 7
+    }
+  },
+  "overall": {
+    "loss": 12,
+    "win": 33
+  },
+  "prevalence": {
+    "win": 6
+  }
+}

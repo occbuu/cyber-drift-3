@@ -1,0 +1,38 @@
+[audit_null] cicids2017_panelA_s101: 8 rows
+[audit_null] cicids2017_panelA_s13: 16 rows
+[audit_null] cicids2017_panelA_s137: 24 rows
+[audit_null] cicids2017_panelA_s37: 32 rows
+[audit_null] cicids2017_panelA_s73: 40 rows
+[audit_null] ciciomt2024_panelA_s101: 48 rows
+[audit_null] ciciomt2024_panelA_s13: 56 rows
+[audit_null] ciciomt2024_panelA_s137: 64 rows
+[audit_null] ciciomt2024_panelA_s37: 72 rows
+[audit_null] ciciomt2024_panelA_s73: 80 rows
+[audit_null] cse2018_panelA_s101: 88 rows
+[audit_null] cse2018_panelA_s13: 96 rows
+[audit_null] cse2018_panelA_s137: 104 rows
+[audit_null] cse2018_panelA_s37: 112 rows
+[audit_null] cse2018_panelA_s73: 120 rows
+[audit_null] toniot_panelA_s101: 128 rows
+[audit_null] toniot_panelA_s13: 136 rows
+[audit_null] toniot_panelA_s137: 144 rows
+[audit_null] toniot_panelA_s37: 152 rows
+[audit_null] toniot_panelA_s73: 160 rows
+{
+  "dkw::calibration": {
+    "captures": 40,
+    "mean_fire_rate": 0.045
+  },
+  "dkw::test": {
+    "captures": 40,
+    "mean_fire_rate": 0.281
+  },
+  "permutation::calibration": {
+    "captures": 40,
+    "mean_fire_rate": 0.051500000000000004
+  },
+  "permutation::test": {
+    "captures": 40,
+    "mean_fire_rate": 0.28650000000000003
+  }
+}

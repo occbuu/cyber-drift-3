@@ -1,0 +1,802 @@
+[
+  {
+    "dataset": "ciciomt2024",
+    "seed": 13,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9920690353588194,
+    "draws_over_q": 1.0,
+    "power": 0.012937275901361272
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 13,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 13,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9934118460528406,
+    "draws_over_q": 1.0,
+    "power": 0.026176773158706014
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 13,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.7925082869611003,
+    "draws_over_q": 0.8,
+    "power": 0.005134138446113575
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 37,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9912737846271155,
+    "draws_over_q": 1.0,
+    "power": 0.014131802201684524
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 37,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.39762611275964393,
+    "draws_over_q": 0.4,
+    "power": 0.002061855670103093
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 37,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.992018688586462,
+    "draws_over_q": 1.0,
+    "power": 0.01828003641402098
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 37,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.5959215211986831,
+    "draws_over_q": 0.6,
+    "power": 0.004623711340206185
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 73,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9127138432579903,
+    "draws_over_q": 1.0,
+    "power": 0.9984666332721102
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 73,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9124607141304469,
+    "draws_over_q": 1.0,
+    "power": 0.9335250639096591
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 73,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9150125113059486,
+    "draws_over_q": 1.0,
+    "power": 0.999056603773585
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 73,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9154974083916789,
+    "draws_over_q": 1.0,
+    "power": 0.9984179720486404
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 101,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9958713515732608,
+    "draws_over_q": 1.0,
+    "power": 0.014006141711315664
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 101,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.7947412614903678,
+    "draws_over_q": 0.8,
+    "power": 0.0035104937657027295
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 101,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9960478228934763,
+    "draws_over_q": 1.0,
+    "power": 0.017052937318325363
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 101,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9937622417349037,
+    "draws_over_q": 1.0,
+    "power": 0.007856490369003672
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 137,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.7912058456341338,
+    "draws_over_q": 0.8,
+    "power": 0.009220804341836262
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 137,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 137,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.9874456982732653,
+    "draws_over_q": 1.0,
+    "power": 0.025856575982145913
+  },
+  {
+    "dataset": "ciciomt2024",
+    "seed": 137,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 1.0,
+    "mean_fdr": 0.5949810270680496,
+    "draws_over_q": 0.6,
+    "power": 0.0035271180432470753
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0889826907153168,
+    "draws_over_q": 0.6,
+    "power": 0.946986954746506
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.028631984847324578,
+    "draws_over_q": 0.0,
+    "power": 0.3911427200329121
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.09582394781244204,
+    "draws_over_q": 0.4,
+    "power": 0.9705872787693155
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 13,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.036622885534482306,
+    "draws_over_q": 0.0,
+    "power": 0.384859382324796
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.11401243601693686,
+    "draws_over_q": 0.8,
+    "power": 0.9293703042576917
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.06019987543204295,
+    "draws_over_q": 0.0,
+    "power": 0.7417449054851042
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.11956345726378459,
+    "draws_over_q": 1.0,
+    "power": 0.9316879451425628
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 37,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.05617637544407063,
+    "draws_over_q": 0.0,
+    "power": 0.6272444183159698
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.07099724803027752,
+    "draws_over_q": 0.0,
+    "power": 0.9973285803542847
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.03766359296003174,
+    "draws_over_q": 0.0,
+    "power": 0.9134769806157829
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.07040471366897647,
+    "draws_over_q": 0.2,
+    "power": 0.9928811830587577
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 73,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.039129889105171886,
+    "draws_over_q": 0.0,
+    "power": 0.9032420243866399
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.09149730820938769,
+    "draws_over_q": 0.4,
+    "power": 0.985691288086025
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.051088408852509294,
+    "draws_over_q": 0.0,
+    "power": 0.8876682130591117
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.07516684337319256,
+    "draws_over_q": 0.2,
+    "power": 0.9800816569893287
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 101,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.047933442057678896,
+    "draws_over_q": 0.0,
+    "power": 0.7469773034094703
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.09980133821637606,
+    "draws_over_q": 0.6,
+    "power": 0.9918749028504503
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.05955352534583032,
+    "draws_over_q": 0.0,
+    "power": 0.8585534288635145
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.09087928190564501,
+    "draws_over_q": 0.2,
+    "power": 0.9897501126845926
+  },
+  {
+    "dataset": "cse2018",
+    "seed": 137,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0512369756879685,
+    "draws_over_q": 0.0,
+    "power": 0.8706502228854802
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.093024640982785,
+    "draws_over_q": 0.2,
+    "power": 0.7727967059613217
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.07268914986454493,
+    "draws_over_q": 0.2,
+    "power": 0.23415106957643544
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.09315942085709729,
+    "draws_over_q": 0.2,
+    "power": 0.7707175138310058
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 13,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.06551593544867396,
+    "draws_over_q": 0.0,
+    "power": 0.20141664513698193
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.09475111905161453,
+    "draws_over_q": 0.2,
+    "power": 0.13062379136161115
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.1080935494765282,
+    "draws_over_q": 0.4,
+    "power": 0.13408578251384945
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 37,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.1569451901845133,
+    "draws_over_q": 1.0,
+    "power": 0.24448757151697992
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.1626251058322185,
+    "draws_over_q": 1.0,
+    "power": 0.25027064498364615
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 73,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.1048673034283576,
+    "draws_over_q": 0.6,
+    "power": 0.7439358119639119
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.07601873536299766,
+    "draws_over_q": 0.4,
+    "power": 0.18386711981533532
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.1009791332577735,
+    "draws_over_q": 0.6,
+    "power": 0.653075130609921
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 101,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.08488400488400488,
+    "draws_over_q": 0.4,
+    "power": 0.12510984627763272
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.04,
+    "draws_over_q": 0.2,
+    "power": 0.005970149253731343
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.04,
+    "draws_over_q": 0.2,
+    "power": 0.005970149253731343
+  },
+  {
+    "dataset": "cicids2017",
+    "seed": 137,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 13,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.2,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.2,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.2,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 37,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.2,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.06666666666666667,
+    "draws_over_q": 0.2,
+    "power": 0.001937046004842615
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.08,
+    "draws_over_q": 0.2,
+    "power": 0.0014527845036319614
+  },
+  {
+    "dataset": "toniot",
+    "seed": 73,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.2,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.2,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.2,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 101,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.2,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "arm": "plain",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "arm": "plain",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "arm": "matched",
+    "procedure": "marginal",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.1,
+    "draws_over_q": 0.2,
+    "power": 0.0005263157894736842
+  },
+  {
+    "dataset": "toniot",
+    "seed": 137,
+    "arm": "matched",
+    "procedure": "conditional_L5",
+    "audit_rejected_rate": 0.0,
+    "mean_fdr": 0.0,
+    "draws_over_q": 0.0,
+    "power": 0.0
+  }
+]

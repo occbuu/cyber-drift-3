@@ -1,0 +1,106 @@
+{
+  "protocol": "audit_null",
+  "config": {
+    "tags": "ciciomt2024_panelA_s137",
+    "methods": "hedl,closr",
+    "repeats": 100,
+    "audit_size": 2000,
+    "audit_alpha": 0.05,
+    "audit_permutations": 200,
+    "seed": 13,
+    "output": "results\\audit_null\\ciciomt2024_panelA_s137.json"
+  },
+  "summary": {
+    "dkw::calibration": {
+      "captures": 2,
+      "mean_fire_rate": 0.04
+    },
+    "dkw::test": {
+      "captures": 2,
+      "mean_fire_rate": 1.0
+    },
+    "permutation::calibration": {
+      "captures": 2,
+      "mean_fire_rate": 0.05
+    },
+    "permutation::test": {
+      "captures": 2,
+      "mean_fire_rate": 1.0
+    }
+  },
+  "rows": [
+    {
+      "dataset": "ciciomt2024",
+      "seed": 137,
+      "method": "hedl",
+      "threshold": "dkw",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.03
+    },
+    {
+      "dataset": "ciciomt2024",
+      "seed": 137,
+      "method": "hedl",
+      "threshold": "dkw",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 1.0
+    },
+    {
+      "dataset": "ciciomt2024",
+      "seed": 137,
+      "method": "hedl",
+      "threshold": "permutation",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.05
+    },
+    {
+      "dataset": "ciciomt2024",
+      "seed": 137,
+      "method": "hedl",
+      "threshold": "permutation",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 1.0
+    },
+    {
+      "dataset": "ciciomt2024",
+      "seed": 137,
+      "method": "closr",
+      "threshold": "dkw",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.05
+    },
+    {
+      "dataset": "ciciomt2024",
+      "seed": 137,
+      "method": "closr",
+      "threshold": "dkw",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 1.0
+    },
+    {
+      "dataset": "ciciomt2024",
+      "seed": 137,
+      "method": "closr",
+      "threshold": "permutation",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.05
+    },
+    {
+      "dataset": "ciciomt2024",
+      "seed": 137,
+      "method": "closr",
+      "threshold": "permutation",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 1.0
+    }
+  ],
+  "elapsed_seconds": 139.36747380000088
+}

@@ -1,0 +1,61 @@
+[shift_gate] ciciomt2024_panelA_s101 hedl: 180 rows
+[shift_gate] ciciomt2024_panelA_s101 closr: 360 rows
+{
+  "q": 0.1,
+  "conditions": 360,
+  "guarantee_broken_conditions": 240,
+  "detection_rate_where_broken": 1.0,
+  "fire_rate_where_intact": 1.0,
+  "false_refusal_on_exchangeable": 0.9,
+  "gate_passes": false,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 60,
+      "gate_fire_rate": 0.9,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.758937980298079,
+      "ungated_false_alarms_per_1000": 0.9545833333333335,
+      "gated_false_alarms_per_1000": 2.251666666666667
+    },
+    "0.1": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.7146396069495026,
+      "ungated_false_alarms_per_1000": 22.01083333333333,
+      "gated_false_alarms_per_1000": 2.495833333333333
+    },
+    "0.25": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.5998102939051914,
+      "ungated_false_alarms_per_1000": 49.893333333333324,
+      "gated_false_alarms_per_1000": 2.4954166666666664
+    },
+    "0.5": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.49926500341306385,
+      "ungated_false_alarms_per_1000": 86.69125000000001,
+      "gated_false_alarms_per_1000": 2.495416666666667
+    },
+    "0.75": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.5303860247791635,
+      "ungated_false_alarms_per_1000": 120.52624999999999,
+      "gated_false_alarms_per_1000": 2.4983333333333335
+    },
+    "1.0": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.6469082461320766,
+      "ungated_false_alarms_per_1000": 214.01208333333335,
+      "gated_false_alarms_per_1000": 2.497916666666667
+    }
+  }
+}

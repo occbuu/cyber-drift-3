@@ -1,0 +1,10 @@
+[capture] ori: auroc=0.9831 in 6.7s
+[capture] docpp: auroc=0.9968 in 56.4s
+[capture] ais_nids: auroc=0.8476 in 41.2s
+[capture] usfad: auroc=0.8658 in 4.4s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\cicids2017_Z2_panelB_s37.npz",
+  "calibration_size": 14518,
+  "test_known": 18268,
+  "test_unknown": 3219
+}

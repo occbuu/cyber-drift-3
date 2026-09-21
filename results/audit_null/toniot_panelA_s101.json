@@ -1,0 +1,106 @@
+{
+  "protocol": "audit_null",
+  "config": {
+    "tags": "toniot_panelA_s101",
+    "methods": "hedl,closr",
+    "repeats": 100,
+    "audit_size": 2000,
+    "audit_alpha": 0.05,
+    "audit_permutations": 200,
+    "seed": 13,
+    "output": "results\\audit_null\\toniot_panelA_s101.json"
+  },
+  "summary": {
+    "dkw::calibration": {
+      "captures": 2,
+      "mean_fire_rate": 0.065
+    },
+    "dkw::test": {
+      "captures": 2,
+      "mean_fire_rate": 0.135
+    },
+    "permutation::calibration": {
+      "captures": 2,
+      "mean_fire_rate": 0.075
+    },
+    "permutation::test": {
+      "captures": 2,
+      "mean_fire_rate": 0.135
+    }
+  },
+  "rows": [
+    {
+      "dataset": "nf_ton_iot_v3",
+      "seed": 101,
+      "method": "hedl",
+      "threshold": "dkw",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.06
+    },
+    {
+      "dataset": "nf_ton_iot_v3",
+      "seed": 101,
+      "method": "hedl",
+      "threshold": "dkw",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 0.2
+    },
+    {
+      "dataset": "nf_ton_iot_v3",
+      "seed": 101,
+      "method": "hedl",
+      "threshold": "permutation",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.06
+    },
+    {
+      "dataset": "nf_ton_iot_v3",
+      "seed": 101,
+      "method": "hedl",
+      "threshold": "permutation",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 0.19
+    },
+    {
+      "dataset": "nf_ton_iot_v3",
+      "seed": 101,
+      "method": "closr",
+      "threshold": "dkw",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.07
+    },
+    {
+      "dataset": "nf_ton_iot_v3",
+      "seed": 101,
+      "method": "closr",
+      "threshold": "dkw",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 0.07
+    },
+    {
+      "dataset": "nf_ton_iot_v3",
+      "seed": 101,
+      "method": "closr",
+      "threshold": "permutation",
+      "audit_source": "calibration",
+      "repeats": 100,
+      "fire_rate": 0.09
+    },
+    {
+      "dataset": "nf_ton_iot_v3",
+      "seed": 101,
+      "method": "closr",
+      "threshold": "permutation",
+      "audit_source": "test",
+      "repeats": 100,
+      "fire_rate": 0.08
+    }
+  ],
+  "elapsed_seconds": 77.6177502999999
+}

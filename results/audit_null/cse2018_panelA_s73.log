@@ -1,0 +1,19 @@
+[audit_null] cse2018_panelA_s73: 8 rows
+{
+  "dkw::calibration": {
+    "captures": 2,
+    "mean_fire_rate": 0.060000000000000005
+  },
+  "dkw::test": {
+    "captures": 2,
+    "mean_fire_rate": 0.05
+  },
+  "permutation::calibration": {
+    "captures": 2,
+    "mean_fire_rate": 0.065
+  },
+  "permutation::test": {
+    "captures": 2,
+    "mean_fire_rate": 0.045
+  }
+}

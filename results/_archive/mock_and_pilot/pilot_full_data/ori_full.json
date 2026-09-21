@@ -1,0 +1,32 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 12.752127700005076,
+  "methods": {
+    "ori": {
+      "adapter_provenance": "paper_reimplementation",
+      "adapter_source_algorithm": "open recognition plus local-density inspection",
+      "aupr_out": 0.9854479675755631,
+      "closed_reference_macro_f1": 0.736690122364537,
+      "delta_f1": 0.15626107783219056,
+      "far": 0.009811985898942421,
+      "fpr95": 0.1589894242068155,
+      "frr": 0.2464,
+      "known_accuracy": 0.9810223266745006,
+      "known_macro_f1": 0.8929512001967276,
+      "known_weighted_f1": 0.9812684721439026,
+      "open_world_macro_f1": 0.8233362305541124,
+      "oscr": 0.962378438307873,
+      "tpr_at_0_1_fpr": 0.25772,
+      "tpr_at_1_fpr": 0.75364,
+      "tpr_at_5_fpr": 0.8792,
+      "unknown_auroc": 0.9801558860164512,
+      "unknown_f1": 0.8562274183652601,
+      "unknown_precision": 0.9912137633503446,
+      "unknown_recall": 0.7536
+    }
+  },
+  "protocol": "loao",
+  "rq": "rq1",
+  "scenario": "Z1",
+  "seed": 13
+}

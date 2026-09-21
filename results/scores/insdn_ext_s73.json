@@ -1,0 +1,69 @@
+{
+  "calibration_size": 9290,
+  "curvature": 0.0,
+  "dataset": "insdn",
+  "deduplicate_source_ids": true,
+  "device": "cuda",
+  "epochs": 30,
+  "evidential_weight": 1.0,
+  "holdout_groups": true,
+  "holdout_threshold": null,
+  "known_families": [
+    "benign",
+    "bfa",
+    "dos",
+    "other_rare_attacks",
+    "probe"
+  ],
+  "margin_weight": 1.0,
+  "methods": {
+    "hedl": {
+      "diagnostics": {
+        "inference_seconds": 0.9111150999997335,
+        "milliseconds_per_scored_flow": 0.042613306206432514,
+        "scorer_density_reference_size": 53688.0,
+        "scorer_fusion_weight_knn": 1.003915274709502,
+        "scorer_fusion_weight_md": 1.0037302539842285,
+        "scorer_fusion_weight_rmd": 0.9923544713062694,
+        "scorer_neighbors": 1.0,
+        "scorer_proxy_auroc_knn": 0.9999957084655762,
+        "scorer_proxy_auroc_md": 0.9999035596847534,
+        "scorer_proxy_auroc_rmd": 0.9942378997802734,
+        "scorer_proxy_density_auroc": 0.9999957084655762,
+        "scorer_proxy_evidential_auroc": 0.9999035596847534,
+        "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+        "scorer_tail_extension": "off"
+      },
+      "distinct_calibration_scores": 9287,
+      "distinct_test_scores": 11502,
+      "open_set": {
+        "aupr_out": 0.9986975678250385,
+        "fpr95": 0.0004356539165287096,
+        "known_accuracy": 0.9995643460834713,
+        "known_macro_f1": 0.9975851966908582,
+        "known_weighted_f1": 0.9995646124144162,
+        "oscr": 0.9994995656232448,
+        "tpr_at_0_1_fpr": 0.995114006514658,
+        "tpr_at_1_fpr": 0.998371335504886,
+        "tpr_at_5_fpr": 1.0,
+        "unknown_auroc": 0.999927130851421
+      },
+      "seconds": 92.9427684000002,
+      "test_scores_at_maximum": 483,
+      "unknown_auroc": 0.999927130851421
+    }
+  },
+  "profile": "balanced",
+  "scenario": "Z1",
+  "seed": 73,
+  "tail_anchor_exceedances": 250,
+  "tail_confidence": 0.0,
+  "tail_extension": false,
+  "test_known": 11477,
+  "test_unknown": 614,
+  "tuning_fraction": 0.2,
+  "tuning_size": 2322,
+  "unknown_families": [
+    "ddos"
+  ]
+}

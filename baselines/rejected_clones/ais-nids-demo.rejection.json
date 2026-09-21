@@ -1,0 +1,7 @@
+{
+  "rejected_name": "ais-nids-demo",
+  "reason": "Synthetic visualization/demo suite; README states all data is generated. It is not the official implementation of the Computers & Security AIS-NIDS paper and must not be used as a scientific baseline.",
+  "rejected_on": "2026-08-31",
+  "original_remote": "https://github.com/Yasir-ali-farrukh/ais-nids-demo.git",
+  "commit": "754bbebcf2e0df334f789317db50a425b8566aed"
+}

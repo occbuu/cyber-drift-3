@@ -1,0 +1,68 @@
+{
+  "calibration_size": 4396,
+  "curvature": 0.0,
+  "dataset": "hikari2021",
+  "deduplicate_source_ids": true,
+  "device": "cuda",
+  "epochs": 30,
+  "evidential_weight": 1.0,
+  "holdout_groups": true,
+  "holdout_threshold": null,
+  "known_families": [
+    "benign",
+    "bruteforce",
+    "bruteforce_xml",
+    "xmrigcc_cryptominer"
+  ],
+  "margin_weight": 1.0,
+  "methods": {
+    "hedl": {
+      "diagnostics": {
+        "inference_seconds": 1.2458323999999266,
+        "milliseconds_per_scored_flow": 0.03734733497211843,
+        "scorer_density_reference_size": 26636.0,
+        "scorer_fusion_weight_knn": 0.9558724052376836,
+        "scorer_fusion_weight_md": 1.128709797110326,
+        "scorer_fusion_weight_rmd": 0.91541779765199,
+        "scorer_neighbors": 1.0,
+        "scorer_proxy_auroc_knn": 0.9138690082644627,
+        "scorer_proxy_auroc_md": 0.9887033057851239,
+        "scorer_proxy_auroc_rmd": 0.896353168044077,
+        "scorer_proxy_density_auroc": 0.9138690082644627,
+        "scorer_proxy_evidential_auroc": 0.9887033057851239,
+        "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+        "scorer_tail_extension": "off"
+      },
+      "distinct_calibration_scores": 4324,
+      "distinct_test_scores": 27649,
+      "open_set": {
+        "aupr_out": 0.8796299569658919,
+        "fpr95": 0.5742734122712594,
+        "known_accuracy": 0.9951560818083961,
+        "known_macro_f1": 0.9925528907798293,
+        "known_weighted_f1": 0.9951884007475514,
+        "oscr": 0.6973071209638388,
+        "tpr_at_0_1_fpr": 0.0029502308876346844,
+        "tpr_at_1_fpr": 0.06610227467077133,
+        "tpr_at_5_fpr": 0.09881135625106892,
+        "unknown_auroc": 0.7009643184729315
+      },
+      "seconds": 51.00855419999971,
+      "test_scores_at_maximum": 9,
+      "unknown_auroc": 0.7009643184729315
+    }
+  },
+  "profile": "balanced",
+  "scenario": "Z1",
+  "seed": 37,
+  "tail_anchor_exceedances": 250,
+  "tail_confidence": 0.0,
+  "tail_extension": false,
+  "test_known": 5574,
+  "test_unknown": 23388,
+  "tuning_fraction": 0.2,
+  "tuning_size": 1100,
+  "unknown_families": [
+    "probing"
+  ]
+}

@@ -1,0 +1,148 @@
+[temporal] scanning C:\Users\AnThiwn\Desktop\PACT\data\dataraw\NF-CSE-CIC-IDS2018-v3\NF-CICIDS2018-v3.csv
+  [scan] 2,000,000 rows
+  [scan] 4,000,000 rows
+  [scan] 6,000,000 rows
+  [scan] 8,000,000 rows
+  [scan] 10,000,000 rows
+  [scan] 12,000,000 rows
+  [scan] 14,000,000 rows
+  [scan] 16,000,000 rows
+  [scan] 18,000,000 rows
+  [scan] 20,000,000 rows
+  [scan] 20,115,529 rows
+[temporal] 20,115,529 flows; split at 1519223359726 (60.0% early)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\AnThiwn\Desktop\PACT\experiments\open_set\build_temporal.py", line 237, in <module>
+    main()
+  File "C:\Users\AnThiwn\Desktop\PACT\experiments\open_set\build_temporal.py", line 233, in main
+    print(json.dumps(build(args), indent=2)[:2000])
+                     ^^^^^^^^^^^
+  File "C:\Users\AnThiwn\Desktop\PACT\experiments\open_set\build_temporal.py", line 106, in build
+    raise ValueError("The held-out family does not appear in the late period")
+ValueError: The held-out family does not appear in the late period
+[temporal] scanning C:\Users\AnThiwn\Desktop\PACT\data\dataraw\NF-CSE-CIC-IDS2018-v3\NF-CICIDS2018-v3.csv
+  [scan] 2,000,000 rows
+  [scan] 4,000,000 rows
+  [scan] 6,000,000 rows
+  [scan] 8,000,000 rows
+  [scan] 10,000,000 rows
+  [scan] 12,000,000 rows
+[temporal] scanning C:\Users\AnThiwn\Desktop\PACT\data\dataraw\NF-CSE-CIC-IDS2018-v3\NF-CICIDS2018-v3.csv
+  [scan] 2,000,000 rows
+  [scan] 4,000,000 rows
+  [scan] 6,000,000 rows
+  [scan] 8,000,000 rows
+  [scan] 10,000,000 rows
+  [scan] 12,000,000 rows
+  [scan] 14,000,000 rows
+  [scan] 16,000,000 rows
+  [scan] 18,000,000 rows
+  [scan] 20,000,000 rows
+  [scan] 20,115,529 rows
+[temporal] 20,115,529 flows; split at 1519223359726 (60.0% early)
+[temporal] WARNING raw families absent from the manifest: ['brute_force__web', 'brute_force__xss']
+[temporal] WARNING manifest families absent from the raw file: ['brute_force_web', 'brute_force_xss']
+  [sample] 2,000,000 rows scanned; early 18,282 late 8,039
+  [sample] 4,000,000 rows scanned; early 37,048 late 16,094
+  [sample] 6,000,000 rows scanned; early 58,755 late 24,084
+  [sample] 8,000,000 rows scanned; early 67,452 late 29,462
+  [sample] 10,000,000 rows scanned; early 68,208 late 33,336
+  [sample] 12,000,000 rows scanned; early 71,085 late 33,966
+  [sample] 14,000,000 rows scanned; early 71,687 late 34,911
+  [sample] 16,000,000 rows scanned; early 77,963 late 35,989
+  [sample] 18,000,000 rows scanned; early 80,270 late 40,778
+  [sample] 20,000,000 rows scanned; early 88,746 late 45,005
+  [sample] 20,115,529 rows scanned; early 89,022 late 46,282
+[temporal] wrote train: 66,764 rows
+[temporal] wrote calibration: 22,258 rows
+[temporal] wrote test: 46,282 rows
+{
+  "dataset": "nf_cse_cic_ids2018_v3",
+  "scenario": "T2",
+  "mode": "per_family",
+  "late_only_families": [],
+  "family_time_spans": {
+    "benign": {
+      "rows": 17514626,
+      "first": 1518611287705,
+      "last": 1520021065524
+    },
+    "bot": {
+      "rows": 207703,
+      "first": 1520000227380,
+      "last": 1520020490318
+    },
+    "brute_force__web": {
+      "rows": 1618,
+      "first": 1519302299675,
+      "last": 1519334982169
+    },
+    "brute_force__xss": {
+      "rows": 480,
+      "first": 1519302310148,
+      "last": 1519334903081
+    },
+    "ddos_attack_hoic": {
+      "rows": 1032311,
+      "first": 1519236668829,
+      "last": 1519239954052
+    },
+    "ddos_attack_loic_udp": {
+      "rows": 3450,
+      "first": 1519222131251,
+      "last": 1519224196845
+    },
+    "ddos_attacks_loic_http": {
+      "rows": 288589,
+      "first": 1519136034662,
+      "last": 1519147756047
+    },
+    "dos_attacks_goldeneye": {
+      "rows": 61300,
+      "first": 1518701262466,
+      "last": 1518703905874
+    },
+    "dos_attacks_hulk": {
+      "rows": 100076,
+      "first": 1518803127826,
+      "last": 1518803902098
+    },
+    "dos_attacks_slowhttptest": {
+      "rows": 105550,
+      "first": 1518790334134,
+      "last": 1518793513888
+    },
+    "dos_attacks_slowloris": {
+      "rows": 36040,
+      "first": 1518706812551,
+      "last": 1518709294482
+    },
+    "ftp_bruteforce": {
+      "rows": 386720,
+      "first": 1518618806718,
+      "last": 1518624631996
+    },
+    "infilteration": {
+      "rows": 188152,
+      "first": 1519820525767,
+      "last": 1519940418782
+    },
+    "sql_injection": {
+      "rows": 440,
+      "first": 1519312180675,
+      "last": 1519331271010
+    },
+    "ssh_bruteforce": {
+      "rows": 188474,
+      "first": 1518631281199,
+      "last": 1518636750288
+    }
+  },
+  "per_family_split_at": {
+    "benign": 1519396347812.0,
+    "bot": 1520012931661.0,
+    "brute_force__web": 1519320977770.4,
+    "brute_force__xss": 1519322599361.8,
+    "ddos_

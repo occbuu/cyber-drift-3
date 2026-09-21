@@ -1,0 +1,258 @@
+[temporal] scanning C:\Users\AnThiwn\Desktop\PACT\data\dataraw\NF-ToN-IoT-v3\NF-ToN-IoT-v3.csv
+  [scan] 2,000,000 rows
+  [scan] 4,000,000 rows
+  [scan] 6,000,000 rows
+  [scan] 8,000,000 rows
+  [scan] 10,000,000 rows
+  [scan] 12,000,000 rows
+  [scan] 14,000,000 rows
+  [scan] 16,000,000 rows
+  [scan] 18,000,000 rows
+  [scan] 20,000,000 rows
+  [scan] 22,000,000 rows
+  [scan] 24,000,000 rows
+  [scan] 26,000,000 rows
+  [scan] 27,520,260 rows
+[temporal] 27,520,260 flows; split at 1556278923452 (60.0% early)
+  [sample] 2,000,000 rows scanned; early 6,424 late 0
+  [sample] 4,000,000 rows scanned; early 9,178 late 0
+  [sample] 6,000,000 rows scanned; early 12,643 late 0
+  [sample] 8,000,000 rows scanned; early 22,651 late 0
+  [sample] 10,000,000 rows scanned; early 26,247 late 5,825
+  [sample] 12,000,000 rows scanned; early 52,617 late 17,848
+  [sample] 14,000,000 rows scanned; early 53,395 late 18,380
+  [sample] 16,000,000 rows scanned; early 53,395 late 19,378
+  [sample] 18,000,000 rows scanned; early 53,395 late 22,562
+  [sample] 20,000,000 rows scanned; early 53,395 late 27,001
+  [sample] 22,000,000 rows scanned; early 66,924 late 33,594
+  [sample] 24,000,000 rows scanned; early 79,878 late 34,145
+  [sample] 26,000,000 rows scanned; early 97,707 late 47,950
+  [sample] 27,520,260 rows scanned; early 99,182 late 51,684
+[temporal] wrote train: 74,386 rows
+[temporal] wrote calibration: 24,796 rows
+[temporal] wrote test: 51,684 rows
+{
+  "dataset": "nf_ton_iot_v3",
+  "scenario": "T2",
+  "mode": "per_family",
+  "family_time_spans": {
+    "backdoor": {
+      "rows": 203384,
+      "first": 1556436599094,
+      "last": 1556531132443
+    },
+    "benign": {
+      "rows": 16792214,
+      "first": 1556028590618,
+      "last": 1556549155177
+    },
+    "ddos": {
+      "rows": 4141256,
+      "first": 1556203727370,
+      "last": 1556254870995
+    },
+    "dos": {
+      "rows": 203456,
+      "first": 1556129622297,
+      "last": 1556160620576
+    },
+    "injection": {
+      "rows": 381777,
+      "first": 1556171362186,
+      "last": 1556187258788
+    },
+    "mitm": {
+      "rows": 6013,
+      "first": 1556540442076,
+      "last": 1556548985358
+    },
+    "password": {
+      "rows": 1594777,
+      "first": 1556286349635,
+      "last": 1556336864675
+    },
+    "ransomware": {
+      "rows": 3971,
+      "first": 1556423393081,
+      "last": 1556431523073
+    },
+    "scanning": {
+      "rows": 1358977,
+      "first": 1556028590618,
+      "last": 1556089597647
+    },
+    "xss": {
+      "rows": 2834435,
+      "first": 1556340862396,
+      "last": 1556368852964
+    }
+  },
+  "per_family_split_at": {
+    "backdoor": 1556500677847.0,
+    "benign": 1556222217882.8,
+    "ddos": 1556236766655.0,
+    "dos": 1556148748460.0,
+    "injection": 1556181577641.0,
+    "mitm": 1556542686716.4,
+    "password": 1556321080248.0,
+    "ransomware": 1556427568947.0,
+    "scanning": 1556079443714.6,
+    "xss": 1556358395422.4
+  },
+  "reference_scenario": "Z1",
+  "split_at_milliseconds": 1556278923451.5,
+  "early_fraction": 0.6,
+  "known_families": [
+    "backdoor",
+    "benign",
+    "dos",
+    "injection",
+    "mitm",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ],
+  "unknown_families": [
+    "ddos"
+  ],
+  "splits": {
+    "train": {
+      "rows": 74386,
+      "families": {
+        "benign": 13356,
+        "dos": 13475,
+        "injection": 13172,
+        "password": 13363,
+        "scanning": 13392,
+        "xss": 7628
+ 
+[temporal] scanning C:\Users\AnThiwn\Desktop\PACT\data\dataraw\NF-ToN-IoT-v3\NF-ToN-IoT-v3.csv
+  [scan] 2,000,000 rows
+  [scan] 4,000,000 rows
+  [scan] 6,000,000 rows
+  [scan] 8,000,000 rows
+  [scan] 10,000,000 rows
+  [scan] 12,000,000 rows
+  [scan] 14,000,000 rows
+  [scan] 16,000,000 rows
+  [scan] 18,000,000 rows
+  [scan] 20,000,000 rows
+  [scan] 22,000,000 rows
+  [scan] 24,000,000 rows
+  [scan] 26,000,000 rows
+  [scan] 27,520,260 rows
+[temporal] 27,520,260 flows; split at 1556278923452 (60.0% early)
+  [sample] 2,000,000 rows scanned; early 6,424 late 0
+  [sample] 4,000,000 rows scanned; early 9,178 late 0
+  [sample] 6,000,000 rows scanned; early 12,643 late 0
+  [sample] 8,000,000 rows scanned; early 22,651 late 0
+  [sample] 10,000,000 rows scanned; early 26,247 late 5,825
+  [sample] 12,000,000 rows scanned; early 52,617 late 17,848
+  [sample] 14,000,000 rows scanned; early 53,395 late 18,380
+  [sample] 16,000,000 rows scanned; early 53,395 late 19,378
+  [sample] 18,000,000 rows scanned; early 53,395 late 22,562
+  [sample] 20,000,000 rows scanned; early 53,395 late 27,001
+  [sample] 22,000,000 rows scanned; early 66,924 late 33,594
+  [sample] 24,000,000 rows scanned; early 79,878 late 34,145
+  [sample] 26,000,000 rows scanned; early 97,707 late 47,950
+  [sample] 27,520,260 rows scanned; early 99,182 late 51,684
+[temporal] wrote train: 74,385 rows
+[temporal] wrote calibration: 24,797 rows
+[temporal] wrote test: 51,684 rows
+{
+  "dataset": "nf_ton_iot_v3",
+  "scenario": "T2",
+  "mode": "per_family",
+  "late_only_families": [],
+  "family_time_spans": {
+    "backdoor": {
+      "rows": 203384,
+      "first": 1556436599094,
+      "last": 1556531132443
+    },
+    "benign": {
+      "rows": 16792214,
+      "first": 1556028590618,
+      "last": 1556549155177
+    },
+    "ddos": {
+      "rows": 4141256,
+      "first": 1556203727370,
+      "last": 1556254870995
+    },
+    "dos": {
+      "rows": 203456,
+      "first": 1556129622297,
+      "last": 1556160620576
+    },
+    "injection": {
+      "rows": 381777,
+      "first": 1556171362186,
+      "last": 1556187258788
+    },
+    "mitm": {
+      "rows": 6013,
+      "first": 1556540442076,
+      "last": 1556548985358
+    },
+    "password": {
+      "rows": 1594777,
+      "first": 1556286349635,
+      "last": 1556336864675
+    },
+    "ransomware": {
+      "rows": 3971,
+      "first": 1556423393081,
+      "last": 1556431523073
+    },
+    "scanning": {
+      "rows": 1358977,
+      "first": 1556028590618,
+      "last": 1556089597647
+    },
+    "xss": {
+      "rows": 2834435,
+      "first": 1556340862396,
+      "last": 1556368852964
+    }
+  },
+  "per_family_split_at": {
+    "backdoor": 1556500677847.0,
+    "benign": 1556222217882.8,
+    "ddos": 1556236766655.0,
+    "dos": 1556148748460.0,
+    "injection": 1556181577641.0,
+    "mitm": 1556542686716.4,
+    "password": 1556321080248.0,
+    "ransomware": 1556427568947.0,
+    "scanning": 1556079443714.6,
+    "xss": 1556358395422.4
+  },
+  "reference_scenario": "Z1",
+  "split_at_milliseconds": 1556278923451.5,
+  "early_fraction": 0.6,
+  "known_families": [
+    "backdoor",
+    "benign",
+    "dos",
+    "injection",
+    "mitm",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ],
+  "unknown_families": [
+    "ddos"
+  ],
+  "splits": {
+    "train": {
+      "rows": 74385,
+      "families": {
+        "backdoor": 9984,
+        "benign": 10017,
+        "dos": 10106,
+        "injection": 9879,
+        "mitm": 2706,
+

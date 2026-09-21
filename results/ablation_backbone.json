@@ -1,0 +1,31 @@
+{
+  "protocol": "encoder_ablation_identity_in_place_of_the_encoder",
+  "seed": 13,
+  "scenario": "Z1",
+  "records": [
+    {
+      "dataset": "cicids2017",
+      "raw_feature_fusion_auroc": 0.9626050528789658,
+      "trained_encoder_auroc": 0.998,
+      "difference": -0.03539494712103419
+    },
+    {
+      "dataset": "cse2018",
+      "raw_feature_fusion_auroc": 0.9968359210351516,
+      "trained_encoder_auroc": 1.0,
+      "difference": -0.0031640789648483825
+    },
+    {
+      "dataset": "toniot",
+      "raw_feature_fusion_auroc": 0.809704780008073,
+      "trained_encoder_auroc": 0.947,
+      "difference": -0.13729521999192695
+    },
+    {
+      "dataset": "ciciomt2024",
+      "raw_feature_fusion_auroc": 0.2424335964858228,
+      "trained_encoder_auroc": 0.898,
+      "difference": -0.6555664035141773
+    }
+  ]
+}

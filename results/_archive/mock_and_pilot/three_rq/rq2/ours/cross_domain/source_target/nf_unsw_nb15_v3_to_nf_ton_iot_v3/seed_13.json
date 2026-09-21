@@ -1,0 +1,54 @@
+{
+  "dataset": "nf_unsw_nb15_v3",
+  "elapsed_seconds": 40.455070399999386,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.23760725622563178,
+      "far": 0.016733333333333333,
+      "fpr95": 0.9166666666666666,
+      "frr": 0.9754,
+      "known_accuracy": 0.16266666666666665,
+      "known_macro_f1": 0.05440683353693178,
+      "known_weighted_f1": 0.14508488943181808,
+      "open_world_macro_f1": 0.047575515096120805,
+      "oscr": 0.08254153333333333,
+      "scorer_density_reference_size": 20000.0,
+      "scorer_fusion_weight_knn": 0.6151599371479697,
+      "scorer_fusion_weight_md": 1.2550490305521496,
+      "scorer_fusion_weight_rmd": 1.1297910322998805,
+      "scorer_neighbors": 1.0,
+      "scorer_proxy_auroc_knn": 0.6652299676622664,
+      "scorer_proxy_auroc_md": 0.8371021066393171,
+      "scorer_proxy_auroc_rmd": 0.8034582138061523,
+      "scorer_proxy_density_auroc": 0.6652299676622664,
+      "scorer_proxy_evidential_auroc": 0.8371021066393171,
+      "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+      "threshold_accepted_fraction": 0.08395,
+      "threshold_mode": "alarm_budget_fallback",
+      "threshold_value": 22.179590225219727,
+      "tpr_at_0_1_fpr": 0.0026,
+      "tpr_at_1_fpr": 0.0246,
+      "tpr_at_5_fpr": 0.051,
+      "unknown_auroc": 0.4614979133333333,
+      "unknown_f1": 0.04577595831782657,
+      "unknown_precision": 0.32887700534759357,
+      "unknown_recall": 0.0246
+    }
+  },
+  "profile": "balanced",
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "scorer_components": [
+    "md",
+    "rmd",
+    "knn"
+  ],
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos"
+  ],
+  "target_dataset": "nf_ton_iot_v3"
+}

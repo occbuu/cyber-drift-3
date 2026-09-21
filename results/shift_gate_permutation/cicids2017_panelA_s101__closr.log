@@ -1,0 +1,60 @@
+[shift_gate] cicids2017_panelA_s101 closr: 180 rows
+{
+  "q": 0.1,
+  "conditions": 180,
+  "guarantee_broken_conditions": 100,
+  "detection_rate_where_broken": 0.58,
+  "fire_rate_where_intact": 0.4142857142857143,
+  "false_refusal_on_exchangeable": 0.2,
+  "gate_passes": false,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 30,
+      "gate_fire_rate": 0.2,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.2,
+      "ungated_false_alarms_per_1000": 0.030000000000000002,
+      "gated_false_alarms_per_1000": 0.5333333333333333
+    },
+    "0.1": {
+      "conditions": 30,
+      "gate_fire_rate": 0.43333333333333335,
+      "guarantee_broken_rate": 1.0,
+      "ungated_fdp": 0.3333333333333333,
+      "ungated_false_alarms_per_1000": 0.0375,
+      "gated_false_alarms_per_1000": 1.0074999999999998
+    },
+    "0.25": {
+      "conditions": 30,
+      "gate_fire_rate": 0.43333333333333335,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.43333333333333335,
+      "ungated_false_alarms_per_1000": 0.08750000000000001,
+      "gated_false_alarms_per_1000": 1.0183333333333333
+    },
+    "0.5": {
+      "conditions": 30,
+      "gate_fire_rate": 0.5333333333333333,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.33249999999999996,
+      "ungated_false_alarms_per_1000": 0.29916666666666664,
+      "gated_false_alarms_per_1000": 1.5091666666666668
+    },
+    "0.75": {
+      "conditions": 30,
+      "gate_fire_rate": 0.6666666666666666,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.3310635198135198,
+      "ungated_false_alarms_per_1000": 0.46749999999999997,
+      "gated_false_alarms_per_1000": 1.6891666666666667
+    },
+    "1.0": {
+      "conditions": 30,
+      "gate_fire_rate": 0.7,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.33169696273168986,
+      "ungated_false_alarms_per_1000": 0.6616666666666666,
+      "gated_false_alarms_per_1000": 1.6975000000000005
+    }
+  }
+}

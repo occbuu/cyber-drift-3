@@ -1,0 +1,60 @@
+[shift_gate] cse2018_panelA_s137 hedl: 180 rows
+{
+  "q": 0.1,
+  "conditions": 180,
+  "guarantee_broken_conditions": 80,
+  "detection_rate_where_broken": 1.0,
+  "fire_rate_where_intact": 0.9571428571428572,
+  "false_refusal_on_exchangeable": 0.26666666666666666,
+  "gate_passes": false,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 30,
+      "gate_fire_rate": 0.26666666666666666,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.07786541730248082,
+      "ungated_false_alarms_per_1000": 0.825,
+      "gated_false_alarms_per_1000": 0.3933333333333333
+    },
+    "0.1": {
+      "conditions": 30,
+      "gate_fire_rate": 0.9,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.08284244637592,
+      "ungated_false_alarms_per_1000": 0.8916666666666667,
+      "gated_false_alarms_per_1000": 0.07749999999999999
+    },
+    "0.25": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.09105470806206448,
+      "ungated_false_alarms_per_1000": 1.0066666666666666,
+      "gated_false_alarms_per_1000": 0.06083333333333333
+    },
+    "0.5": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.11949997047577222,
+      "ungated_false_alarms_per_1000": 1.4183333333333332,
+      "gated_false_alarms_per_1000": 0.06833333333333333
+    },
+    "0.75": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.14160331730306674,
+      "ungated_false_alarms_per_1000": 1.7208333333333334,
+      "gated_false_alarms_per_1000": 0.095
+    },
+    "1.0": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.16971601419872753,
+      "ungated_false_alarms_per_1000": 2.3216666666666668,
+      "gated_false_alarms_per_1000": 0.095
+    }
+  }
+}

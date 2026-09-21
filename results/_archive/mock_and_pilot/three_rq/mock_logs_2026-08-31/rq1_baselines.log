@@ -1,0 +1,59 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 15.303451200001291,
+  "methods": {
+    "closr": {
+      "aupr_out": 0.4922227790999364,
+      "fpr95": 0.3758241758241758,
+      "known_accuracy": 0.6615384615384615,
+      "known_macro_f1": 0.6232253620188257,
+      "known_weighted_f1": 0.6229686949412567,
+      "open_world_macro_f1": 0.5960266406526729,
+      "oscr": 0.5832478632478632,
+      "tpr_at_0_1_fpr": 0.28888888888888886,
+      "tpr_at_1_fpr": 0.35555555555555557,
+      "tpr_at_5_fpr": 0.35555555555555557,
+      "unknown_auroc": 0.824126984126984,
+      "unknown_f1": 0.5,
+      "unknown_precision": 0.8421052631578947,
+      "unknown_recall": 0.35555555555555557
+    },
+    "efc": {
+      "aupr_out": 0.3644565379074199,
+      "fpr95": 0.810989010989011,
+      "known_accuracy": 0.756043956043956,
+      "known_macro_f1": 0.7273036718893998,
+      "known_weighted_f1": 0.7275580885502289,
+      "open_world_macro_f1": 0.6567114729532406,
+      "oscr": 0.49352869352869355,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.08888888888888889,
+      "tpr_at_5_fpr": 0.5777777777777777,
+      "unknown_auroc": 0.659023199023199,
+      "unknown_f1": 0.12,
+      "unknown_precision": 0.6,
+      "unknown_recall": 0.06666666666666667
+    },
+    "renoir_dml": {
+      "aupr_out": 0.34390455255507213,
+      "fpr95": 0.20659340659340658,
+      "known_accuracy": 0.6395604395604395,
+      "known_macro_f1": 0.6065981461616862,
+      "known_weighted_f1": 0.6061214328999117,
+      "open_world_macro_f1": 0.5490088661243974,
+      "oscr": 0.5866178266178266,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.4444444444444444,
+      "unknown_auroc": 0.8861538461538461,
+      "unknown_f1": 0.2535211267605634,
+      "unknown_precision": 0.34615384615384615,
+      "unknown_recall": 0.2
+    }
+  },
+  "protocol": "loao",
+  "rq": "rq1",
+  "scenario": "Z1",
+  "seed": 13
+}
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq1 --protocol loao --dataset cicids2017 --scenario Z1 --methods closr,efc,renoir_dml --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq1\baselines\loao\cicids2017\Z1\seed_13.json --max-rows 500

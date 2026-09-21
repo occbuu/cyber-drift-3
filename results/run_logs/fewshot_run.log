@@ -1,0 +1,19 @@
+unsw_to_ton k=0 seed=13 334s hedl auroc=0.4615
+unsw_to_ton k=0 seed=37 226s hedl auroc=0.4664
+unsw_to_ton k=0 seed=73 176s hedl auroc=0.5715
+skip C:\Users\AnThiwn\Desktop\PACT\results\fewshot\unsw_to_ton\k10\seed_13.json
+unsw_to_ton k=10 seed=37 166s hedl auroc=0.7973
+unsw_to_ton k=10 seed=73 296s hedl auroc=0.7981
+unsw_to_ton k=50 seed=13 205s hedl auroc=0.8408
+unsw_to_ton k=50 seed=37 304s hedl auroc=0.8639
+unsw_to_ton k=50 seed=73 201s hedl auroc=0.8356
+unsw_to_ton k=200 seed=13 168s hedl auroc=0.8937
+unsw_to_ton k=200 seed=37 281s hedl auroc=0.8971
+unsw_to_ton k=200 seed=73 318s hedl auroc=0.8862
+loeo_unsw k=0 seed=13 976s hedl auroc=0.5820
+skip C:\Users\AnThiwn\Desktop\PACT\results\fewshot\loeo_unsw\k0\seed_13.json
+loeo_unsw k=0 seed=37 867s hedl auroc=0.5029
+loeo_unsw k=0 seed=73 487s hedl auroc=0.4981
+loeo_unsw k=50 seed=13 565s hedl auroc=0.5728
+loeo_unsw k=50 seed=37 742s hedl auroc=0.5681
+loeo_unsw k=50 seed=73 747s hedl auroc=0.5831

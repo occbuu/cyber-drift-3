@@ -1,0 +1,55 @@
+{
+  "epochs": 30,
+  "finished_at": "2026-08-31T14:59:48.601362+00:00",
+  "jobs": [
+    {
+      "command": [
+        "C:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-m",
+        "experiments.open_set.run",
+        "--rq",
+        "rq1",
+        "--protocol",
+        "loao",
+        "--dataset",
+        "cicids2017",
+        "--scenario",
+        "Z1",
+        "--methods",
+        "closr,efc,renoir_dml,ori,docpp",
+        "--seed",
+        "13",
+        "--epochs",
+        "1",
+        "--batch-size",
+        "64",
+        "--output",
+        "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\rq1\\baselines\\loao\\cicids2017\\Z1\\seed_13.json",
+        "--max-rows",
+        "500"
+      ],
+      "elapsed_seconds": 58.16957579999871,
+      "index": 1,
+      "output": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\rq1\\baselines\\loao\\cicids2017\\Z1\\seed_13.json",
+      "status": "passed",
+      "stderr_tail": "",
+      "stdout_tail": "6873,\n      \"far\": 0.015384615384615385,\n      \"fpr95\": 0.567032967032967,\n      \"frr\": 0.8,\n      \"known_accuracy\": 0.6659340659340659,\n      \"known_macro_f1\": 0.627919340209772,\n      \"known_weighted_f1\": 0.6274292292358109,\n      \"open_world_macro_f1\": 0.5780633574595636,\n      \"oscr\": 0.5475457875457875,\n      \"tpr_at_0_1_fpr\": 0.0,\n      \"tpr_at_1_fpr\": 0.022222222222222223,\n      \"tpr_at_5_fpr\": 0.35555555555555557,\n      \"unknown_auroc\": 0.7776312576312576,\n      \"unknown_f1\": 0.29508196721311475,\n      \"unknown_precision\": 0.5625,\n      \"unknown_recall\": 0.2\n    },\n    \"docpp\": {\n      \"adapter_provenance\": \"source_derived_v7_adapter\",\n      \"adapter_source_algorithm\": \"DOC++ one-vs-rest sigmoid with known-only synthetic exposure\",\n      \"aupr_out\": 0.12442909094265367,\n      \"closed_reference_macro_f1\": 0.23862469656180327,\n      \"delta_f1\": -0.21362889558627915,\n      \"far\": 0.02197802197802198,\n      \"fpr95\": 0.8725274725274725,\n      \"frr\": 0.9111111111111111,\n      \"known_accuracy\": 0.0945054945054945,\n      \"known_macro_f1\": 0.02499580097552412,\n      \"known_weighted_f1\": 0.02518013789495281,\n      \"open_world_macro_f1\": 0.03306791751294973,\n      \"oscr\": 0.06446886446886446,\n      \"tpr_at_0_1_fpr\": 0.022222222222222223,\n      \"tpr_at_1_fpr\": 0.06666666666666667,\n      \"tpr_at_5_fpr\": 0.1111111111111111,\n      \"unknown_auroc\": 0.30036630036630035,\n      \"unknown_f1\": 0.13559322033898305,\n      \"unknown_precision\": 0.2857142857142857,\n      \"unknown_recall\": 0.08888888888888889\n    },\n    \"efc\": {\n      \"aupr_out\": 0.3644565379074199,\n      \"closed_reference_macro_f1\": 0.23862469656180327,\n      \"delta_f1\": 0.4886789753275965,\n      \"far\": 0.004395604395604396,\n      \"fpr95\": 0.810989010989011,\n      \"frr\": 0.9333333333333333,\n      \"known_accuracy\": 0.756043956043956,\n      \"known_macro_f1\": 0.7273036718893998,\n      \"known_weighted_f1\": 0.7275580885502289,\n      \"open_world_macro_f1\": 0.6567114729532406,\n      \"oscr\": 0.49352869352869355,\n      \"tpr_at_0_1_fpr\": 0.0,\n      \"tpr_at_1_fpr\": 0.08888888888888889,\n      \"tpr_at_5_fpr\": 0.5777777777777777,\n      \"unknown_auroc\": 0.659023199023199,\n      \"unknown_f1\": 0.12,\n      \"unknown_precision\": 0.6,\n      \"unknown_recall\": 0.06666666666666667\n    },\n    \"ori\": {\n      \"adapter_provenance\": \"paper_reimplementation\",\n      \"adapter_source_algorithm\": \"open recognition plus local-density inspection\",\n      \"aupr_out\": 0.5732539202020394,\n      \"closed_reference_macro_f1\": 0.23862469656180327,\n      \"delta_f1\": 0.6594157690915113,\n      \"far\": 0.01098901098901099,\n      \"fpr95\": 0.11648351648351649,\n      \"frr\": 0.9111111111111111,\n      \"known_accuracy\": 0.9032967032967033,\n      \"known_macro_f1\": 0.8980404656533146,\n      \"known_weighted_f1\": 0.8987785510288426,\n      \"open_world_macro_f1\": 0.8068496333711753,\n      \"oscr\": 0.8762637362637362,\n      \"tpr_at_0_1_fpr\": 0.0,\n      \"tpr_at_1_fpr\": 0.044444444444444446,\n      \"tpr_at_5_fpr\": 0.7333333333333333,\n      \"unknown_auroc\": 0.9586813186813186,\n      \"unknown_f1\": 0.14814814814814814,\n      \"unknown_precision\": 0.4444444444444444,\n      \"unknown_recall\": 0.08888888888888889\n    },\n    \"renoir_dml\": {\n      \"aupr_out\": 0.5844689119791906,\n      \"closed_reference_macro_f1\": 0.23862469656180327,\n      \"delta_f1\": 0.3898217937658981,\n      \"far\": 0.01978021978021978,\n      \"fpr95\": 0.5406593406593406,\n      \"frr\": 0.6666666666666666,\n      \"known_accuracy\": 0.6659340659340659,\n      \"known_macro_f1\": 0.6284464903277014,\n      \"known_weighted_f1\": 0.6282198885319734,\n      \"open_world_macro_f1\": 0.5954004465711142,\n      \"oscr\": 0.6049328449328449,\n      \"tpr_at_0_1_fpr\": 0.044444444444444446,\n      \"tpr_at_1_fpr\": 0.3333333333333333,\n      \"tpr_at_5_fpr\": 0.7777777777777778,\n      \"unknown_auroc\": 0.8814163614163614,\n      \"unknown_f1\": 0.43478260869565216,\n      \"unknown_precision\": 0.625,\n      \"unknown_recall\": 0.3333333333333333\n    }\n  },\n  \"protocol\": \"loao\",\n  \"rq\": \"rq1\",\n  \"scenario\": \"Z1\",\n  \"seed\": 13\n}\n"
+    }
+  ],
+  "jobs_failed": 0,
+  "jobs_passed": 1,
+  "jobs_skipped": 0,
+  "jobs_total": 1,
+  "methods": [
+    "closr",
+    "efc",
+    "renoir_dml",
+    "ori",
+    "docpp"
+  ],
+  "rq": "rq1",
+  "smoke": true,
+  "started_at": "2026-08-31T14:58:50.429082+00:00",
+  "status": "complete",
+  "track": "baselines"
+}

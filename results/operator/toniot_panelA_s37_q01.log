@@ -1,0 +1,6 @@
+[operator] n=12000 draw=0 done
+[operator] n=12000 draw=1 done
+[operator] n=12000 draw=2 done
+[operator] n=12000 draw=3 done
+[operator] n=12000 draw=4 done
+wrote results\operator\toniot_panelA_s37_q01.json (50 rows)

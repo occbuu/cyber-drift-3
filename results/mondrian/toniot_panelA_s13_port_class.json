@@ -1,0 +1,107 @@
+{
+  "protocol": "mondrian_port_class",
+  "tag": "toniot_panelA_s13",
+  "grouping": "port_class",
+  "results": [
+    {
+      "tag": "toniot_panelA_s13",
+      "dataset": "nf_ton_iot_v3",
+      "scenario": "Z1",
+      "seed": 13,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 3,
+      "pooled": {
+        "fdp": 1.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0025
+      },
+      "mondrian": {
+        "fdp": 0.3333333333333333,
+        "power": 0.00024946987651241115,
+        "alerts_per_1000": 0.00375
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 2,
+      "groups_lifted_from_zero": [
+        "port<1024"
+      ],
+      "prop11_predicts_benefit_correctly": "2/2",
+      "groups": [
+        {
+          "group": 0,
+          "group_family": "port<1024",
+          "calibration_size": 14185,
+          "known_flow_share": 0.6710174795817113,
+          "attack_share": 0.9938929863296848,
+          "attack_concentration": 1.4811730194409283,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 674.1405722860466,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0002509410288582183,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0018550673018417109,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 1,
+          "group_family": "port1024-49151",
+          "calibration_size": 5948,
+          "known_flow_share": 0.28654301198381804,
+          "attack_share": 0.006107013670315216,
+          "attack_concentration": 0.021312729380607257,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 46919.31612384257,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.008802390729322084,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        }
+      ]
+    },
+    {
+      "tag": "toniot_panelA_s13",
+      "dataset": "nf_ton_iot_v3",
+      "scenario": "Z1",
+      "seed": 13,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 3,
+      "pooled": {
+        "fdp": 1.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0025
+      },
+      "mondrian": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 1,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "0/1",
+      "groups": [
+        {
+          "group": 0,
+          "group_family": "port<1024",
+          "calibration_size": 14185,
+          "known_flow_share": 0.6710174795817113,
+          "attack_share": 0.9938929863296848,
+          "attack_concentration": 1.4811730194409283,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 6750.405722860467,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 5.866875300000174
+}

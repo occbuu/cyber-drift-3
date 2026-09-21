@@ -1,0 +1,6 @@
+[window] n=9000 draw=0 done
+[window] n=9000 draw=1 done
+[window] n=9000 draw=2 done
+[window] n=9000 draw=3 done
+[window] n=9000 draw=4 done
+wrote results\window_draws_temporal_ext\full_botiot_T2_ext_s13_q01_L100.json in 7.6s (5 rows)

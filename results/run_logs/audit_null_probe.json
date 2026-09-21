@@ -1,0 +1,70 @@
+{
+  "protocol": "audit_null",
+  "config": {
+    "tags": "cse2018_panelA_s13",
+    "methods": "hedl",
+    "repeats": 30,
+    "audit_size": 2000,
+    "audit_alpha": 0.05,
+    "audit_permutations": 200,
+    "seed": 13,
+    "output": "results\\run_logs\\audit_null_probe.json"
+  },
+  "summary": {
+    "dkw::calibration": {
+      "captures": 1,
+      "mean_fire_rate": 0.0
+    },
+    "dkw::test": {
+      "captures": 1,
+      "mean_fire_rate": 0.0
+    },
+    "permutation::calibration": {
+      "captures": 1,
+      "mean_fire_rate": 0.0
+    },
+    "permutation::test": {
+      "captures": 1,
+      "mean_fire_rate": 0.0
+    }
+  },
+  "rows": [
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 13,
+      "method": "hedl",
+      "threshold": "dkw",
+      "audit_source": "calibration",
+      "repeats": 30,
+      "fire_rate": 0.0
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 13,
+      "method": "hedl",
+      "threshold": "dkw",
+      "audit_source": "test",
+      "repeats": 30,
+      "fire_rate": 0.0
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 13,
+      "method": "hedl",
+      "threshold": "permutation",
+      "audit_source": "calibration",
+      "repeats": 30,
+      "fire_rate": 0.0
+    },
+    {
+      "dataset": "nf_cse_cic_ids2018_v3",
+      "seed": 13,
+      "method": "hedl",
+      "threshold": "permutation",
+      "audit_source": "test",
+      "repeats": 30,
+      "fire_rate": 0.0
+    }
+  ],
+  "elapsed_seconds": 9.938909200000126
+}

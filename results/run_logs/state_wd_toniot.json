@@ -1,0 +1,474 @@
+{
+  "jobs": {
+    "window_draws/toniot_panelA_s101_q0.1_L1": {
+      "finished_at": "2026-09-16T09:44:23.966041+00:00",
+      "name": "toniot_panelA_s101_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 217.3,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s101_q0.1_L100": {
+      "finished_at": "2026-09-17T10:25:01.781707+00:00",
+      "name": "toniot_panelA_s101_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 546.7,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s101_q0.1_L5": {
+      "finished_at": "2026-09-16T09:47:53.436446+00:00",
+      "name": "toniot_panelA_s101_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 209.4,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s101_q0.2_L1": {
+      "finished_at": "2026-09-16T09:58:06.583771+00:00",
+      "name": "toniot_panelA_s101_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 613.1,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s101_q0.2_L100": {
+      "finished_at": "2026-09-17T10:34:29.939444+00:00",
+      "name": "toniot_panelA_s101_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 568.1,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s101_q0.2_L5": {
+      "finished_at": "2026-09-16T10:05:15.246082+00:00",
+      "name": "toniot_panelA_s101_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 428.6,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s137_q0.1_L1": {
+      "finished_at": "2026-09-16T10:15:22.774175+00:00",
+      "name": "toniot_panelA_s137_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 607.4,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s137_q0.1_L100": {
+      "finished_at": "2026-09-17T10:43:44.718399+00:00",
+      "name": "toniot_panelA_s137_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 554.7,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s137_q0.1_L5": {
+      "finished_at": "2026-09-16T10:22:01.849611+00:00",
+      "name": "toniot_panelA_s137_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 399.0,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s137_q0.2_L1": {
+      "finished_at": "2026-09-16T10:31:56.174261+00:00",
+      "name": "toniot_panelA_s137_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 594.3,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s137_q0.2_L100": {
+      "finished_at": "2026-09-17T10:53:15.518864+00:00",
+      "name": "toniot_panelA_s137_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 570.8,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s137_q0.2_L5": {
+      "finished_at": "2026-09-16T10:38:11.181877+00:00",
+      "name": "toniot_panelA_s137_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 375.0,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s13_q0.1_L1": {
+      "finished_at": "2026-09-16T10:47:47.507350+00:00",
+      "name": "toniot_panelA_s13_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 576.3,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s13_q0.1_L100": {
+      "finished_at": "2026-09-17T11:02:24.206844+00:00",
+      "name": "toniot_panelA_s13_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 548.6,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s13_q0.1_L5": {
+      "finished_at": "2026-09-16T10:53:53.366645+00:00",
+      "name": "toniot_panelA_s13_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 365.8,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s13_q0.2_L1": {
+      "finished_at": "2026-09-16T11:03:44.669552+00:00",
+      "name": "toniot_panelA_s13_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 591.2,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s13_q0.2_L100": {
+      "finished_at": "2026-09-17T11:10:41.469267+00:00",
+      "name": "toniot_panelA_s13_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 497.2,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s13_q0.2_L5": {
+      "finished_at": "2026-09-16T14:50:37.482426+00:00",
+      "name": "toniot_panelA_s13_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 434.2,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s37_q0.1_L1": {
+      "finished_at": "2026-09-16T14:59:50.983146+00:00",
+      "name": "toniot_panelA_s37_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 553.3,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s37_q0.1_L100": {
+      "finished_at": "2026-09-17T11:18:31.433737+00:00",
+      "name": "toniot_panelA_s37_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 469.9,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s37_q0.1_L5": {
+      "finished_at": "2026-09-16T15:05:18.860924+00:00",
+      "name": "toniot_panelA_s37_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 327.8,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s37_q0.2_L1": {
+      "finished_at": "2026-09-16T15:14:39.987447+00:00",
+      "name": "toniot_panelA_s37_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 561.1,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s37_q0.2_L100": {
+      "finished_at": "2026-09-17T11:25:49.165484+00:00",
+      "name": "toniot_panelA_s37_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 437.7,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s37_q0.2_L5": {
+      "finished_at": "2026-09-16T15:20:26.316150+00:00",
+      "name": "toniot_panelA_s37_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 346.3,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s73_q0.1_L1": {
+      "finished_at": "2026-09-16T15:29:49.984940+00:00",
+      "name": "toniot_panelA_s73_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 563.6,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s73_q0.1_L100": {
+      "finished_at": "2026-09-17T11:32:32.188818+00:00",
+      "name": "toniot_panelA_s73_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 403.0,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s73_q0.1_L5": {
+      "finished_at": "2026-09-16T15:35:47.493304+00:00",
+      "name": "toniot_panelA_s73_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 357.5,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s73_q0.2_L1": {
+      "finished_at": "2026-09-16T15:45:20.621348+00:00",
+      "name": "toniot_panelA_s73_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 573.1,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s73_q0.2_L100": {
+      "finished_at": "2026-09-17T11:40:09.251740+00:00",
+      "name": "toniot_panelA_s73_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 457.0,
+      "stage": "window_draws"
+    },
+    "window_draws/toniot_panelA_s73_q0.2_L5": {
+      "finished_at": "2026-09-16T15:50:34.149775+00:00",
+      "name": "toniot_panelA_s73_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 313.5,
+      "stage": "window_draws"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "toniot_panelA_s101_q0.1_L1",
+          "returncode": 0,
+          "seconds": 217.3,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s101_q0.1_L5",
+          "returncode": 0,
+          "seconds": 209.4,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s101_q0.2_L1",
+          "returncode": 0,
+          "seconds": 613.1,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s101_q0.2_L5",
+          "returncode": 0,
+          "seconds": 428.6,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s137_q0.1_L1",
+          "returncode": 0,
+          "seconds": 607.4,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s137_q0.1_L5",
+          "returncode": 0,
+          "seconds": 399.0,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s137_q0.2_L1",
+          "returncode": 0,
+          "seconds": 594.3,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s137_q0.2_L5",
+          "returncode": 0,
+          "seconds": 375.0,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s13_q0.1_L1",
+          "returncode": 0,
+          "seconds": 576.3,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s13_q0.1_L5",
+          "returncode": 0,
+          "seconds": 365.8,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s13_q0.2_L1",
+          "returncode": 0,
+          "seconds": 591.2,
+          "stage": "window_draws"
+        }
+      ],
+      "datasets": [
+        "nf_ton_iot_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T09:40:46.320617+00:00"
+    },
+    {
+      "completed": [
+        {
+          "name": "toniot_panelA_s13_q0.2_L5",
+          "returncode": 0,
+          "seconds": 434.2,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s37_q0.1_L1",
+          "returncode": 0,
+          "seconds": 553.3,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s37_q0.1_L5",
+          "returncode": 0,
+          "seconds": 327.8,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s37_q0.2_L1",
+          "returncode": 0,
+          "seconds": 561.1,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s37_q0.2_L5",
+          "returncode": 0,
+          "seconds": 346.3,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s73_q0.1_L1",
+          "returncode": 0,
+          "seconds": 563.6,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s73_q0.1_L5",
+          "returncode": 0,
+          "seconds": 357.5,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s73_q0.2_L1",
+          "returncode": 0,
+          "seconds": 573.1,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s73_q0.2_L5",
+          "returncode": 0,
+          "seconds": 313.5,
+          "stage": "window_draws"
+        }
+      ],
+      "datasets": [
+        "nf_ton_iot_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T14:43:22.492325+00:00"
+    },
+    {
+      "completed": [
+        {
+          "name": "toniot_panelA_s101_q0.1_L100",
+          "returncode": 0,
+          "seconds": 546.7,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s101_q0.2_L100",
+          "returncode": 0,
+          "seconds": 568.1,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s137_q0.1_L100",
+          "returncode": 0,
+          "seconds": 554.7,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s137_q0.2_L100",
+          "returncode": 0,
+          "seconds": 570.8,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s13_q0.1_L100",
+          "returncode": 0,
+          "seconds": 548.6,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s13_q0.2_L100",
+          "returncode": 0,
+          "seconds": 497.2,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s37_q0.1_L100",
+          "returncode": 0,
+          "seconds": 469.9,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s37_q0.2_L100",
+          "returncode": 0,
+          "seconds": 437.7,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s73_q0.1_L100",
+          "returncode": 0,
+          "seconds": 403.0,
+          "stage": "window_draws"
+        },
+        {
+          "name": "toniot_panelA_s73_q0.2_L100",
+          "returncode": 0,
+          "seconds": 457.0,
+          "stage": "window_draws"
+        }
+      ],
+      "datasets": [
+        "nf_ton_iot_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-17T10:15:54.782727+00:00"
+    }
+  ]
+}

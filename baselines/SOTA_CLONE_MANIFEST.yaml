@@ -1,0 +1,81 @@
+version: 1
+audited_on: 2026-08-31
+policy: Only repositories linked by a paper, maintained by paper authors, or matching the paper title and algorithm are accepted as official source. Supporting artifacts are never promoted to executable paper baselines.
+
+verified_clones:
+  closr:
+    paper_doi: 10.1109/TNSM.2026.3652529
+    repository: https://github.com/jackwilkie/CLOSR.git
+    path: baselines/github_clones/CLOSR
+    commit: 79da4d1f2a6f4e5ecf92c4588195aaf163df40f8
+    verification: official_paper_repository
+  efc:
+    paper_doi: 10.1016/j.cose.2025.104569
+    repository: https://github.com/EnergyBasedFlowClassifier/EFC.git
+    path: baselines/github_clones/EFC
+    commit: 30f757a39e60aa4a2b3d898b8f1cdfba735757aa
+    verification: official_paper_repository
+  efc_package:
+    paper_doi: 10.1016/j.cose.2025.104569
+    repository: https://github.com/EnergyBasedFlowClassifier/EFC-package.git
+    path: baselines/github_clones/EFC-package
+    commit: 2b935be347abf7daf4420989ef391436db418eac
+    verification: official_reference_package
+  renoir_dml:
+    paper_doi: 10.1016/j.ins.2021.05.016
+    repository: https://github.com/gsndr/RENOIR.git
+    path: baselines/github_clones/RENOIR
+    commit: a038a2d150b801cf1927b91bf3417452cb9beced
+    verification: author_repository
+  docpp:
+    paper_doi: 10.1016/j.jisa.2023.103516
+    repository: https://github.com/INL-Laboratory/Adaptable-IDS.git
+    path: baselines/github_clones/DOCpp-Adaptable-IDS
+    commit: 650a043c6b7b20b34142ba8259ca5ddc4a3c5e82
+    verification: laboratory_repository_explicitly_implements_docpp
+    author_mirror:
+      repository: https://github.com/behzad-ost/zero-day-IDS.git
+      path: baselines/github_clones/DOCpp-zero-day-IDS-author
+      commit: ddc33f89b521af171e7427cb11a3b05ac80ce6b0
+  foss:
+    paper_doi: 10.1109/TNET.2024.3413789
+    repository: https://github.com/Secbrain/FOSS.git
+    path: baselines/github_clones/FOSS
+    commit: 77d9bcdbe784cf20778273cb1096b1d7d5339b8f
+    verification: exact_title_and_algorithm_repository
+
+supporting_artifacts_only:
+  ais_nids:
+    paper_doi: 10.1016/j.cose.2024.103982
+    paper_repository: null
+    status: complete_paper_code_not_publicly_available
+    artifacts:
+      - repository: https://github.com/Yasir-ali-farrukh/GNN4ID.git
+        path: baselines/github_clones/AIS-NIDS-GNN4ID
+        commit: 551d1f10189e5259f8f34e32f918d557a2b3a64e
+        role: graph_dataset_and_gnn_supporting_artifact
+      - repository: https://github.com/Yasir-ali-farrukh/Payload-Byte.git
+        path: baselines/github_clones/AIS-NIDS-Payload-Byte
+        commit: d9060f4de399014265b1f5548471d16a9cd1b682
+        role: packet_extraction_and_labeling_supporting_artifact
+    warning: These artifacts do not reproduce the complete AIS-NIDS incremental learning pipeline.
+
+no_public_repository_found:
+  ori:
+    paper_doi: 10.1109/TIFS.2025.3608666
+    searched_by: [doi, exact_title, method_name, author_names, github, gitlab, gitee, zenodo, figshare]
+  cross_dataset_siamese_rl:
+    paper_doi: 10.1016/j.icte.2026.05.001
+    searched_by: [doi, exact_title, method_terms, all_author_names, github, gitlab, gitee, zenodo, figshare]
+  usfad_ids:
+    paper_doi: 10.1038/s41598-024-80021-0
+    base_algorithm_doi: 10.1007/s13042-020-01225-0
+    searched_by: [both_dois, both_exact_titles, all_author_names, github, gitlab, figshare]
+    note: The Scientific Reports article states that the implementation was obtained from the earlier usfAD authors; its public data-availability section links datasets but no source repository.
+
+rejected_clones:
+  ais_nids_demo:
+    repository: https://github.com/Yasir-ali-farrukh/ais-nids-demo.git
+    path: baselines/rejected_clones/ais-nids-demo
+    commit: 754bbebcf2e0df334f789317db50a425b8566aed
+    reason: Synthetic visualization demo; not the paper implementation.

@@ -1,0 +1,55 @@
+{
+  "epochs": 30,
+  "finished_at": "2026-08-31T14:38:08.891305+00:00",
+  "jobs": [
+    {
+      "command": [
+        "C:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-m",
+        "experiments.open_set.run",
+        "--rq",
+        "rq3",
+        "--protocol",
+        "prevalence",
+        "--dataset",
+        "ciciomt2024",
+        "--scenario",
+        "Z1",
+        "--methods",
+        "closr,efc,renoir_dml,ais_nids,usfad",
+        "--seed",
+        "13",
+        "--epochs",
+        "1",
+        "--batch-size",
+        "64",
+        "--output",
+        "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\rq3\\baselines\\prevalence\\ciciomt2024\\Z1\\seed_13.json",
+        "--max-rows",
+        "500"
+      ],
+      "elapsed_seconds": 43.6554541000005,
+      "index": 1,
+      "output": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\rq3\\baselines\\prevalence\\ciciomt2024\\Z1\\seed_13.json",
+      "status": "passed",
+      "stderr_tail": "present a regression problem, not a classification problem.\n  type_true = type_of_target(y_true, input_name=\"y_true\")\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\utils\\multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  ys_types = set(type_of_target(x) for x in ys)\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\metrics\\_classification.py:98: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  type_true = type_of_target(y_true, input_name=\"y_true\")\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\utils\\multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  ys_types = set(type_of_target(x) for x in ys)\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\metrics\\_classification.py:98: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  type_true = type_of_target(y_true, input_name=\"y_true\")\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\metrics\\_classification.py:98: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  type_true = type_of_target(y_true, input_name=\"y_true\")\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\utils\\multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  ys_types = set(type_of_target(x) for x in ys)\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\metrics\\_classification.py:98: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  type_true = type_of_target(y_true, input_name=\"y_true\")\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\utils\\multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  ys_types = set(type_of_target(x) for x in ys)\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\metrics\\_classification.py:98: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  type_true = type_of_target(y_true, input_name=\"y_true\")\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\utils\\multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  ys_types = set(type_of_target(x) for x in ys)\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\metrics\\_classification.py:98: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  type_true = type_of_target(y_true, input_name=\"y_true\")\nC:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\utils\\multiclass.py:79: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.\n  ys_types = set(type_of_target(x) for x in ys)\n",
+      "stdout_tail": "oscr\": 0.4871308016877637,\n          \"realized_prevalence\": 0.010438413361169102,\n          \"requested_prevalence\": 0.01,\n          \"sampled_known\": 474.0,\n          \"sampled_unknown\": 5.0,\n          \"tpr_at_0_1_fpr\": 0.0,\n          \"tpr_at_1_fpr\": 0.0,\n          \"tpr_at_5_fpr\": 0.0,\n          \"unknown_auroc\": 0.5666666666666667,\n          \"unknown_f1\": 0.0,\n          \"unknown_precision\": 0.0,\n          \"unknown_recall\": 0.0\n        },\n        \"0.05\": {\n          \"aupr_out\": 0.06237794214324872,\n          \"far\": 0.008438818565400843,\n          \"fpr95\": 0.4704641350210971,\n          \"frr\": 1.0,\n          \"known_accuracy\": 0.7763713080168776,\n          \"known_macro_f1\": 0.7590182310591671,\n          \"known_weighted_f1\": 0.756800667718928,\n          \"open_world_macro_f1\": 0.7008311881292378,\n          \"oscr\": 0.5107594936708861,\n          \"realized_prevalence\": 0.050100200400801605,\n          \"requested_prevalence\": 0.05,\n          \"sampled_known\": 474.0,\n          \"sampled_unknown\": 25.0,\n          \"tpr_at_0_1_fpr\": 0.0,\n          \"tpr_at_1_fpr\": 0.0,\n          \"tpr_at_5_fpr\": 0.0,\n          \"unknown_auroc\": 0.599451476793249,\n          \"unknown_f1\": 0.0,\n          \"unknown_precision\": 0.0,\n          \"unknown_recall\": 0.0\n        },\n        \"0.1\": {\n          \"aupr_out\": 0.12255450132982366,\n          \"far\": 0.004273504273504274,\n          \"fpr95\": 0.4658119658119658,\n          \"frr\": 1.0,\n          \"known_accuracy\": 0.7649572649572649,\n          \"known_macro_f1\": 0.7529494241323634,\n          \"known_weighted_f1\": 0.744455874239852,\n          \"open_world_macro_f1\": 0.6841443056997676,\n          \"oscr\": 0.5076429980276134,\n          \"realized_prevalence\": 0.1,\n          \"requested_prevalence\": 0.1,\n          \"sampled_known\": 234.0,\n          \"sampled_unknown\": 26.0,\n          \"tpr_at_0_1_fpr\": 0.0,\n          \"tpr_at_1_fpr\": 0.0,\n          \"tpr_at_5_fpr\": 0.0,\n          \"unknown_auroc\": 0.6054404996712689,\n          \"unknown_f1\": 0.0,\n          \"unknown_precision\": 0.0,\n          \"unknown_recall\": 0.0\n        },\n        \"0.25\": {\n          \"aupr_out\": 0.28004665776467097,\n          \"far\": 0.0,\n          \"fpr95\": 0.47435897435897434,\n          \"frr\": 1.0,\n          \"known_accuracy\": 0.782051282051282,\n          \"known_macro_f1\": 0.7781403781403782,\n          \"known_weighted_f1\": 0.7718883680422142,\n          \"open_world_macro_f1\": 0.6883134409450199,\n          \"oscr\": 0.47879684418145957,\n          \"realized_prevalence\": 0.25,\n          \"requested_prevalence\": 0.25,\n          \"sampled_known\": 78.0,\n          \"sampled_unknown\": 26.0,\n          \"tpr_at_0_1_fpr\": 0.0,\n          \"tpr_at_1_fpr\": 0.0,\n          \"tpr_at_5_fpr\": 0.0,\n          \"unknown_auroc\": 0.5919625246548323,\n          \"unknown_f1\": 0.0,\n          \"unknown_precision\": 0.0,\n          \"unknown_recall\": 0.0\n        },\n        \"0.5\": {\n          \"aupr_out\": 0.6353045102684282,\n          \"far\": 0.0,\n          \"fpr95\": 0.38461538461538464,\n          \"frr\": 1.0,\n          \"known_accuracy\": 0.8076923076923077,\n          \"known_macro_f1\": 0.6682539682539683,\n          \"known_weighted_f1\": 0.7773504273504274,\n          \"open_world_macro_f1\": 0.5847222222222221,\n          \"oscr\": 0.6442307692307692,\n          \"realized_prevalence\": 0.5,\n          \"requested_prevalence\": 0.5,\n          \"sampled_known\": 26.0,\n          \"sampled_unknown\": 26.0,\n          \"tpr_at_0_1_fpr\": 0.038461538461538464,\n          \"tpr_at_1_fpr\": 0.038461538461538464,\n          \"tpr_at_5_fpr\": 0.038461538461538464,\n          \"unknown_auroc\": 0.71301775147929,\n          \"unknown_f1\": 0.0,\n          \"unknown_precision\": 0.0,\n          \"unknown_recall\": 0.0\n        }\n      },\n      \"throughput_fps\": 4136.148782246057,\n      \"tpr_at_0_1_fpr\": 0.0,\n      \"tpr_at_1_fpr\": 0.0,\n      \"tpr_at_5_fpr\": 0.0,\n      \"unknown_auroc\": 0.5967624148003895,\n      \"unknown_f1\": 0.0,\n      \"unknown_precision\": 0.0,\n      \"unknown_recall\": 0.0\n    }\n  },\n  \"protocol\": \"prevalence\",\n  \"rq\": \"rq3\",\n  \"scenario\": \"Z1\",\n  \"seed\": 13\n}\n"
+    }
+  ],
+  "jobs_failed": 0,
+  "jobs_passed": 1,
+  "jobs_skipped": 0,
+  "jobs_total": 1,
+  "methods": [
+    "closr",
+    "efc",
+    "renoir_dml",
+    "ais_nids",
+    "usfad"
+  ],
+  "rq": "rq3",
+  "smoke": true,
+  "started_at": "2026-08-31T14:37:25.230778+00:00",
+  "status": "complete",
+  "track": "baselines"
+}

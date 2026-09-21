@@ -1,0 +1,136 @@
+{
+  "dataset": "nf_unsw_nb15_v3",
+  "elapsed_seconds": 6.644751100000576,
+  "methods": {
+    "closr": {
+      "aupr_out": 0.2838595402999674,
+      "fpr95": 0.872,
+      "known_accuracy": 0.013333333333333334,
+      "known_macro_f1": 0.006443298969072165,
+      "known_weighted_f1": 0.017182130584192438,
+      "open_world_macro_f1": 0.013638216056780169,
+      "oscr": 0.002794666666666667,
+      "tpr_at_0_1_fpr": 0.024,
+      "tpr_at_1_fpr": 0.032,
+      "tpr_at_5_fpr": 0.056,
+      "unknown_auroc": 0.4858026666666667,
+      "unknown_f1": 0.072992700729927,
+      "unknown_precision": 0.4166666666666667,
+      "unknown_recall": 0.04
+    },
+    "efc": {
+      "aupr_out": 0.44747600369375495,
+      "fpr95": 0.9386666666666666,
+      "known_accuracy": 0.0,
+      "known_macro_f1": 0.0,
+      "known_weighted_f1": 0.0,
+      "open_world_macro_f1": 0.0,
+      "oscr": 0.0,
+      "tpr_at_0_1_fpr": 0.008,
+      "tpr_at_1_fpr": 0.184,
+      "tpr_at_5_fpr": 0.312,
+      "unknown_auroc": 0.59328,
+      "unknown_f1": 0.0,
+      "unknown_precision": 0.0,
+      "unknown_recall": 0.0
+    },
+    "renoir_dml": {
+      "aupr_out": 0.49686355280404115,
+      "fpr95": 0.9093333333333333,
+      "known_accuracy": 0.10133333333333333,
+      "known_macro_f1": 0.06185995339207294,
+      "known_weighted_f1": 0.1649598757121945,
+      "open_world_macro_f1": 0.04443391180618693,
+      "oscr": 0.03310933333333334,
+      "tpr_at_0_1_fpr": 0.112,
+      "tpr_at_1_fpr": 0.136,
+      "tpr_at_5_fpr": 0.184,
+      "unknown_auroc": 0.6909013333333334,
+      "unknown_f1": 0.0,
+      "unknown_precision": 0.0,
+      "unknown_recall": 0.0
+    }
+  },
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos"
+  ],
+  "target_dataset": "nf_ton_iot_v3"
+}
+{
+  "dataset": "nf_ton_iot_v3",
+  "elapsed_seconds": 15.177237599998989,
+  "methods": {
+    "closr": {
+      "aupr_out": 0.2173046018405908,
+      "fpr95": 0.9375,
+      "known_accuracy": 0.1925,
+      "known_macro_f1": 0.03793793793793794,
+      "known_weighted_f1": 0.14226726726726727,
+      "open_world_macro_f1": 0.0387470260912952,
+      "oscr": 0.102325,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.07,
+      "unknown_auroc": 0.524775,
+      "unknown_f1": 0.12307692307692308,
+      "unknown_precision": 0.26666666666666666,
+      "unknown_recall": 0.08
+    },
+    "efc": {
+      "aupr_out": 0.19604014252355814,
+      "fpr95": 0.9525,
+      "known_accuracy": 0.07,
+      "known_macro_f1": 0.016195609945609944,
+      "known_weighted_f1": 0.08097804972804973,
+      "open_world_macro_f1": 0.01900617825546538,
+      "oscr": 0.035487500000000005,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.02,
+      "unknown_auroc": 0.4956625,
+      "unknown_f1": 0.0851063829787234,
+      "unknown_precision": 0.14634146341463414,
+      "unknown_recall": 0.06
+    },
+    "renoir_dml": {
+      "aupr_out": 0.2305532361054422,
+      "fpr95": 0.9625,
+      "known_accuracy": 0.1725,
+      "known_macro_f1": 0.03032191069574247,
+      "known_weighted_f1": 0.11370716510903428,
+      "open_world_macro_f1": 0.035570233871382424,
+      "oscr": 0.099925,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.03,
+      "tpr_at_5_fpr": 0.06,
+      "unknown_auroc": 0.5149250000000001,
+      "unknown_f1": 0.14388489208633093,
+      "unknown_precision": 0.2564102564102564,
+      "unknown_recall": 0.1
+    }
+  },
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos",
+    "reconnaissance"
+  ],
+  "source_datasets": [
+    "nf_ton_iot_v3",
+    "nf_bot_iot_v3",
+    "nf_cse_cic_ids2018_v3"
+  ],
+  "target_dataset": "nf_unsw_nb15_v3"
+}
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq2 --protocol cross_domain --dataset nf_unsw_nb15_v3 --scenario Z1 --methods closr,efc,renoir_dml --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq2\baselines\cross_domain\source_target\nf_unsw_nb15_v3_to_nf_ton_iot_v3\seed_13.json --target-dataset nf_ton_iot_v3 --max-rows 500
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq2 --protocol cross_domain --dataset nf_ton_iot_v3 --scenario Z1 --methods closr,efc,renoir_dml --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq2\baselines\cross_domain\leave_one_environment_out\nf_unsw_nb15_v3\seed_13.json --target-dataset nf_unsw_nb15_v3 --source-datasets nf_ton_iot_v3,nf_bot_iot_v3,nf_cse_cic_ids2018_v3 --max-rows 500

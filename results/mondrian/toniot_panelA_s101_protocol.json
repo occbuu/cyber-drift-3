@@ -1,0 +1,120 @@
+{
+  "protocol": "mondrian_protocol",
+  "tag": "toniot_panelA_s101",
+  "grouping": "protocol",
+  "results": [
+    {
+      "tag": "toniot_panelA_s101",
+      "dataset": "nf_ton_iot_v3",
+      "scenario": "Z1",
+      "seed": 101,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 2,
+      "pooled": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "mondrian": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 1,
+      "groups_evaluated": 2,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/2",
+      "groups": [
+        {
+          "group": 2,
+          "group_family": "tcp",
+          "calibration_size": 17472,
+          "known_flow_share": 0.8344401190748798,
+          "attack_share": 0.9728472776812139,
+          "attack_concentration": 1.1658682935328928,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 856.7298186656508,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 3,
+          "group_family": "udp",
+          "calibration_size": 3593,
+          "known_flow_share": 0.16388061980001525,
+          "attack_share": 0.027152722318786113,
+          "attack_concentration": 0.16568598747015226,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 6034.513414676341,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": true
+        }
+      ]
+    },
+    {
+      "tag": "toniot_panelA_s101",
+      "dataset": "nf_ton_iot_v3",
+      "scenario": "Z1",
+      "seed": 101,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 2,
+      "pooled": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "mondrian": {
+        "fdp": 0.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 1,
+      "groups_evaluated": 2,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/2",
+      "groups": [
+        {
+          "group": 2,
+          "group_family": "tcp",
+          "calibration_size": 17472,
+          "known_flow_share": 0.8344401190748798,
+          "attack_share": 0.9728472776812139,
+          "attack_concentration": 1.1658682935328928,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 8576.298186656508,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 3,
+          "group_family": "udp",
+          "calibration_size": 3593,
+          "known_flow_share": 0.16388061980001525,
+          "attack_share": 0.027152722318786113,
+          "attack_concentration": 0.16568598747015226,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 60354.134146763405,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": true
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.5798869999998715
+}

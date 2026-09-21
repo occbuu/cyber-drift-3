@@ -1,0 +1,15 @@
+{
+  "dataset": "ciciomt2024",
+  "elapsed_seconds": 5.800309299998844,
+  "methods": {
+    "closed_backbone": {
+      "known_accuracy": 0.5822784810126582,
+      "known_macro_f1": 0.5108902576642858,
+      "known_weighted_f1": 0.5096804034806994
+    }
+  },
+  "protocol": "prevalence",
+  "rq": "rq3",
+  "scenario": "Z1",
+  "seed": 13
+}

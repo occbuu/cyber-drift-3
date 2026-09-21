@@ -1,0 +1,2 @@
+[mondrian] ciciomt2024_panelA_s13 hedl pi=0.01: pooled {'fdp': 0.9934187331061229, 'power': 0.006982543640897756, 'alerts_per_1000': 10.63625} mondrian {'fdp': 0.9850195897672275, 'power': 0.08915211970074813, 'alerts_per_1000': 59.66125} lifted []
+[mondrian] ciciomt2024_panelA_s13 hedl pi=0.001: pooled {'fdp': 0.999393056567128, 'power': 0.006105006105006105, 'alerts_per_1000': 10.2975} mondrian {'fdp': 0.99830841773624, 'power': 0.09768009768009768, 'alerts_per_1000': 59.11625} lifted []

@@ -1,0 +1,474 @@
+{
+  "jobs": {
+    "window_draws/cicids2017_panelA_s101_q0.1_L1": {
+      "finished_at": "2026-09-16T09:44:21.661431+00:00",
+      "name": "cicids2017_panelA_s101_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 216.2,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s101_q0.1_L100": {
+      "finished_at": "2026-09-17T10:24:09.880924+00:00",
+      "name": "cicids2017_panelA_s101_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 494.8,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s101_q0.1_L5": {
+      "finished_at": "2026-09-16T09:47:47.424467+00:00",
+      "name": "cicids2017_panelA_s101_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 205.7,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s101_q0.2_L1": {
+      "finished_at": "2026-09-16T09:58:02.105734+00:00",
+      "name": "cicids2017_panelA_s101_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 614.6,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s101_q0.2_L100": {
+      "finished_at": "2026-09-17T10:33:38.804194+00:00",
+      "name": "cicids2017_panelA_s101_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 568.9,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s101_q0.2_L5": {
+      "finished_at": "2026-09-16T10:05:07.627673+00:00",
+      "name": "cicids2017_panelA_s101_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 425.5,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s137_q0.1_L1": {
+      "finished_at": "2026-09-16T10:15:09.618668+00:00",
+      "name": "cicids2017_panelA_s137_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 601.9,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s137_q0.1_L100": {
+      "finished_at": "2026-09-17T10:42:55.862252+00:00",
+      "name": "cicids2017_panelA_s137_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 557.0,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s137_q0.1_L5": {
+      "finished_at": "2026-09-16T10:21:50.637914+00:00",
+      "name": "cicids2017_panelA_s137_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 401.0,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s137_q0.2_L1": {
+      "finished_at": "2026-09-16T10:31:44.114277+00:00",
+      "name": "cicids2017_panelA_s137_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 593.4,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s137_q0.2_L100": {
+      "finished_at": "2026-09-17T10:52:24.779080+00:00",
+      "name": "cicids2017_panelA_s137_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 568.9,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s137_q0.2_L5": {
+      "finished_at": "2026-09-16T10:37:59.715355+00:00",
+      "name": "cicids2017_panelA_s137_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 375.6,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s13_q0.1_L1": {
+      "finished_at": "2026-09-16T10:47:37.302721+00:00",
+      "name": "cicids2017_panelA_s13_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 577.5,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s13_q0.1_L100": {
+      "finished_at": "2026-09-17T11:01:20.027008+00:00",
+      "name": "cicids2017_panelA_s13_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 535.2,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s13_q0.1_L5": {
+      "finished_at": "2026-09-16T10:53:43.009375+00:00",
+      "name": "cicids2017_panelA_s13_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 365.7,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s13_q0.2_L1": {
+      "finished_at": "2026-09-16T11:03:25.640199+00:00",
+      "name": "cicids2017_panelA_s13_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 582.6,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s13_q0.2_L100": {
+      "finished_at": "2026-09-17T11:09:50.165582+00:00",
+      "name": "cicids2017_panelA_s13_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 510.1,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s13_q0.2_L5": {
+      "finished_at": "2026-09-16T14:50:34.237896+00:00",
+      "name": "cicids2017_panelA_s13_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 430.9,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s37_q0.1_L1": {
+      "finished_at": "2026-09-16T14:59:47.128641+00:00",
+      "name": "cicids2017_panelA_s37_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 552.8,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s37_q0.1_L100": {
+      "finished_at": "2026-09-17T11:17:36.700901+00:00",
+      "name": "cicids2017_panelA_s37_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 466.5,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s37_q0.1_L5": {
+      "finished_at": "2026-09-16T15:05:19.040795+00:00",
+      "name": "cicids2017_panelA_s37_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 331.9,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s37_q0.2_L1": {
+      "finished_at": "2026-09-16T15:14:41.619991+00:00",
+      "name": "cicids2017_panelA_s37_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 562.5,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s37_q0.2_L100": {
+      "finished_at": "2026-09-17T11:24:59.882615+00:00",
+      "name": "cicids2017_panelA_s37_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 443.1,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s37_q0.2_L5": {
+      "finished_at": "2026-09-16T15:20:25.049279+00:00",
+      "name": "cicids2017_panelA_s37_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 343.4,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s73_q0.1_L1": {
+      "finished_at": "2026-09-16T15:29:50.813398+00:00",
+      "name": "cicids2017_panelA_s73_q0.1_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 565.7,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s73_q0.1_L100": {
+      "finished_at": "2026-09-17T11:31:47.230932+00:00",
+      "name": "cicids2017_panelA_s73_q0.1_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 407.3,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s73_q0.1_L5": {
+      "finished_at": "2026-09-16T15:35:49.998051+00:00",
+      "name": "cicids2017_panelA_s73_q0.1_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 359.1,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s73_q0.2_L1": {
+      "finished_at": "2026-09-16T15:45:24.054502+00:00",
+      "name": "cicids2017_panelA_s73_q0.2_L1",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 574.0,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s73_q0.2_L100": {
+      "finished_at": "2026-09-17T11:39:37.137383+00:00",
+      "name": "cicids2017_panelA_s73_q0.2_L100",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 469.9,
+      "stage": "window_draws"
+    },
+    "window_draws/cicids2017_panelA_s73_q0.2_L5": {
+      "finished_at": "2026-09-16T15:50:40.305902+00:00",
+      "name": "cicids2017_panelA_s73_q0.2_L5",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 316.2,
+      "stage": "window_draws"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "cicids2017_panelA_s101_q0.1_L1",
+          "returncode": 0,
+          "seconds": 216.2,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s101_q0.1_L5",
+          "returncode": 0,
+          "seconds": 205.7,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s101_q0.2_L1",
+          "returncode": 0,
+          "seconds": 614.6,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s101_q0.2_L5",
+          "returncode": 0,
+          "seconds": 425.5,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s137_q0.1_L1",
+          "returncode": 0,
+          "seconds": 601.9,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s137_q0.1_L5",
+          "returncode": 0,
+          "seconds": 401.0,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s137_q0.2_L1",
+          "returncode": 0,
+          "seconds": 593.4,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s137_q0.2_L5",
+          "returncode": 0,
+          "seconds": 375.6,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s13_q0.1_L1",
+          "returncode": 0,
+          "seconds": 577.5,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s13_q0.1_L5",
+          "returncode": 0,
+          "seconds": 365.7,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s13_q0.2_L1",
+          "returncode": 0,
+          "seconds": 582.6,
+          "stage": "window_draws"
+        }
+      ],
+      "datasets": [
+        "cicids2017"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T09:40:45.121619+00:00"
+    },
+    {
+      "completed": [
+        {
+          "name": "cicids2017_panelA_s13_q0.2_L5",
+          "returncode": 0,
+          "seconds": 430.9,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s37_q0.1_L1",
+          "returncode": 0,
+          "seconds": 552.8,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s37_q0.1_L5",
+          "returncode": 0,
+          "seconds": 331.9,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s37_q0.2_L1",
+          "returncode": 0,
+          "seconds": 562.5,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s37_q0.2_L5",
+          "returncode": 0,
+          "seconds": 343.4,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s73_q0.1_L1",
+          "returncode": 0,
+          "seconds": 565.7,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s73_q0.1_L5",
+          "returncode": 0,
+          "seconds": 359.1,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s73_q0.2_L1",
+          "returncode": 0,
+          "seconds": 574.0,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s73_q0.2_L5",
+          "returncode": 0,
+          "seconds": 316.2,
+          "stage": "window_draws"
+        }
+      ],
+      "datasets": [
+        "cicids2017"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-16T14:43:22.537805+00:00"
+    },
+    {
+      "completed": [
+        {
+          "name": "cicids2017_panelA_s101_q0.1_L100",
+          "returncode": 0,
+          "seconds": 494.8,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s101_q0.2_L100",
+          "returncode": 0,
+          "seconds": 568.9,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s137_q0.1_L100",
+          "returncode": 0,
+          "seconds": 557.0,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s137_q0.2_L100",
+          "returncode": 0,
+          "seconds": 568.9,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s13_q0.1_L100",
+          "returncode": 0,
+          "seconds": 535.2,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s13_q0.2_L100",
+          "returncode": 0,
+          "seconds": 510.1,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s37_q0.1_L100",
+          "returncode": 0,
+          "seconds": 466.5,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s37_q0.2_L100",
+          "returncode": 0,
+          "seconds": 443.1,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s73_q0.1_L100",
+          "returncode": 0,
+          "seconds": 407.3,
+          "stage": "window_draws"
+        },
+        {
+          "name": "cicids2017_panelA_s73_q0.2_L100",
+          "returncode": 0,
+          "seconds": 469.9,
+          "stage": "window_draws"
+        }
+      ],
+      "datasets": [
+        "cicids2017"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-17T10:15:54.782727+00:00"
+    }
+  ]
+}

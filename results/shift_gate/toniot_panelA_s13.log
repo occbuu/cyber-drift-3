@@ -1,0 +1,61 @@
+[shift_gate] toniot_panelA_s13 hedl: 180 rows
+[shift_gate] toniot_panelA_s13 closr: 360 rows
+{
+  "q": 0.1,
+  "conditions": 360,
+  "guarantee_broken_conditions": 0,
+  "detection_rate_where_broken": NaN,
+  "fire_rate_where_intact": 0.83,
+  "false_refusal_on_exchangeable": 0.05,
+  "gate_passes": false,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 60,
+      "gate_fire_rate": 0.05,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.0,
+      "ungated_false_alarms_per_1000": 0.0,
+      "gated_false_alarms_per_1000": 0.11333333333333333
+    },
+    "0.1": {
+      "conditions": 60,
+      "gate_fire_rate": 0.4166666666666667,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.0,
+      "ungated_false_alarms_per_1000": 0.0,
+      "gated_false_alarms_per_1000": 0.9495833333333332
+    },
+    "0.25": {
+      "conditions": 60,
+      "gate_fire_rate": 0.8166666666666667,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.0,
+      "ungated_false_alarms_per_1000": 0.0,
+      "gated_false_alarms_per_1000": 1.8658333333333332
+    },
+    "0.5": {
+      "conditions": 60,
+      "gate_fire_rate": 0.9333333333333333,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.0,
+      "ungated_false_alarms_per_1000": 0.0,
+      "gated_false_alarms_per_1000": 2.14375
+    },
+    "0.75": {
+      "conditions": 60,
+      "gate_fire_rate": 0.9833333333333333,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.016666666666666666,
+      "ungated_false_alarms_per_1000": 0.0033333333333333335,
+      "gated_false_alarms_per_1000": 2.292083333333333
+    },
+    "1.0": {
+      "conditions": 60,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.014583333333333334,
+      "ungated_false_alarms_per_1000": 0.0029166666666666664,
+      "gated_false_alarms_per_1000": 2.3429166666666665
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "by_rq": {
+    "rq1": {
+      "loss": 9,
+      "win": 1
+    },
+    "rq2": {
+      "loss": 17,
+      "win": 8
+    },
+    "rq3": {
+      "loss": 9,
+      "tie": 1
+    }
+  },
+  "overall": {
+    "loss": 35,
+    "tie": 1,
+    "win": 9
+  },
+  "prevalence": {
+    "loss": 6
+  }
+}

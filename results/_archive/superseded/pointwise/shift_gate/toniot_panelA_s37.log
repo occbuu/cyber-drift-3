@@ -1,0 +1,61 @@
+[shift_gate] toniot_panelA_s37 hedl: 180 rows
+[shift_gate] toniot_panelA_s37 closr: 360 rows
+{
+  "q": 0.1,
+  "conditions": 360,
+  "guarantee_broken_conditions": 60,
+  "detection_rate_where_broken": 1.0,
+  "fire_rate_where_intact": 0.5333333333333333,
+  "false_refusal_on_exchangeable": 0.06666666666666667,
+  "gate_passes": true,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 60,
+      "gate_fire_rate": 0.06666666666666667,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.03125,
+      "ungated_false_alarms_per_1000": 0.004166666666666667,
+      "gated_false_alarms_per_1000": 0.13083333333333333
+    },
+    "0.1": {
+      "conditions": 60,
+      "gate_fire_rate": 0.3333333333333333,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.0,
+      "ungated_false_alarms_per_1000": 0.0,
+      "gated_false_alarms_per_1000": 0.6570833333333332
+    },
+    "0.25": {
+      "conditions": 60,
+      "gate_fire_rate": 0.6666666666666666,
+      "guarantee_broken_rate": 0.0,
+      "ungated_fdp": 0.0125,
+      "ungated_false_alarms_per_1000": 0.00125,
+      "gated_false_alarms_per_1000": 1.3545833333333335
+    },
+    "0.5": {
+      "conditions": 60,
+      "gate_fire_rate": 0.6833333333333333,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.06111111111111111,
+      "ungated_false_alarms_per_1000": 0.00875,
+      "gated_false_alarms_per_1000": 1.3983333333333334
+    },
+    "0.75": {
+      "conditions": 60,
+      "gate_fire_rate": 0.7,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.201468253968254,
+      "ungated_false_alarms_per_1000": 0.037083333333333336,
+      "gated_false_alarms_per_1000": 1.4845833333333336
+    },
+    "1.0": {
+      "conditions": 60,
+      "gate_fire_rate": 0.75,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.1796166321601104,
+      "ungated_false_alarms_per_1000": 0.049583333333333326,
+      "gated_false_alarms_per_1000": 1.5912499999999998
+    }
+  }
+}

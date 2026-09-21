@@ -1,0 +1,32 @@
+[
+  {
+    "run": "rq1_ours",
+    "status": "passed",
+    "seconds": 34.21
+  },
+  {
+    "run": "rq1_baselines",
+    "status": "passed",
+    "seconds": 56.62
+  },
+  {
+    "run": "rq2_ours",
+    "status": "passed",
+    "seconds": 136.17
+  },
+  {
+    "run": "rq2_baselines",
+    "status": "passed",
+    "seconds": 255.76
+  },
+  {
+    "run": "rq3_ours",
+    "status": "passed",
+    "seconds": 30.23
+  },
+  {
+    "run": "rq3_baselines",
+    "status": "passed",
+    "seconds": 38.82
+  }
+]

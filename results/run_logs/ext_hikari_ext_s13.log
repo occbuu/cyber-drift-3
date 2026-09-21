@@ -1,0 +1,7 @@
+[capture] hedl: auroc=0.6623 in 51.1s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\hikari_ext_s13.npz",
+  "calibration_size": 4396,
+  "test_known": 5574,
+  "test_unknown": 23388
+}

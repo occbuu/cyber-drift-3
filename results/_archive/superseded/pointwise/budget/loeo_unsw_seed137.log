@@ -1,0 +1,18 @@
+[budget] B=60 k=2 verified=44 done
+[budget] B=60 k=5 verified=20 done
+[budget] B=120 k=2 verified=104 done
+[budget] B=120 k=5 verified=80 done
+[budget] B=120 k=10 verified=40 done
+[budget] B=300 k=2 verified=284 done
+[budget] B=300 k=5 verified=260 done
+[budget] B=300 k=10 verified=220 done
+[budget] B=300 k=20 verified=140 done
+[budget] B=1000 k=2 verified=984 done
+[budget] B=1000 k=5 verified=960 done
+[budget] B=1000 k=10 verified=920 done
+[budget] B=1000 k=20 verified=840 done
+[budget] B=3000 k=2 verified=2984 done
+[budget] B=3000 k=5 verified=2960 done
+[budget] B=3000 k=10 verified=2920 done
+[budget] B=3000 k=20 verified=2840 done
+wrote results\budget\loeo_unsw_seed137.json in 115.4s (102 rows)

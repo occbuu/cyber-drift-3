@@ -1,0 +1,120 @@
+{
+  "protocol": "mondrian_protocol",
+  "tag": "toniot_panelA_s37",
+  "grouping": "protocol",
+  "results": [
+    {
+      "tag": "toniot_panelA_s37",
+      "dataset": "nf_ton_iot_v3",
+      "scenario": "Z1",
+      "seed": 37,
+      "method": "hedl",
+      "prevalence": 0.01,
+      "groups_used": 2,
+      "pooled": {
+        "fdp": 0.5409836065573771,
+        "power": 0.003492578271173756,
+        "alerts_per_1000": 0.07625
+      },
+      "mondrian": {
+        "fdp": 0.5,
+        "power": 0.0004989397530248223,
+        "alerts_per_1000": 0.01
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 2,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "2/2",
+      "groups": [
+        {
+          "group": 2,
+          "group_family": "tcp",
+          "calibration_size": 17490,
+          "known_flow_share": 0.8344401190748798,
+          "attack_share": 0.9728472776812139,
+          "attack_concentration": 1.1658682935328928,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 856.7298186656508,
+          "pooled_in_group_power": 0.0035961983046493705,
+          "mondrian_in_group_power": 0.0005137426149499101,
+          "pooled_in_group_false_per_1000": 0.04933266360505167,
+          "mondrian_in_group_false_per_1000": 0.005979716800612323,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 3,
+          "group_family": "udp",
+          "calibration_size": 3581,
+          "known_flow_share": 0.16388061980001525,
+          "attack_share": 0.027152722318786113,
+          "attack_concentration": 0.16568598747015226,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 6034.513414676341,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        }
+      ]
+    },
+    {
+      "tag": "toniot_panelA_s37",
+      "dataset": "nf_ton_iot_v3",
+      "scenario": "Z1",
+      "seed": 37,
+      "method": "hedl",
+      "prevalence": 0.001,
+      "groups_used": 2,
+      "pooled": {
+        "fdp": 0.9705882352941176,
+        "power": 0.0012422360248447205,
+        "alerts_per_1000": 0.0425
+      },
+      "mondrian": {
+        "fdp": 1.0,
+        "power": 0.0,
+        "alerts_per_1000": 0.0025
+      },
+      "pooled_audit_rejected": false,
+      "groups_with_in_group_audit_rejected": 0,
+      "groups_evaluated": 2,
+      "groups_lifted_from_zero": [],
+      "prop11_predicts_benefit_correctly": "1/2",
+      "groups": [
+        {
+          "group": 2,
+          "group_family": "tcp",
+          "calibration_size": 17490,
+          "known_flow_share": 0.8344401190748798,
+          "attack_share": 0.9728472776812139,
+          "attack_concentration": 1.1658682935328928,
+          "prop11_affordable": true,
+          "prop11_required_per_group": 8576.298186656508,
+          "pooled_in_group_power": 0.001277139208173691,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.04940408197484584,
+          "mondrian_in_group_false_per_1000": 0.002994186786354293,
+          "in_group_audit_rejected": false
+        },
+        {
+          "group": 3,
+          "group_family": "udp",
+          "calibration_size": 3581,
+          "known_flow_share": 0.16388061980001525,
+          "attack_share": 0.027152722318786113,
+          "attack_concentration": 0.16568598747015226,
+          "prop11_affordable": false,
+          "prop11_required_per_group": 60354.134146763405,
+          "pooled_in_group_power": 0.0,
+          "mondrian_in_group_power": 0.0,
+          "pooled_in_group_false_per_1000": 0.0,
+          "mondrian_in_group_false_per_1000": 0.0,
+          "in_group_audit_rejected": false
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 5.763553900000261
+}

@@ -1,0 +1,579 @@
+{
+  "alert_budget": {
+    "prevalence": 0.01,
+    "q": 0.1,
+    "window_size": 2000
+  },
+  "case": "unsw_to_ton",
+  "curvature": 0.0,
+  "device": "cuda",
+  "elapsed_seconds": 16.53566399999545,
+  "epochs": 3,
+  "max_rows": 20000,
+  "profile": "balanced",
+  "protocol": "target_label_budget_allocation",
+  "rows": [
+    {
+      "adaptation_seconds": 0.0,
+      "alerting": {
+        "alert_rate": 0.00025150905432595576,
+        "alerts": 5,
+        "claimed_fdr": null,
+        "guarantee": "none",
+        "mechanism": "fixed_alarm_budget",
+        "realised_false_discovery_proportion": 0.8,
+        "realised_power": 0.0002,
+        "smallest_pvalue": 0.00015464851173601016,
+        "state": "refuse"
+      },
+      "calibration_flows": 68,
+      "certificate": {
+        "calibration_size": 14888.0,
+        "claims_fdr": false,
+        "exchangeability_audit": {
+          "audit_size": 22.0,
+          "median_known_pvalue": 0.00040298206729800525,
+          "superuniform_audit_rejected": true,
+          "superuniform_audit_status": "rejected",
+          "superuniform_dkw_bound": 0.2609306888791626,
+          "superuniform_violation": 0.9572167371885284
+        },
+        "guarantee": "conditional",
+        "pvalue_floor_conditional": 0.00015464851173601016,
+        "pvalue_floor_marginal": 6.716367788300088e-05,
+        "reasons": [
+          "calibration_not_exchangeable_with_scored_traffic"
+        ],
+        "remedies": {
+          "coarser_alert_unit": {
+            "amplification_needed": 0.06716367788300087,
+            "cost": "alerting on hosts or sessions instead of flows; needs attack burstiness",
+            "moves": "pi",
+            "requirement": 0.0006716367788300087
+          },
+          "more_calibration": {
+            "cost": "verified-known flows; cheap per flow, no family label needed",
+            "moves": "n",
+            "requirement": 999.0,
+            "shortfall": 0.0
+          },
+          "parametric_tail": {
+            "cost": "leaves the distribution-free class; the extrapolation must be audited",
+            "moves": "the floor",
+            "requirement": 0.001
+          },
+          "weaker_guarantee": {
+            "cost": "a larger admitted false fraction",
+            "moves": "q",
+            "requirement": 0.0067163677883000875
+          }
+        },
+        "required_calibration_conditional": 2301.4336084694537,
+        "required_calibration_marginal": 999.0,
+        "state": "refuse",
+        "tail_audit": {}
+      },
+      "diagnostics": {
+        "reference_policy": "source"
+      },
+      "family_labelled_flows": 30,
+      "family_shots_per_class": 5,
+      "method": "source_only",
+      "metrics": {
+        "aupr_out": 0.21383271955345362,
+        "fpr95": 0.8563844086021506,
+        "known_accuracy": 0.1407258064516129,
+        "known_macro_f1": 0.045819243169839645,
+        "known_weighted_f1": 0.12235982517240204,
+        "oscr": 0.05031474462365592,
+        "tpr_at_0_1_fpr": 0.0004,
+        "tpr_at_1_fpr": 0.0036,
+        "tpr_at_5_fpr": 0.0282,
+        "unknown_auroc": 0.41890704301075266
+      },
+      "sizing_advice": {
+        "advice": "calibration budget is sufficient",
+        "guarantee": "conditional",
+        "have": 14888.0,
+        "reachable_prevalence_now": 0.0006716367788300087,
+        "required_calibration": 2302.0,
+        "shortfall": 0.0
+      },
+      "total_budget": 120,
+      "verified_known_flows": 90
+    },
+    {
+      "adaptation_seconds": 0.0027061000000685453,
+      "alerting": {
+        "alert_rate": 0.00025150905432595576,
+        "alerts": 5,
+        "claimed_fdr": null,
+        "guarantee": "none",
+        "mechanism": "fixed_alarm_budget",
+        "realised_false_discovery_proportion": 0.8,
+        "realised_power": 0.0002,
+        "smallest_pvalue": 0.033294659908957996,
+        "state": "refuse"
+      },
+      "calibration_flows": 68,
+      "certificate": {
+        "calibration_size": 68.0,
+        "claims_fdr": false,
+        "exchangeability_audit": {
+          "audit_size": 22.0,
+          "median_known_pvalue": 0.4565217391304348,
+          "superuniform_audit_rejected": false,
+          "superuniform_audit_status": "not_rejected",
+          "superuniform_dkw_bound": 0.2609306888791626,
+          "superuniform_violation": 0.23517786561264825
+        },
+        "guarantee": "conditional",
+        "pvalue_floor_conditional": 0.033294659908957996,
+        "pvalue_floor_marginal": 0.014492753623188406,
+        "reasons": [
+          "below_marginal_resolution_barrier"
+        ],
+        "remedies": {
+          "coarser_alert_unit": {
+            "amplification_needed": 14.492753623188406,
+            "cost": "alerting on hosts or sessions instead of flows; needs attack burstiness",
+            "moves": "pi",
+            "requirement": 0.14492753623188406
+          },
+          "more_calibration": {
+            "cost": "verified-known flows; cheap per flow, no family label needed",
+            "moves": "n",
+            "requirement": 999.0,
+            "shortfall": 931.0
+          },
+          "parametric_tail": {
+            "cost": "leaves the distribution-free class; the extrapolation must be audited",
+            "moves": "the floor",
+            "requirement": 0.001
+          },
+          "weaker_guarantee": {
+            "cost": "a larger admitted false fraction",
+            "moves": "q",
+            "requirement": 1.0
+          }
+        },
+        "required_calibration_conditional": 2301.4336084694537,
+        "required_calibration_marginal": 999.0,
+        "state": "refuse",
+        "tail_audit": {}
+      },
+      "diagnostics": {
+        "reference_policy": "source"
+      },
+      "family_labelled_flows": 30,
+      "family_shots_per_class": 5,
+      "method": "recalibration_only",
+      "metrics": {
+        "aupr_out": 0.22224387149962416,
+        "fpr95": 0.8698924731182796,
+        "known_accuracy": 0.1407258064516129,
+        "known_macro_f1": 0.045819243169839645,
+        "known_weighted_f1": 0.12235982517240204,
+        "oscr": 0.049428689516129026,
+        "tpr_at_0_1_fpr": 0.0002,
+        "tpr_at_1_fpr": 0.0022,
+        "tpr_at_5_fpr": 0.03,
+        "unknown_auroc": 0.45247794354838705
+      },
+      "sizing_advice": {
+        "advice": "acquire 2234 more verified-known flows, or raise q, or alert on a coarser unit than the flow",
+        "guarantee": "conditional",
+        "have": 68.0,
+        "reachable_prevalence_now": 0.14492753623188406,
+        "required_calibration": 2302.0,
+        "shortfall": 2234.0
+      },
+      "total_budget": 120,
+      "verified_known_flows": 90
+    },
+    {
+      "adaptation_seconds": 0.06773550000798423,
+      "alerting": {
+        "alert_rate": 0.00025150905432595576,
+        "alerts": 5,
+        "claimed_fdr": null,
+        "guarantee": "none",
+        "mechanism": "fixed_alarm_budget",
+        "realised_false_discovery_proportion": 0.4,
+        "realised_power": 0.0006,
+        "smallest_pvalue": 0.033294659908957996,
+        "state": "refuse"
+      },
+      "calibration_flows": 68,
+      "certificate": {
+        "calibration_size": 68.0,
+        "claims_fdr": false,
+        "exchangeability_audit": {
+          "audit_size": 22.0,
+          "median_known_pvalue": 0.37681159420289856,
+          "superuniform_audit_rejected": false,
+          "superuniform_audit_status": "not_rejected",
+          "superuniform_dkw_bound": 0.2609306888791626,
+          "superuniform_violation": 0.2160737812911726
+        },
+        "guarantee": "conditional",
+        "pvalue_floor_conditional": 0.033294659908957996,
+        "pvalue_floor_marginal": 0.014492753623188406,
+        "reasons": [
+          "below_marginal_resolution_barrier"
+        ],
+        "remedies": {
+          "coarser_alert_unit": {
+            "amplification_needed": 14.492753623188406,
+            "cost": "alerting on hosts or sessions instead of flows; needs attack burstiness",
+            "moves": "pi",
+            "requirement": 0.14492753623188406
+          },
+          "more_calibration": {
+            "cost": "verified-known flows; cheap per flow, no family label needed",
+            "moves": "n",
+            "requirement": 999.0,
+            "shortfall": 931.0
+          },
+          "parametric_tail": {
+            "cost": "leaves the distribution-free class; the extrapolation must be audited",
+            "moves": "the floor",
+            "requirement": 0.001
+          },
+          "weaker_guarantee": {
+            "cost": "a larger admitted false fraction",
+            "moves": "q",
+            "requirement": 1.0
+          }
+        },
+        "required_calibration_conditional": 2301.4336084694537,
+        "required_calibration_marginal": 999.0,
+        "state": "refuse",
+        "tail_audit": {}
+      },
+      "diagnostics": {
+        "reference_aligned": 0.0,
+        "reference_anchored_classes": 3.0,
+        "reference_mean_class_shift": 0.0,
+        "reference_policy": "anchors_only",
+        "reference_retained_source_fraction": 0.0,
+        "reference_retained_source_rows": 0.0,
+        "reference_retention_fraction": 0.0,
+        "selection_balanced_accuracy": 1.0,
+        "selection_candidates": [
+          {
+            "reference_aligned": 0.0,
+            "reference_anchored_classes": 3.0,
+            "reference_mean_class_shift": 0.0,
+            "reference_policy": "anchors_only",
+            "reference_retained_source_fraction": 0.0,
+            "reference_retained_source_rows": 0.0,
+            "reference_retention_fraction": 0.0,
+            "selection_balanced_accuracy": 1.0,
+            "selection_median_margin": 0.8701275537548873
+          }
+        ],
+        "selection_median_margin": 0.8701275537548873
+      },
+      "family_labelled_flows": 30,
+      "family_shots_per_class": 5,
+      "method": "anchors_only",
+      "metrics": {
+        "aupr_out": 0.5432332870293339,
+        "fpr95": 0.6504032258064516,
+        "known_accuracy": 0.8852150537634409,
+        "known_macro_f1": 0.883866456268425,
+        "known_weighted_f1": 0.8838172192410447,
+        "oscr": 0.7647697715053763,
+        "tpr_at_0_1_fpr": 0.0,
+        "tpr_at_1_fpr": 0.0654,
+        "tpr_at_5_fpr": 0.17,
+        "unknown_auroc": 0.8129062298387096
+      },
+      "sizing_advice": {
+        "advice": "acquire 2234 more verified-known flows, or raise q, or alert on a coarser unit than the flow",
+        "guarantee": "conditional",
+        "have": 68.0,
+        "reachable_prevalence_now": 0.14492753623188406,
+        "required_calibration": 2302.0,
+        "shortfall": 2234.0
+      },
+      "total_budget": 120,
+      "verified_known_flows": 90
+    },
+    {
+      "adaptation_seconds": 0.0757136000029277,
+      "alerting": {
+        "alert_rate": 0.00025150905432595576,
+        "alerts": 5,
+        "claimed_fdr": null,
+        "guarantee": "none",
+        "mechanism": "fixed_alarm_budget",
+        "realised_false_discovery_proportion": 0.4,
+        "realised_power": 0.0006,
+        "smallest_pvalue": 0.033294659908957996,
+        "state": "refuse"
+      },
+      "calibration_flows": 68,
+      "certificate": {
+        "calibration_size": 68.0,
+        "claims_fdr": false,
+        "exchangeability_audit": {
+          "audit_size": 22.0,
+          "median_known_pvalue": 0.3333333333333333,
+          "superuniform_audit_rejected": false,
+          "superuniform_audit_status": "not_rejected",
+          "superuniform_dkw_bound": 0.2609306888791626,
+          "superuniform_violation": 0.2121212121212121
+        },
+        "guarantee": "conditional",
+        "pvalue_floor_conditional": 0.033294659908957996,
+        "pvalue_floor_marginal": 0.014492753623188406,
+        "reasons": [
+          "below_marginal_resolution_barrier"
+        ],
+        "remedies": {
+          "coarser_alert_unit": {
+            "amplification_needed": 14.492753623188406,
+            "cost": "alerting on hosts or sessions instead of flows; needs attack burstiness",
+            "moves": "pi",
+            "requirement": 0.14492753623188406
+          },
+          "more_calibration": {
+            "cost": "verified-known flows; cheap per flow, no family label needed",
+            "moves": "n",
+            "requirement": 999.0,
+            "shortfall": 931.0
+          },
+          "parametric_tail": {
+            "cost": "leaves the distribution-free class; the extrapolation must be audited",
+            "moves": "the floor",
+            "requirement": 0.001
+          },
+          "weaker_guarantee": {
+            "cost": "a larger admitted false fraction",
+            "moves": "q",
+            "requirement": 1.0
+          }
+        },
+        "required_calibration_conditional": 2301.4336084694537,
+        "required_calibration_marginal": 999.0,
+        "state": "refuse",
+        "tail_audit": {}
+      },
+      "diagnostics": {
+        "reference_aligned": 1.0,
+        "reference_anchored_classes": 3.0,
+        "reference_mean_class_shift": 1.2987200755180746,
+        "reference_policy": "aligned_tenth",
+        "reference_retained_source_fraction": 0.10006006006006006,
+        "reference_retained_source_rows": 833.0,
+        "reference_retention_fraction": 0.1,
+        "selection_balanced_accuracy": 1.0,
+        "selection_candidates": [
+          {
+            "reference_aligned": 1.0,
+            "reference_anchored_classes": 3.0,
+            "reference_mean_class_shift": 1.2987200755180746,
+            "reference_policy": "aligned_tenth",
+            "reference_retained_source_fraction": 0.10006006006006006,
+            "reference_retained_source_rows": 833.0,
+            "reference_retention_fraction": 0.1,
+            "selection_balanced_accuracy": 1.0,
+            "selection_median_margin": 0.746778568922374
+          }
+        ],
+        "selection_median_margin": 0.746778568922374
+      },
+      "family_labelled_flows": 30,
+      "family_shots_per_class": 5,
+      "method": "aligned_tenth",
+      "metrics": {
+        "aupr_out": 0.5712748598739518,
+        "fpr95": 0.8015456989247312,
+        "known_accuracy": 0.8636424731182796,
+        "known_macro_f1": 0.8641431219172394,
+        "known_weighted_f1": 0.8641037240623705,
+        "oscr": 0.7272725940860215,
+        "tpr_at_0_1_fpr": 0.0078,
+        "tpr_at_1_fpr": 0.0598,
+        "tpr_at_5_fpr": 0.2696,
+        "unknown_auroc": 0.7936005443548386
+      },
+      "sizing_advice": {
+        "advice": "acquire 2234 more verified-known flows, or raise q, or alert on a coarser unit than the flow",
+        "guarantee": "conditional",
+        "have": 68.0,
+        "reachable_prevalence_now": 0.14492753623188406,
+        "required_calibration": 2302.0,
+        "shortfall": 2234.0
+      },
+      "total_budget": 120,
+      "verified_known_flows": 90
+    },
+    {
+      "adaptation_seconds": 0.08156160000362433,
+      "alerting": {
+        "alert_rate": 0.00025150905432595576,
+        "alerts": 5,
+        "claimed_fdr": null,
+        "guarantee": "none",
+        "mechanism": "fixed_alarm_budget",
+        "realised_false_discovery_proportion": 0.4,
+        "realised_power": 0.0006,
+        "smallest_pvalue": 0.033294659908957996,
+        "state": "refuse"
+      },
+      "calibration_flows": 68,
+      "certificate": {
+        "calibration_size": 68.0,
+        "claims_fdr": false,
+        "exchangeability_audit": {
+          "audit_size": 22.0,
+          "median_known_pvalue": 0.37681159420289856,
+          "superuniform_audit_rejected": false,
+          "superuniform_audit_status": "not_rejected",
+          "superuniform_dkw_bound": 0.2609306888791626,
+          "superuniform_violation": 0.2160737812911726
+        },
+        "guarantee": "conditional",
+        "pvalue_floor_conditional": 0.033294659908957996,
+        "pvalue_floor_marginal": 0.014492753623188406,
+        "reasons": [
+          "below_marginal_resolution_barrier"
+        ],
+        "remedies": {
+          "coarser_alert_unit": {
+            "amplification_needed": 14.492753623188406,
+            "cost": "alerting on hosts or sessions instead of flows; needs attack burstiness",
+            "moves": "pi",
+            "requirement": 0.14492753623188406
+          },
+          "more_calibration": {
+            "cost": "verified-known flows; cheap per flow, no family label needed",
+            "moves": "n",
+            "requirement": 999.0,
+            "shortfall": 931.0
+          },
+          "parametric_tail": {
+            "cost": "leaves the distribution-free class; the extrapolation must be audited",
+            "moves": "the floor",
+            "requirement": 0.001
+          },
+          "weaker_guarantee": {
+            "cost": "a larger admitted false fraction",
+            "moves": "q",
+            "requirement": 1.0
+          }
+        },
+        "required_calibration_conditional": 2301.4336084694537,
+        "required_calibration_marginal": 999.0,
+        "state": "refuse",
+        "tail_audit": {}
+      },
+      "diagnostics": {
+        "reference_aligned": 0.0,
+        "reference_anchored_classes": 3.0,
+        "reference_mean_class_shift": 0.0,
+        "reference_policy": "anchors_only",
+        "reference_retained_source_fraction": 0.0,
+        "reference_retained_source_rows": 0.0,
+        "reference_retention_fraction": 0.0,
+        "selection_balanced_accuracy": 1.0,
+        "selection_candidates": [
+          {
+            "reference_aligned": 0.0,
+            "reference_anchored_classes": 3.0,
+            "reference_mean_class_shift": 0.0,
+            "reference_policy": "anchors_only",
+            "reference_retained_source_fraction": 0.0,
+            "reference_retained_source_rows": 0.0,
+            "reference_retention_fraction": 0.0,
+            "selection_balanced_accuracy": 1.0,
+            "selection_median_margin": 0.8701275537548873
+          },
+          {
+            "reference_aligned": 1.0,
+            "reference_anchored_classes": 3.0,
+            "reference_mean_class_shift": 1.2987200755180746,
+            "reference_policy": "aligned_tenth",
+            "reference_retained_source_fraction": 0.10006006006006006,
+            "reference_retained_source_rows": 833.0,
+            "reference_retention_fraction": 0.1,
+            "selection_balanced_accuracy": 1.0,
+            "selection_median_margin": 0.746778568922374
+          },
+          {
+            "reference_aligned": 1.0,
+            "reference_anchored_classes": 3.0,
+            "reference_mean_class_shift": 1.2987200755180746,
+            "reference_policy": "aligned_quarter",
+            "reference_retained_source_fraction": 0.2500900900900901,
+            "reference_retained_source_rows": 2082.0,
+            "reference_retention_fraction": 0.25,
+            "selection_balanced_accuracy": 1.0,
+            "selection_median_margin": 0.7367413879104431
+          },
+          {
+            "reference_aligned": 1.0,
+            "reference_anchored_classes": 3.0,
+            "reference_mean_class_shift": 1.2987200755180746,
+            "reference_policy": "aligned_full",
+            "reference_retained_source_fraction": 1.0,
+            "reference_retained_source_rows": 8325.0,
+            "reference_retention_fraction": 1.0,
+            "selection_balanced_accuracy": 1.0,
+            "selection_median_margin": 0.6571644065969797
+          },
+          {
+            "reference_aligned": 0.0,
+            "reference_anchored_classes": 3.0,
+            "reference_mean_class_shift": 0.0,
+            "reference_policy": "unaligned_full",
+            "reference_retained_source_fraction": 1.0,
+            "reference_retained_source_rows": 8325.0,
+            "reference_retention_fraction": 1.0,
+            "selection_balanced_accuracy": 0.19999999999999998,
+            "selection_median_margin": -0.14650763857114335
+          }
+        ],
+        "selection_median_margin": 0.8701275537548873
+      },
+      "family_labelled_flows": 30,
+      "family_shots_per_class": 5,
+      "method": "selected",
+      "metrics": {
+        "aupr_out": 0.5432332870293339,
+        "fpr95": 0.6504032258064516,
+        "known_accuracy": 0.8852150537634409,
+        "known_macro_f1": 0.883866456268425,
+        "known_weighted_f1": 0.8838172192410447,
+        "oscr": 0.7647697715053763,
+        "tpr_at_0_1_fpr": 0.0,
+        "tpr_at_1_fpr": 0.0654,
+        "tpr_at_5_fpr": 0.17,
+        "unknown_auroc": 0.8129062298387096
+      },
+      "sizing_advice": {
+        "advice": "acquire 2234 more verified-known flows, or raise q, or alert on a coarser unit than the flow",
+        "guarantee": "conditional",
+        "have": 68.0,
+        "reachable_prevalence_now": 0.14492753623188406,
+        "required_calibration": 2302.0,
+        "shortfall": 2234.0
+      },
+      "total_budget": 120,
+      "verified_known_flows": 90
+    }
+  ],
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos"
+  ],
+  "source_classes": 8,
+  "source_training_seconds": 7.904293799991137,
+  "target_known_rows": 15000,
+  "target_unknown_rows": 5000
+}

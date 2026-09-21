@@ -1,0 +1,23 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = "C.UTF-8",
+	LC_CTYPE = "C",
+	LC_NUMERIC = "C",
+	LC_COLLATE = "C",
+	LC_TIME = (unset),
+	LC_MONETARY = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the system default locale ("English_United States.1252").
+Initial Win CP for (console input, console output, system): (CP437, CP65001, CP1252)
+I changed them all to CP1252
+Rc files read (in order):
+  NONE
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+
+------------
+Latexmk: Could not find file 'pact_computer_networks.tex'.
+-- Use the -f option to force complete processing.
+Reverting Windows console CPs to (in,out) = (437,65001)
+...AppData\Local\Programs\TinyTeX\bin\windows\runscript.tlu:933: command failed with exit code 11:
+perl.exe c:\Users\AnThiwn\AppData\Local\Programs\TinyTeX\texmf-dist\scripts\latexmk\latexmk.pl -pdf -interaction=nonstopmode -halt-on-error pact_computer_networks.tex

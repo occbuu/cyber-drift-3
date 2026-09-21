@@ -1,0 +1,682 @@
+# Locked experiment matrix.
+#
+# Two levels, deliberately not one-to-one.  `research_questions` is what the
+# paper asks, in priority order.  `protocols` is what the runners execute.  One
+# protocol feeds several questions; numbering the protocols after the questions
+# is what produced the earlier confusion between "RQ3" the section and "rq3" the
+# command-line flag.
+#
+# Amended 2026-09-14: supporting table is the 4-dataset panel over all rotations.
+# Amended 2026-09-13: RQ1's headline prevalence is 1e-2 and the reporting unit
+# is the stream; RQ4 is reduced to the gate and the label budget.
+#
+# See reports/RQ_DESIGN_2026-09-12.md for the reasoning.
+version: 6
+protocol: open_set_zero_day_deployment
+date_locked: '2026-09-14'
+design_document: reports/RQ_DESIGN_2026-09-12.md
+seeds: &id001
+- 13
+- 37
+- 73
+- 101
+- 137
+training:
+  hedl:
+    epochs: 30
+    batch_size: 256
+    smoke_batch_size: 64
+    backbone_profile: balanced
+    class_balance: sqrt_inverse_frequency_clipped_at_4
+    unknown_scorer: conformal_fisher_md_rmd_knn
+    density_neighbors: 1
+    density_reference_cap: 65536
+    conformal_proxy: leave_one_class_out_known_only
+  external_baselines:
+    epochs: 30
+    batch_size: 256
+    smoke_batch_size: 64
+datasets:
+  all_partitioned:
+  - cicids2017
+  - ciciomt2024
+  - cidds_001
+  - hikari2021
+  - insdn
+  - nf_bot_iot_v3
+  - nf_cse_cic_ids2018_v3
+  - nf_ton_iot_v3
+  - nf_unsw_nb15_v3
+  - unr_idd
+  difficulty_representative:
+  - cicids2017
+  - ciciomt2024
+  - insdn
+  - nf_cse_cic_ids2018_v3
+  - nf_ton_iot_v3
+  - nf_unsw_nb15_v3
+  standardized_netflow:
+  - nf_unsw_nb15_v3
+  - nf_ton_iot_v3
+  - nf_bot_iot_v3
+  - nf_cse_cic_ids2018_v3
+  deployment_operational:
+  - ciciomt2024
+  - cicids2017
+  - nf_ton_iot_v3
+  - nf_cse_cic_ids2018_v3
+methods:
+  closed_backbone:
+    status: ready
+    implementation: local_shared_backbone
+    role: internal_control
+  hedl:
+    status: ready
+    implementation: experiments/open_set/models.py
+    role: proposed
+  closr:
+    status: adapter_ready
+    implementation: experiments/open_set/direct_baselines.py
+    source: baselines/github_clones/CLOSR
+    commit: 79da4d1f2a6f4e5ecf92c4588195aaf163df40f8
+    paper: 10.1109/TNSM.2026.3652529
+    venue: IEEE Transactions on Network and Service Management
+    venue_tier: Q1
+  efc:
+    status: adapter_ready
+    implementation: experiments/open_set/direct_baselines.py
+    source: baselines/github_clones/EFC-package
+    commit: 2b935be347abf7daf4420989ef391436db418eac
+    paper: 10.1016/j.cose.2025.104569
+    venue: Computers & Security
+    venue_tier: Q1
+    note: Uses the official pure-Python reference because the Cython package requires MSVC Build Tools.
+  renoir_dml:
+    status: adapter_ready
+    implementation: experiments/open_set/direct_baselines.py
+    source: baselines/github_clones/RENOIR
+    commit: a038a2d150b801cf1927b91bf3417452cb9beced
+    paper: 10.1016/j.ins.2021.05.016
+    venue: Information Sciences
+    venue_tier: Q1
+    note: Modern PyTorch port of the official autoencoder and triplet metric-learning design.
+  ori:
+    status: paper_reimplementation_ready
+    implementation: experiments/open_set/specialist_baselines.py
+    source: null
+    adapter_provenance: paper_reimplementation
+    paper: 10.1109/TIFS.2025.3608666
+    venue: IEEE Transactions on Information Forensics and Security
+    venue_tier: Q1
+  docpp:
+    status: adapter_ready
+    implementation: experiments/open_set/specialist_baselines.py
+    source: baselines/github_clones/DOCpp-Adaptable-IDS
+    commit: 650a043c6b7b20b34142ba8259ca5ddc4a3c5e82
+    mirror_source: baselines/github_clones/DOCpp-zero-day-IDS-author
+    mirror_commit: ddc33f89b521af171e7427cb11a3b05ac80ce6b0
+    adapter_provenance: source_derived_v7_adapter
+    paper: 10.1016/j.jisa.2023.103516
+    venue: Journal of Information Security and Applications
+    venue_tier: Q1
+  foss:
+    status: adapter_ready
+    implementation: experiments/open_set/specialist_baselines.py
+    source: baselines/github_clones/FOSS
+    commit: 77d9bcdbe784cf20778273cb1096b1d7d5339b8f
+    adapter_provenance: source_derived_v7_adapter
+    paper: 10.1109/TNET.2024.3413789
+    venue: IEEE/ACM Transactions on Networking
+    venue_tier: Q1
+  cd_zd_srl:
+    status: paper_reimplementation_ready
+    implementation: experiments/open_set/specialist_baselines.py
+    source: null
+    adapter_provenance: paper_reimplementation
+    paper: 10.1016/j.icte.2026.05.001
+    venue: ICT Express
+    venue_tier: Q1
+  ais_nids:
+    status: paper_reimplementation_ready
+    implementation: experiments/open_set/specialist_baselines.py
+    source: null
+    adapter_provenance: paper_reimplementation
+    supporting_sources:
+    - path: baselines/github_clones/AIS-NIDS-GNN4ID
+      commit: 551d1f10189e5259f8f34e32f918d557a2b3a64e
+      role: author_artifact_for_graph_dataset_and_modeling
+    - path: baselines/github_clones/AIS-NIDS-Payload-Byte
+      commit: d9060f4de399014265b1f5548471d16a9cd1b682
+      role: author_artifact_for_packet_extraction_and_labeling
+    note: Supporting author artifacts are not the complete AIS-NIDS paper implementation and must not
+      be used as a drop-in baseline.
+    paper: 10.1016/j.cose.2024.103982
+    venue: Computers & Security
+    venue_tier: Q1
+  usfad:
+    status: paper_reimplementation_ready
+    implementation: experiments/open_set/specialist_baselines.py
+    source: null
+    adapter_provenance: paper_reimplementation
+    paper: 10.1038/s41598-024-80021-0
+    venue: Scientific Reports
+    venue_tier: Q1
+  msp:
+    status: ready
+    implementation: experiments/open_set/scorers.py
+    role: auxiliary_sanity
+  energy:
+    status: ready
+    implementation: experiments/open_set/scorers.py
+    role: auxiliary_sanity
+  odin:
+    status: ready
+    implementation: experiments/open_set/scorers.py
+    role: auxiliary_sanity
+  mahalanobis:
+    status: ready
+    implementation: experiments/open_set/scorers.py
+    role: auxiliary_sanity
+  openmax:
+    status: ready
+    implementation: experiments/open_set/scorers.py
+    role: auxiliary_sanity
+research_questions:
+  rq1_attainability:
+    priority: 1
+    carries: the central claim
+    question: Under what conditions on calibration budget, false-discovery budget and attack prevalence
+      does a distribution-free alert-quality guarantee exist for an open-set NIDS, and what is the realised
+      alert quality when those conditions fail?
+    theory:
+    - T1 distribution-free floor p >= 1/(n+1)
+    - T2 resolution barrier n >= 1/(q pi), window size cancels
+    - T3 screening invariance
+    - T4 contamination floor FDP >= 1 - m pi / r_min
+    - 'T7 currency invariance: conformal e-BH meets the same r_min'
+    - 'P12 windowing does not compose: per-window FDR control does not bound the FDR of the union, and
+      the aggregate degrades as m shrinks'
+    protocols:
+    - prevalence
+    runners:
+    - experiments.open_set.capture_scores
+    - experiments.open_set.run_resolution  (per-window diagnostics)
+    - experiments.open_set.run_window  (stream-level aggregate; the reported quantity)
+    metrics:
+    - aggregate_fdp_over_stream
+    - streams_over_budget
+    - aggregate_power
+    - alerts_per_1000_flows
+    - per_window_fdp_given_alert_vs_contamination_floor
+    - predicted_resolution_feasible
+    procedure_baselines:
+    - bates_split_conformal_bh
+    - benjamini_yekutieli
+    - storey_bh
+    - full_conformal_evalue
+    claim_gate: T4 bound holds on every below-barrier firing cell across >=4 datasets x 3 seeds; >=1 dataset
+      demonstrates the positive side AT pi = 1e-2 with the stream-level aggregate FDR within q on every
+      calibration draw and non-trivial power; the barrier binds every panel method.
+    headline_prevalence: 0.01
+    measured_prevalences:
+    - 0.25
+    - 0.1
+    - 0.05
+    - 0.01
+    - 0.001
+    reporting_unit: 'stream: a run of flows at prevalence pi partitioned into windows of size m, each
+      decided independently; the aggregate false fraction over the union is what is reported. Per-window
+      FDP is a diagnostic, not the claim.'
+  rq2_keepability:
+    priority: 2
+    carries: the deployment claim
+    question: When an alert-quality guarantee holds on average over calibration draws, does it hold for
+      the single calibration sample a deployment actually has, and what does enforcing the stronger guarantee
+      cost?
+    theory:
+    - T5 training-conditional floor Beta(1, n)
+    - corrected sizing rule n >= ln(1/delta)/(q pi)
+    protocols:
+    - prevalence
+    runners:
+    - experiments.open_set.run_resolution --calibration-draws
+    metrics:
+    - fdr_per_calibration_draw
+    - fraction_of_draws_over_budget
+    - power_vs_clairvoyant_ceiling
+    - certificate_state
+    claim_gate: marginal BH exceeds q on >=10% of draws in >=2 datasets; the conditional procedure on
+      0%; power price <=15% relative where the conditional budget is met.
+  rq3_reachability:
+    priority: 3
+    carries: the detector-side claim
+    question: Once a guarantee is available, what caps the attainable power, and can that cap be raised
+      without spending validity?
+    theory:
+    - conformal-fusion score ceiling sum_i w_i log(n_tuning + 1)
+    - known-class heterogeneity as a top-of-ranking precision cap
+    - Mondrian break-even n >= G/(q pi c_g)
+    protocols:
+    - loao
+    - prevalence
+    runners:
+    - experiments.open_set.capture_scores --tail-extension
+    - experiments.open_set.run_frontier
+    - experiments.open_set.run_resolution
+    - experiments.open_set.run_mondrian  (Prop. 11, grouping by predicted class)
+    - experiments.open_set.separability  (hold-out groups, registered 2026-09-14)
+    metrics:
+    - clairvoyant_power_vs_prevalence
+    - prevalence_floor
+    - tpr_at_far_1e-3_1e-4_1e-5_with_resolvability_flag
+    - test_scores_at_maximum
+    - per_group_ceiling_under_mondrian
+    secondary_metrics:
+    - known_accuracy
+    - known_macro_f1
+    - unknown_auroc
+    - fpr95
+    - aupr_out
+    - oscr
+    - open_world_macro_f1
+    claim_gate: tail lift raises TPR@1e-4 on >=3 datasets with AUROC unchanged to three decimals; >=1
+      dataset where covariate-grouped Mondrian lifts an in-group ceiling that was zero; the break-even
+      condition predicts in advance which grouping variables fail.
+    supporting_table: eight-method panel, four deployment datasets, all rotations, five seeds; across-rotation
+      spread compared with within-rotation seed spread
+  rq4_shift_behaviour:
+    priority: 4
+    carries: the honesty claim
+    question: When the deployment environment changes so that the guarantee no longer applies, does the
+      system detect that and abstain, and what does a target labelling budget buy?
+    theory:
+    - exchangeability audit, two-sample DKW critical value
+    - 'two-currency label budget: family labels buy ranking and saturate around ten per class; verified-known
+      flows buy the right to make a claim'
+    protocols:
+    - shift
+    runners:
+    - experiments.open_set.run_budget
+    - experiments.open_set.run_shift_gate  (label-mix shift on cached scores, replaces the legacy shift
+      protocol for the gate claim, 2026-09-14)
+    metrics:
+    - gate_detection_rate_vs_shift_magnitude
+    - false_refusal_rate_on_exchangeable_traffic
+    - false_alarm_rate_with_and_without_gate
+    - unknown_auroc_vs_family_label_budget
+    - certificate_state_vs_verified_known_budget
+    claim_gate: the gate fires on >=90% of shift conditions where the ceiling collapses with <=10% false
+      refusal on exchangeable traffic; the two-currency decomposition replicates on >=2 cases x 3 seeds.
+    status: reduced 2026-09-13
+    removed_2026_09_13: Cross-dataset open-set transfer as a research question. Every panel method sits
+      at chance, an oracle sweep over post-hoc repairs tops out at 0.533 against a 0.93 supervised probe,
+      and shared family labels denote different phenomena across testbeds. Retained as a measured impossibility
+      with a causal localisation, reported in the limitations. This removes the v8 temporal-data dependency
+      from the critical path.
+protocols:
+  loao:
+    title: Leave-one-attack-family-out detector panel
+    datasets: all_partitioned
+    protocols:
+    - loao
+    primary_sota:
+    - closr
+    - efc
+    - renoir_dml
+    - ori
+    - docpp
+    executable_baselines:
+    - closr
+    - efc
+    - renoir_dml
+    - ori
+    - docpp
+    internal_controls:
+    - closed_backbone
+    proposed: hedl
+    metrics:
+    - known_accuracy
+    - known_macro_f1
+    - known_weighted_f1
+    - delta_f1
+    - unknown_auroc
+    - fpr95
+    - aupr_out
+    - oscr
+    - open_world_macro_f1
+    - unknown_f1
+    purpose: 'Establish that the deployment results are not an artefact of a weak detector. Supporting
+      protocol: produces a table, not a claim.'
+    paper_scope:
+      datasets: deployment_operational
+      methods:
+      - hedl
+      - closr
+      - efc
+      - renoir_dml
+      - ori
+      - docpp
+      - ais_nids
+      - usfad
+      rotations: all available (Z1-Z3; ciciomt2024 Z1-Z2)
+      seeds: *id001
+      driver: experiments.open_set.run_full_experiment (stages capture, rotation, sensitivity, frontier)
+      holdout_groups:
+        rule: attack families whose pairwise out-of-fold balanced accuracy on train partitions is below
+          0.80 form a group; a rotation holding out one member holds out the whole group (twins leave
+          train and calibration, their test flows become unknown); benign is never grouped
+        registered: 2026-09-14, after the ungrouped Z3 results had been seen; disclosed as such
+        audit: data/v7/separability/<dataset>.json
+        affected_rotations:
+        - cicids2017 Z3 (web_attack_xss + web_attack_brute_force, 0.594)
+        - nf_cse_cic_ids2018_v3 Z3 (sql_injection + brute_force_web, 0.724)
+        sensitivity_thresholds: [0.70, 0.90]
+        superseded_outputs: results/_superseded_ungrouped/
+      small_rotations:
+        cicids2017_Z3: 875
+        nf_cse_cic_ids2018_v3_Z3: 440
+  shift:
+    title: 'Shift generators: openness, near/far, cross-domain'
+    primary_sota:
+    - closr
+    - efc
+    - renoir_dml
+    - foss
+    - cd_zd_srl
+    executable_baselines:
+    - closr
+    - efc
+    - renoir_dml
+    - foss
+    - cd_zd_srl
+    proposed: hedl
+    metrics:
+    - unknown_auroc
+    - fpr95
+    - aupr_out
+    - oscr
+    - open_world_macro_f1
+    - degradation_slope
+    purpose: Generate controlled and uncontrolled distribution shift. Cross-domain arms are shift generators,
+      not a transfer benchmark to be won.
+    arms:
+      difficulty:
+        datasets: difficulty_representative
+        openness:
+        - O1
+        - O2
+        - O3
+        - O25
+        - O50
+        near_far: true
+        near_cases:
+        - - cicids2017
+          - Z1
+        - - ciciomt2024
+          - Z1
+        - - insdn
+          - Z1
+        - - nf_cse_cic_ids2018_v3
+          - Z2
+        - - nf_ton_iot_v3
+          - Z1
+        - - nf_unsw_nb15_v3
+          - Z1
+        far_cases:
+        - - cicids2017
+          - Z2
+        - - ciciomt2024
+          - Z2
+        - - insdn
+          - Z3
+        - - nf_cse_cic_ids2018_v3
+          - Z3
+        - - nf_ton_iot_v3
+          - Z3
+        - - nf_unsw_nb15_v3
+          - Z2
+      cross_domain:
+        datasets: standardized_netflow
+        ordered_pairs: 12
+        leave_one_environment_out: 4
+  prevalence:
+    title: Operational prevalence and alert-quality audit
+    datasets: deployment_operational
+    protocols:
+    - prevalence
+    - fixed_fpr
+    - deployment
+    - conformal_fdr_audit
+    primary_sota:
+    - closr
+    - efc
+    - renoir_dml
+    - ais_nids
+    - usfad
+    executable_baselines:
+    - closr
+    - efc
+    - renoir_dml
+    - ais_nids
+    - usfad
+    proposed: hedl
+    prevalence:
+    - 0.5
+    - 0.25
+    - 0.1
+    - 0.05
+    - 0.01
+    - 0.001
+    conformal_fdr_audit:
+      cases:
+      - - ciciomt2024
+        - Z1
+      - - cicids2017
+        - Z1
+      - - nf_ton_iot_v3
+        - Z1
+      - - nf_cse_cic_ids2018_v3
+        - Z1
+      q_levels:
+      - 0.05
+      - 0.1
+      - 0.2
+      procedures:
+      - bh
+      - by
+      alert_batch_size: 2000
+      repeats: 200
+      smoke_alert_batch_size: 200
+      smoke_repeats: 20
+      tuning_fraction: 0.5
+      minimum_group_size: 30
+      validity_audit_alpha: 0.05
+    metrics:
+    - aupr_out
+    - unknown_precision
+    - unknown_recall
+    - unknown_f1
+    - tpr_at_5_fpr
+    - tpr_at_1_fpr
+    - tpr_at_0_1_fpr
+    - latency_ms_per_flow
+    - throughput_fps
+    - parameters
+    - empirical_fdr
+    - fdp_p90
+    - alert_power
+    - mean_alerts
+    - probability_any_alert
+    - null_pvalue_superuniform_violation
+    - validity_audit_rejected
+    purpose: 'Drive the deployment layer: alert windows at realistic attack prevalence, calibration sizing,
+      and the false-discovery audit.'
+deployment:
+  calibration_sizes:
+  - 1000
+  - 4000
+  - 12000
+  - 23025
+  - 41873
+  calibration_draws: 12
+  alert_window_sizes:
+  - 100
+  - 250
+  - 500
+  - 1000
+  - 2000
+  - 4000
+  prevalences:
+  - 0.25
+  - 0.1
+  - 0.05
+  - 0.01
+  - 0.001
+  q_levels:
+  - 0.05
+  - 0.1
+  - 0.2
+  procedures:
+  - bh
+  - by
+  training_conditional_delta: 0.1
+  tail_anchor_exceedances: 250
+  tail_confidence: 0.9
+  exchangeability_audit_alpha: 0.05
+  useful_power_threshold: 0.1
+  repeats_per_cell: 400
+  headline_prevalence: 0.01
+  reporting_unit: stream
+  stream_size: 40000
+  streams_per_cell: 20
+  recommended_window_size: 2000
+  window_note: 'Larger is safer: the stream-level aggregate FDR rises monotonically as the window shrinks.
+    Reach r_min = 1 by buying calibration, not by batching less.'
+out_of_scope:
+  cross_dataset_open_set_transfer: every panel method at chance; oracle post-hoc repair 0.533 against
+    a 0.93 supervised probe; shared family labels are semantically different phenomena across testbeds
+  evidential_head_as_contribution: 'Ablated at five seeds on the two datasets where the
+    encoder measurably matters: pooled difference +0.0000 (p = 1.00). Reported as a negative
+    ablation; the Dirichlet head shapes training but no claim rests on it.'
+  hyperbolic_geometry_as_contribution: curvature = 0 is the default in every runner; ablation within noise
+    on all ten metrics (p = 0.23-0.78). Code retained, claim withdrawn
+  new_multiple_testing_procedure: BH, BY and the Beta correction are existing tools; the contribution
+    is the barrier, the contamination floor and the sizing rules
+  first_conformal_nids: ConFID (Internet of Things 40, 2026) and FIRCE (arXiv:2605.01962) both precede
+    it; the safe gap is alert-level FDR under realistic prevalence
+  host_or_session_alert_aggregation: degenerate on public benchmarks (9 of 15,270 NF-ToN-IoT source hosts
+    carry mixed traffic; all NF-UNSW-NB15 attacks originate from 4 addresses). Reported as benchmark criticism
+    plus a controlled simulation
+  positive_operating_point_at_1e-3_prevalence: 'no configuration tested reaches one: every cell runs an
+    aggregate false fraction above 0.29 or emits essentially nothing. Reported as the failure the theory
+    predicts, not as a result'
+  shrinking_the_alert_window_to_pass_the_barrier: withdrawn 2026-09-13; per-window FDR does not compose
+    over a stream (P12) and the aggregate degrades monotonically as the window shrinks
+  ten_dataset_loao_sweep: replaced 2026-09-14 by the four-dataset panel over all rotations; about 270
+    extra training jobs for no additional claim
+auxiliary_sanity_methods:
+- msp
+- energy
+- odin
+- mahalanobis
+- openmax
+amendment: RQ1's headline prevalence moved from 1e-3 to 1e-2 and the stream replaced the window as the
+  reporting unit (WINDOW_SIZE_2026-09-13.md); RQ4 reduced to the exchangeability gate and the two-currency
+  label budget, with cross-domain transfer moved to a limitation.
+amendment_2026_09_14: 'Supporting detector table comes from the eight-method panel on the four deployment
+  datasets over all available rotations (seven: CICIoMT2024 has no Z3) and five seeds, driven by run_full_experiment.
+  The ten-dataset LOAO sweep is no longer part of the paper; protocols.loao is kept as a runner capability.'
+
+reporting_amendments_2026_09_16:
+  why: 'A post-run audit of the saved artefacts found three places where the reported unit did not match
+    the claim. The measurements were sound; the aggregation was not.'
+  rq1_rq2_calibration_draws:
+    problem: 'At its largest calibration size the window sweep reads the entire calibration sample, so its
+      five draws share one calibration set and differ only in the stream. Exceedance fractions quoted from
+      that cell measure stream noise, not draw-to-draw variation.'
+    fix: 'New stage window_draws with calibration sizes 4000/8000/12000, all strictly below the smallest
+      calibration set in the panel (12,592), and 12,000 as the headline, the same n on all four datasets.
+      Two units are reported, the (seed, subsample) pair and the seed.'
+  rq2_level_correction:
+    problem: 'corrected_levels was 1, so the Beta bound held at one level while BH interrogates one level
+      per rejection; the conditional procedure then exceeded q on 36 to 88 per cent of draws at low
+      prevalence.'
+    fix: 'delta is split across the operator per-window alert budget (AlertBudget.fallback_alerts_per_window
+      = 5). Chosen after the exceedances were seen, from a quantity fixed earlier by the deployment design;
+      the paper reports the whole L sweep so the choice stays visible.'
+  rq3_replication_unit:
+    problem: 'Seed-level blocks (dataset x rotation x seed) were treated as independent, counting each
+      rotation five times; Holm p-values near 1e-5 followed from that.'
+    fix: 'The rotation is the primary unit (11 rotations, seeds averaged inside). Seed-level numbers stay
+      as secondary and are labelled non-independent.'
+  rq3_far_resolution:
+    problem: 'TPR at a 1e-4 false-alarm rate rests on 1.6 to 5.6 known test flows on these splits.'
+    fix: 'Report TPR at 1e-2 and 1e-3 and state that 1e-4 is unresolvable at this test size.'
+  rq4_exchangeable_definition:
+    problem: 'Conditions at shift magnitude zero counted as exchangeable even on a dataset whose calibration
+      split already fails the audit.'
+    fix: 'Magnitude zero counts as exchangeable only where the baseline audit passes. Decided after seeing
+      the first aggregate; disclosed as such.'
+  data_limitations_to_report:
+  - 'nf_cse_cic_ids2018_v3 has 10,505 of 223,507 distinct flows (4.7 per cent) carrying more than one family
+    label, 10,403 of them dos_attacks_slowhttptest with ftp_bruteforce, the pair the separability audit
+    flags at 0.505'
+  - 'ciciomt2024 calibration and test splits carry different family mixes, which is why the audit refuses
+    the dataset on all five seeds; this is a property of the partition, not of any detector'
+  - 'EFC returns identical AUROC on all five seeds because it does not depend on the seed, so its zero
+    interval is not a stability measurement'
+  - 'the device scorer evaluates the statistics in float32, giving Spearman at least 0.9996 against the
+    NumPy reference, with p99 relative error 0.06 on cicids2017 and 0.46 on nf_cse_cic_ids2018_v3'
+
+method_naming_2026_09_17:
+  detector_paper_name: 'Prototype Conformal Fusion (PCF)'
+  code_identifier: 'hedl (unchanged in every module, result file and figure so the artefact stays
+    reproducible; the paper states the mapping once)'
+  why: 'Two components in the original name could not be told from their own removal, so neither is
+    claimed. What survives measurement is the prototype-trained encoder and the conformal fusion.'
+  evidence:
+    trained_encoder: 'replacing the encoder with the identity costs 0.003 to 0.656 unknown AUROC across
+      the four datasets, so the encoder is kept'
+    knn_component: 'adds +0.0021 on cse2018, kept'
+    hyperbolic_geometry: 'curvature 0.5 versus the flat limit differs by -0.0003 over three seeds; every
+      capture in the study was run at curvature 0 in any case'
+    evidential_term: 'weight 1 versus weight 0 over ten paired runs on nf_ton_iot_v3 and ciciomt2024:
+      +0.0132 (p = 0.10) and -0.0131 (p = 0.41), pooled +0.0000 (p = 1.00)'
+  reported_as: 'both failing components appear in the paper as negative ablations, not as contributions'
+
+gate_amendments_2026_09_18:
+  principle: 'The registered wording stays where it is. Amendments are recorded here with the reason, so
+    a reader can see both what was promised and what was measured.'
+  rq3_tail_lift:
+    registered: 'tail lift raises TPR@1e-4 on >=3 datasets with AUROC unchanged to three decimals'
+    problem: 'TPR at a 1e-4 false-alarm rate is set by 1.6 to 5.6 known test flows on these splits, so the
+      gate asks for a quantity the experiment cannot resolve.'
+    amended_to: 'tail lift raises TPR@1e-3 on >=3 datasets with AUROC unchanged to three decimals, with the
+      number of known flows above the threshold reported beside each rate'
+    outcome: 'not met under either wording: TPR@1e-3 rises on 2 of 4 datasets and every difference lies
+      inside the seed interval. The mechanism is real and is reported as such - the tie at the score
+      ceiling falls from 4,200 flows to 1 - but the benefit is not measurable at this test size.'
+  rq3_mondrian:
+    registered: '>=1 dataset where covariate-grouped Mondrian lifts an in-group ceiling that was zero'
+    outcome: 'run on 2026-09-18 for three grouping variables (predicted class, destination-port class,
+      protocol) over four datasets and five seeds. Not met: one group crosses zero with in-group power
+      2.5e-4, a rounding artefact. Grouping otherwise costs power, which is what the break-even condition
+      predicts when the grouping variable does not concentrate attacks; the verdict is correct for 59 of
+      80 groups.'
+  rq4_gate:
+    registered: 'the gate fires on >=90% of shift conditions where the ceiling collapses with <=10% false
+      refusal on exchangeable traffic'
+    outcome: 'met in aggregate (90.6% and 8.0%) and failed on cicids2017 (59.8% and 10.3%). Reported per
+      dataset as well as in aggregate, with the severity of the missed conditions: on cicids2017 the median
+      broken-condition FDP is 0.200 and 28% of them sit within 0.02 of the budget, while the gate catches
+      98.7% of the severe breaks on ciciomt2024 where the median FDP is 0.888.'
+  rq1_c:
+    registered: 'the barrier binds every panel method'
+    outcome: 'met as currency invariance (e-BH beats Bates BH in 0 of 64 cells). Not met in the stronger
+      reading: at the largest calibration budget three cells retain power 0.148 to 0.215 at pi = 1e-3,
+      while 27 of 32 sit below 0.01. The binding constraint at that prevalence is the detector ceiling, not
+      the calibration budget, and the pre-stream classification says so.'
+  rq3_detector_margin:
+    note: 'Added because a reviewer will compute it: against the strongest other method in each rotation the
+      mean margin is -0.001 AUROC [-0.097, +0.070] over a cluster bootstrap on rotations, so no claim of
+      detector superiority is made anywhere in the paper.'

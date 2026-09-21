@@ -1,0 +1,18 @@
+[budget] B=60 k=2 verified=48 done
+[budget] B=60 k=5 verified=30 done
+[budget] B=120 k=2 verified=108 done
+[budget] B=120 k=5 verified=90 done
+[budget] B=120 k=10 verified=60 done
+[budget] B=300 k=2 verified=288 done
+[budget] B=300 k=5 verified=270 done
+[budget] B=300 k=10 verified=240 done
+[budget] B=300 k=20 verified=180 done
+[budget] B=1000 k=2 verified=988 done
+[budget] B=1000 k=5 verified=970 done
+[budget] B=1000 k=10 verified=940 done
+[budget] B=1000 k=20 verified=880 done
+[budget] B=3000 k=2 verified=2988 done
+[budget] B=3000 k=5 verified=2970 done
+[budget] B=3000 k=10 verified=2940 done
+[budget] B=3000 k=20 verified=2880 done
+wrote results\budget\ton_to_unsw_seed137.json in 116.2s (102 rows)

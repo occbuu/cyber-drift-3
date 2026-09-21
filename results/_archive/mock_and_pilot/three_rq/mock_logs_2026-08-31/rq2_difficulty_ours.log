@@ -1,0 +1,81 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 3.640039699999761,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.10908002272821023,
+      "fpr95": 0.9560439560439561,
+      "known_accuracy": 0.3802197802197802,
+      "known_macro_f1": 0.3040922858983806,
+      "known_weighted_f1": 0.3029320757371844,
+      "open_world_macro_f1": 0.2717566435692624,
+      "oscr": 0.24312576312576314,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.0,
+      "unknown_auroc": 0.5721123321123321,
+      "unknown_f1": 0.0,
+      "unknown_precision": 0.0,
+      "unknown_recall": 0.0
+    }
+  },
+  "protocol": "difficulty",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13
+}
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 3.961362399999416,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.10908002272821023,
+      "fpr95": 0.9560439560439561,
+      "known_accuracy": 0.3802197802197802,
+      "known_macro_f1": 0.3040922858983806,
+      "known_weighted_f1": 0.3029320757371844,
+      "open_world_macro_f1": 0.2717566435692624,
+      "oscr": 0.24312576312576314,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.0,
+      "unknown_auroc": 0.5721123321123321,
+      "unknown_f1": 0.0,
+      "unknown_precision": 0.0,
+      "unknown_recall": 0.0
+    }
+  },
+  "protocol": "difficulty",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13
+}
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 3.6730722000011156,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.1131678668285138,
+      "fpr95": 0.7483588621444202,
+      "known_accuracy": 0.4551422319474836,
+      "known_macro_f1": 0.41772998504102143,
+      "known_weighted_f1": 0.41924022670398153,
+      "open_world_macro_f1": 0.33472641378424695,
+      "oscr": 0.2462470103302631,
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.0,
+      "unknown_auroc": 0.5544755992061472,
+      "unknown_f1": 0.21621621621621623,
+      "unknown_precision": 0.14084507042253522,
+      "unknown_recall": 0.46511627906976744
+    }
+  },
+  "protocol": "difficulty",
+  "rq": "rq2",
+  "scenario": "Z2",
+  "seed": 13
+}
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq2 --protocol difficulty --dataset cicids2017 --scenario Z1 --methods hedl --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq2\ours\difficulty\openness\cicids2017\O1\seed_13.json --max-rows 500
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq2 --protocol difficulty --dataset cicids2017 --scenario Z1 --methods hedl --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq2\ours\difficulty\near_far\near\cicids2017\Z1\seed_13.json --max-rows 500
+C:\Users\AnThiwn\AppData\Local\Programs\Python\Python312\python.exe -m experiments.open_set.run --rq rq2 --protocol difficulty --dataset cicids2017 --scenario Z2 --methods hedl --seed 13 --epochs 1 --output C:\Users\AnThiwn\Desktop\PACT\results\three_rq\rq2\ours\difficulty\near_far\far\cicids2017\Z2\seed_13.json --max-rows 500

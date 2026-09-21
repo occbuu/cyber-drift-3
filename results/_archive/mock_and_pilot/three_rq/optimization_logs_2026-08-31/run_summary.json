@@ -1,0 +1,50 @@
+[
+  {
+    "track": "rq1_ours",
+    "exit_code": 0,
+    "elapsed_seconds": 35.57,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\optimization_logs_2026-08-31\\rq1_ours.log"
+  },
+  {
+    "track": "rq1_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 58.66,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\optimization_logs_2026-08-31\\rq1_baselines.log"
+  },
+  {
+    "track": "rq2_difficulty_ours",
+    "exit_code": 0,
+    "elapsed_seconds": 93.98,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\optimization_logs_2026-08-31\\rq2_difficulty_ours.log"
+  },
+  {
+    "track": "rq2_difficulty_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 177.54,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\optimization_logs_2026-08-31\\rq2_difficulty_baselines.log"
+  },
+  {
+    "track": "rq2_cross_domain_ours",
+    "exit_code": 0,
+    "elapsed_seconds": 61.52,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\optimization_logs_2026-08-31\\rq2_cross_domain_ours.log"
+  },
+  {
+    "track": "rq2_cross_domain_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 93.78,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\optimization_logs_2026-08-31\\rq2_cross_domain_baselines.log"
+  },
+  {
+    "track": "rq3_ours",
+    "exit_code": 0,
+    "elapsed_seconds": 33.52,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\optimization_logs_2026-08-31\\rq3_ours.log"
+  },
+  {
+    "track": "rq3_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 45.68,
+    "log": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\three_rq\\optimization_logs_2026-08-31\\rq3_baselines.log"
+  }
+]

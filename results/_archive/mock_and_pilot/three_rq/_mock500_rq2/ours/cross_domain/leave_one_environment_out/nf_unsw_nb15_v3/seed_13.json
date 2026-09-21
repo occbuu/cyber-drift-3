@@ -1,0 +1,51 @@
+{
+  "dataset": "nf_ton_iot_v3",
+  "elapsed_seconds": 10.589365399999224,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.22839525750045256,
+      "far": 0.155,
+      "fpr95": 0.985,
+      "frr": 0.86,
+      "known_accuracy": 0.0,
+      "known_macro_f1": 0.0,
+      "known_weighted_f1": 0.0,
+      "open_world_macro_f1": 0.015909090909090907,
+      "oscr": 0.0,
+      "scorer_density_reference_size": 500.0,
+      "scorer_fusion_weight_knn": 1.533835999464924,
+      "scorer_fusion_weight_md": 0.791730478729131,
+      "scorer_fusion_weight_rmd": 0.6744335218059448,
+      "scorer_neighbors": 1.0,
+      "scorer_proxy_auroc_knn": 0.6305886666666666,
+      "scorer_proxy_auroc_md": 0.5674068333333333,
+      "scorer_proxy_auroc_rmd": 0.5574203333333334,
+      "scorer_proxy_density_auroc": 0.6305886666666666,
+      "scorer_proxy_evidential_auroc": 0.5674068333333333,
+      "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.05,
+      "unknown_auroc": 0.5612,
+      "unknown_f1": 0.1590909090909091,
+      "unknown_precision": 0.18421052631578946,
+      "unknown_recall": 0.14
+    }
+  },
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos",
+    "reconnaissance"
+  ],
+  "source_datasets": [
+    "nf_ton_iot_v3",
+    "nf_bot_iot_v3",
+    "nf_cse_cic_ids2018_v3"
+  ],
+  "target_dataset": "nf_unsw_nb15_v3"
+}

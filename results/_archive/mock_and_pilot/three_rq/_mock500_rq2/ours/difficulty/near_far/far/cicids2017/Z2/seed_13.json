@@ -1,0 +1,39 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 7.631971599999815,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.2968338257225651,
+      "far": 0.028446389496717725,
+      "fpr95": 0.2975929978118162,
+      "frr": 1.0,
+      "known_accuracy": 0.424507658643326,
+      "known_macro_f1": 0.33891702051533285,
+      "known_weighted_f1": 0.34030793927866915,
+      "open_world_macro_f1": 0.29575755813374527,
+      "oscr": 0.3686835275558496,
+      "scorer_density_reference_size": 500.0,
+      "scorer_fusion_weight_knn": 1.6701952767068653,
+      "scorer_fusion_weight_md": 0.5270092531885107,
+      "scorer_fusion_weight_rmd": 0.8027954701046242,
+      "scorer_neighbors": 1.0,
+      "scorer_proxy_auroc_knn": 0.8075589999999999,
+      "scorer_proxy_auroc_md": 0.5970464,
+      "scorer_proxy_auroc_rmd": 0.6478312,
+      "scorer_proxy_density_auroc": 0.8075589999999999,
+      "scorer_proxy_evidential_auroc": 0.5970464,
+      "scorer_score_mode": "conformal_fisher_md_rmd_knn",
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.5116279069767442,
+      "unknown_auroc": 0.8489898732888912,
+      "unknown_f1": 0.0,
+      "unknown_precision": 0.0,
+      "unknown_recall": 0.0
+    }
+  },
+  "protocol": "difficulty",
+  "rq": "rq2",
+  "scenario": "Z2",
+  "seed": 13
+}

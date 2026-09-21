@@ -1,0 +1,162 @@
+{
+  "jobs": {
+    "mondrian_covariate/toniot_panelA_s101_port_class": {
+      "finished_at": "2026-09-17T18:22:28.805839+00:00",
+      "name": "toniot_panelA_s101_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 15.6,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s101_protocol": {
+      "finished_at": "2026-09-17T18:22:42.777231+00:00",
+      "name": "toniot_panelA_s101_protocol",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 13.9,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s137_port_class": {
+      "finished_at": "2026-09-17T18:22:57.405770+00:00",
+      "name": "toniot_panelA_s137_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 14.6,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s137_protocol": {
+      "finished_at": "2026-09-17T18:23:12.476497+00:00",
+      "name": "toniot_panelA_s137_protocol",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 15.0,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s13_port_class": {
+      "finished_at": "2026-09-17T18:23:27.535147+00:00",
+      "name": "toniot_panelA_s13_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 15.0,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s13_protocol": {
+      "finished_at": "2026-09-17T18:23:38.459231+00:00",
+      "name": "toniot_panelA_s13_protocol",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 10.9,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s37_port_class": {
+      "finished_at": "2026-09-17T18:23:51.250158+00:00",
+      "name": "toniot_panelA_s37_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 12.8,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s37_protocol": {
+      "finished_at": "2026-09-17T18:24:02.615425+00:00",
+      "name": "toniot_panelA_s37_protocol",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 11.3,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s73_port_class": {
+      "finished_at": "2026-09-17T18:24:14.971256+00:00",
+      "name": "toniot_panelA_s73_port_class",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 12.3,
+      "stage": "mondrian_covariate"
+    },
+    "mondrian_covariate/toniot_panelA_s73_protocol": {
+      "finished_at": "2026-09-17T18:24:29.812593+00:00",
+      "name": "toniot_panelA_s73_protocol",
+      "ok": true,
+      "returncode": 0,
+      "seconds": 14.8,
+      "stage": "mondrian_covariate"
+    }
+  },
+  "runs": [
+    {
+      "completed": [
+        {
+          "name": "toniot_panelA_s101_port_class",
+          "returncode": 0,
+          "seconds": 15.6,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s101_protocol",
+          "returncode": 0,
+          "seconds": 13.9,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s137_port_class",
+          "returncode": 0,
+          "seconds": 14.6,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s137_protocol",
+          "returncode": 0,
+          "seconds": 15.0,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s13_port_class",
+          "returncode": 0,
+          "seconds": 15.0,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s13_protocol",
+          "returncode": 0,
+          "seconds": 10.9,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s37_port_class",
+          "returncode": 0,
+          "seconds": 12.8,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s37_protocol",
+          "returncode": 0,
+          "seconds": 11.3,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s73_port_class",
+          "returncode": 0,
+          "seconds": 12.3,
+          "stage": "mondrian_covariate"
+        },
+        {
+          "name": "toniot_panelA_s73_protocol",
+          "returncode": 0,
+          "seconds": 14.8,
+          "stage": "mondrian_covariate"
+        }
+      ],
+      "datasets": [
+        "nf_ton_iot_v3"
+      ],
+      "failed": [],
+      "seeds": [
+        13,
+        37,
+        73,
+        101,
+        137
+      ],
+      "started_at": "2026-09-17T18:22:12.978852+00:00"
+    }
+  ]
+}

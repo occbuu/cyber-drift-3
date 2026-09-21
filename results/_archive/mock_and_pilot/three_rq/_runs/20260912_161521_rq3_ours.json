@@ -1,0 +1,61 @@
+{
+  "epochs": 30,
+  "finished_at": "2026-09-12T09:15:39.183154+00:00",
+  "jobs": [
+    {
+      "command": [
+        "C:\\Users\\AnThiwn\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-m",
+        "experiments.open_set.run_fdr",
+        "--dataset",
+        "ciciomt2024",
+        "--scenario",
+        "Z1",
+        "--methods",
+        "hedl",
+        "--seed",
+        "13",
+        "--epochs",
+        "1",
+        "--inference-batch-size",
+        "64",
+        "--alert-batch-size",
+        "200",
+        "--repeats",
+        "20",
+        "--q-levels",
+        "0.05,0.1,0.2",
+        "--procedures",
+        "bh,by",
+        "--tuning-fraction",
+        "0.5",
+        "--minimum-group-size",
+        "30",
+        "--validity-audit-alpha",
+        "0.05",
+        "--output",
+        "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\fdr\\official\\ours\\ciciomt2024\\Z1\\seed_13.json",
+        "--max-rows",
+        "500"
+      ],
+      "elapsed_seconds": 17.637447900007828,
+      "index": 1,
+      "output": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\fdr\\official\\ours\\ciciomt2024\\Z1\\seed_13.json",
+      "status": "passed",
+      "stderr_tail": "[fdr] scoring hedl...\n[fdr] finished hedl in 9.3s\n",
+      "stdout_tail": "      \"groups\": [\n          {\n            \"calibration_count\": 27,\n            \"group\": \"0\",\n            \"test_count\": 43,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 9,\n            \"group\": \"1\",\n            \"test_count\": 20,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 49,\n            \"group\": \"2\",\n            \"test_count\": 95,\n            \"uses_group_calibration\": true\n          },\n          {\n            \"calibration_count\": 15,\n            \"group\": \"3\",\n            \"test_count\": 11,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 1,\n            \"group\": \"4\",\n            \"test_count\": 0,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 27,\n            \"group\": \"5\",\n            \"test_count\": 71,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 0,\n            \"group\": \"6\",\n            \"test_count\": 1,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 7,\n            \"group\": \"7\",\n            \"test_count\": 19,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 8,\n            \"group\": \"8\",\n            \"test_count\": 20,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 13,\n            \"group\": \"10\",\n            \"test_count\": 11,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 36,\n            \"group\": \"12\",\n            \"test_count\": 64,\n            \"uses_group_calibration\": true\n          },\n          {\n            \"calibration_count\": 21,\n            \"group\": \"13\",\n            \"test_count\": 43,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 23,\n            \"group\": \"14\",\n            \"test_count\": 52,\n            \"uses_group_calibration\": false\n          },\n          {\n            \"calibration_count\": 11,\n            \"group\": \"17\",\n            \"test_count\": 50,\n            \"uses_group_calibration\": false\n          }\n        ],\n        \"minimum_group_size\": 30\n      },\n      \"null_pvalue_diagnostics\": {\n        \"marginal\": {\n          \"known_p_le_0.001\": 0.0,\n          \"known_p_le_0.01\": 0.004219409282700422,\n          \"known_p_le_0.05\": 0.03164556962025317,\n          \"known_p_le_0.1\": 0.09282700421940929,\n          \"known_test_size\": 474.0,\n          \"median_known_p\": 0.5645161290322581,\n          \"superuniform_audit_alpha\": 0.05,\n          \"superuniform_audit_rejected\": false,\n          \"superuniform_audit_status\": \"not_rejected\",\n          \"superuniform_dkw_bound\": 0.056214367744196296,\n          \"superuniform_violation\": 0.01767728324486184\n        },\n        \"mondrian\": {\n          \"known_p_le_0.001\": 0.0,\n          \"known_p_le_0.01\": 0.002109704641350211,\n          \"known_p_le_0.05\": 0.03164556962025317,\n          \"known_p_le_0.1\": 0.09282700421940929,\n          \"known_test_size\": 474.0,\n          \"median_known_p\": 0.5967741935483871,\n          \"superuniform_audit_alpha\": 0.05,\n          \"superuniform_audit_rejected\": false,\n          \"superuniform_audit_status\": \"not_rejected\",\n          \"superuniform_dkw_bound\": 0.056214367744196296,\n          \"superuniform_violation\": 0.011348169320811174\n        }\n      }\n    }\n  },\n  \"methods_requested\": [\n    \"hedl\"\n  ],\n  \"minimum_group_size\": 30,\n  \"prevalences\": [\n    0.5,\n    0.25,\n    0.1,\n    0.05,\n    0.01,\n    0.001\n  ],\n  \"procedures\": [\n    \"bh\",\n    \"by\"\n  ],\n  \"protocol\": \"nested_split_conformal_fdr\",\n  \"q_levels\": [\n    0.05,\n    0.1,\n    0.2\n  ],\n  \"repeats\": 20,\n  \"scenario\": \"Z1\",\n  \"seed\": 13,\n  \"test_known\": 474,\n  \"test_unknown\": 26,\n  \"tuning_calibration_size\": 253,\n  \"unique_calibration_source_ids\": 491,\n  \"validity_audit_alpha\": 0.05\n}\n"
+    }
+  ],
+  "jobs_failed": 0,
+  "jobs_passed": 1,
+  "jobs_skipped": 0,
+  "jobs_total": 1,
+  "methods": [
+    "hedl"
+  ],
+  "rq": "rq3",
+  "smoke": true,
+  "started_at": "2026-09-12T09:15:21.543827+00:00",
+  "status": "complete",
+  "track": "ours"
+}

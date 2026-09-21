@@ -1,0 +1,60 @@
+[shift_gate] cse2018_panelA_s73 closr: 180 rows
+{
+  "q": 0.1,
+  "conditions": 180,
+  "guarantee_broken_conditions": 110,
+  "detection_rate_where_broken": 0.7454545454545455,
+  "fire_rate_where_intact": 0.95,
+  "false_refusal_on_exchangeable": 0.0,
+  "gate_passes": false,
+  "by_magnitude": {
+    "0.0": {
+      "conditions": 30,
+      "gate_fire_rate": 0.06666666666666667,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.09910210773519909,
+      "ungated_false_alarms_per_1000": 0.02833333333333334,
+      "gated_false_alarms_per_1000": 0.02333333333333333
+    },
+    "0.1": {
+      "conditions": 30,
+      "gate_fire_rate": 0.6666666666666666,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.11239704036169465,
+      "ungated_false_alarms_per_1000": 0.05666666666666667,
+      "gated_false_alarms_per_1000": 0.30666666666666664
+    },
+    "0.25": {
+      "conditions": 30,
+      "gate_fire_rate": 0.9,
+      "guarantee_broken_rate": 0.3333333333333333,
+      "ungated_fdp": 0.13032601799799617,
+      "ungated_false_alarms_per_1000": 0.051666666666666666,
+      "gated_false_alarms_per_1000": 0.44750000000000006
+    },
+    "0.5": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.16860661977030264,
+      "ungated_false_alarms_per_1000": 0.05666666666666666,
+      "gated_false_alarms_per_1000": 0.5383333333333334
+    },
+    "0.75": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.21133377369431403,
+      "ungated_false_alarms_per_1000": 0.13500000000000004,
+      "gated_false_alarms_per_1000": 0.5233333333333333
+    },
+    "1.0": {
+      "conditions": 30,
+      "gate_fire_rate": 1.0,
+      "guarantee_broken_rate": 0.6666666666666666,
+      "ungated_fdp": 0.20067322460806167,
+      "ungated_false_alarms_per_1000": 0.19083333333333333,
+      "gated_false_alarms_per_1000": 0.5400000000000001
+    }
+  }
+}

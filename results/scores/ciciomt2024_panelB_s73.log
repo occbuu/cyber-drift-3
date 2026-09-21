@@ -1,0 +1,10 @@
+[capture] ori: auroc=0.0666 in 15.6s
+[capture] docpp: auroc=0.0542 in 151.4s
+[capture] ais_nids: auroc=0.3914 in 113.3s
+[capture] usfad: auroc=0.6501 in 10.6s
+{
+  "scores": "C:\\Users\\AnThiwn\\Desktop\\PACT\\results\\scores\\ciciomt2024_panelB_s73.npz",
+  "calibration_size": 41873,
+  "test_known": 55472,
+  "test_unknown": 4530
+}

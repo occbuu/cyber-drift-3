@@ -1,0 +1,39 @@
+{
+  "dataset": "nf_unsw_nb15_v3",
+  "elapsed_seconds": 19.1027985000037,
+  "methods": {
+    "hedl": {
+      "aupr_out": 0.2214854669947121,
+      "far": 0.04,
+      "fpr95": 0.968,
+      "frr": 0.968,
+      "known_accuracy": 0.021333333333333333,
+      "known_macro_f1": 0.012422360248447204,
+      "known_weighted_f1": 0.028985507246376812,
+      "open_world_macro_f1": 0.01637840670859539,
+      "oscr": 0.013781333333333333,
+      "scorer_density_reference_size": 500.0,
+      "scorer_density_selection_margin": 0.1,
+      "scorer_proxy_density_auroc": 0.6123611428571428,
+      "scorer_proxy_evidential_auroc": 0.49957142857142856,
+      "scorer_score_mode": "fused",
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.0,
+      "tpr_at_5_fpr": 0.04,
+      "unknown_auroc": 0.45258666666666664,
+      "unknown_f1": 0.05555555555555555,
+      "unknown_precision": 0.21052631578947367,
+      "unknown_recall": 0.032
+    }
+  },
+  "protocol": "cross_domain",
+  "rq": "rq2",
+  "scenario": "Z1",
+  "seed": 13,
+  "shared_families": [
+    "backdoor",
+    "benign",
+    "dos"
+  ],
+  "target_dataset": "nf_ton_iot_v3"
+}

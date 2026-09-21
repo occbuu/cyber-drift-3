@@ -1,0 +1,40 @@
+{
+  "dataset": "cicids2017",
+  "elapsed_seconds": 483.0616900999994,
+  "methods": {
+    "closed_backbone": {
+      "delta_f1": 0.0,
+      "known_accuracy": 0.8877790834312573,
+      "known_macro_f1": 0.8329695020722924,
+      "known_weighted_f1": 0.883483034538676
+    },
+    "hedl": {
+      "aupr_out": 0.9763830875262551,
+      "delta_f1": 0.033345454421447984,
+      "far": 0.01227967097532315,
+      "fpr95": 0.10111633372502937,
+      "frr": 0.4306,
+      "known_accuracy": 0.9736780258519389,
+      "known_macro_f1": 0.8663149564937404,
+      "known_weighted_f1": 0.9722349177570616,
+      "open_world_macro_f1": 0.7887720258565508,
+      "oscr": 0.9546607344300823,
+      "scorer_density_reference_size": 4096.0,
+      "scorer_density_selection_margin": 0.2,
+      "scorer_proxy_density_auroc": 0.8767516851425171,
+      "scorer_proxy_evidential_auroc": 0.9855260848999023,
+      "scorer_score_mode": "evidential",
+      "tpr_at_0_1_fpr": 0.0,
+      "tpr_at_1_fpr": 0.51876,
+      "tpr_at_5_fpr": 0.86704,
+      "unknown_auroc": 0.9760342878965922,
+      "unknown_f1": 0.7217827806510496,
+      "unknown_precision": 0.9855303240099695,
+      "unknown_recall": 0.5694
+    }
+  },
+  "protocol": "loao",
+  "rq": "rq1",
+  "scenario": "Z1",
+  "seed": 37
+}

@@ -1,0 +1,2 @@
+[mondrian] toniot_panelA_s73 hedl pi=0.01: pooled {'fdp': 0.4634146341463415, 'power': 0.0027441686416365225, 'alerts_per_1000': 0.05125} mondrian {'fdp': 0.0, 'power': 0.00024946987651241115, 'alerts_per_1000': 0.0025} lifted []
+[mondrian] toniot_panelA_s73 hedl pi=0.001: pooled {'fdp': 0.8333333333333334, 'power': 0.0037267080745341614, 'alerts_per_1000': 0.0225} mondrian {'fdp': 0.0, 'power': 0.0, 'alerts_per_1000': 0.0} lifted []
