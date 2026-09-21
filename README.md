@@ -1,6 +1,5 @@
 # PACT: Prevalence-Aware Conformal Triage for Open-Set Zero-Day Intrusion Detection
 
-> **Đọc trước:** [TONG_QUAN_DU_AN.md](TONG_QUAN_DU_AN.md) — tổng quan dự án bằng tiếng Việt: bài toán, tính mới, các RQ, kết quả và cấu trúc thư mục.
 
 This repository contains the PyTorch implementation and experimental pipeline for **PACT**, a deployment procedure for open-set NIDS, together with the open-set detector it is built on and the SOTA panel both are measured against.
 
